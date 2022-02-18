@@ -1,7 +1,5 @@
 from datetime import date
-from telnetlib import PRAGMA_HEARTBEAT
 from tkinter import CASCADE
-from typing import Container
 from django.core.validators import MinValueValidator
 from django.db import models
 
