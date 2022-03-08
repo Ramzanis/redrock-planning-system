@@ -13,6 +13,9 @@ router.register('tes', views.SubtaskViewSet, basename='status')
 
 # URLConf
 urlpatterns = [
-    path('', views.displaydata)
+    path('', views.displaydata, name='displaydata'),]+[
+    path('edit/<int:subtaskID>', views.updatedata),
+    path('update/<int:subtaskID>', views.updatefo),
+   
     
-]+router.urls
+]

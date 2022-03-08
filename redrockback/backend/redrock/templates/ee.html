@@ -27,7 +27,7 @@
         <div class="col-4" id="page">
             <div class="vl"></div>
 
-            <h1 class="title-home">Planning</h1>
+            <h1 class="title-home-e">Planning</h1>
             <table id="table" class="table table-hover" style="width: 90%">
                 <tr>
                     <th>OperationID</th>
@@ -53,7 +53,7 @@
         </div>
 
         <div class="col-6" id="page-s">
-            <h1 class="title-home">Planning</h1>
+            <h1 class="title-home-e">Planning</h1>
 
             ID:<input type="text" name="fname" id="fname"><br><br>
             Name:<input type="text" name="lname" id="lname"><br><br>
@@ -73,8 +73,7 @@
               <th class="text-center">MoveTo</th>
               <th class="text-center">Stow</th>
               <th class="text-center">Status</th>
-              <th class="text-center">Sort</th>
-              <th class="text-center">Delete</th>
+              <th class="text-center">Edit</th>
             </tr>
           </thead>
           <tbody>
@@ -87,22 +86,9 @@
               <td class="pt-3-half" contenteditable="true">{{Subtask.moveTo}}</td>
               <td class="pt-3-half" contenteditable="true">{{Subtask.stow}}</td>
               <td class="pt-3-half" contenteditable="true">{{Subtask.status}}</td>
-              <td class="pt-3-half">
-                <span class="table-up"
-                  ><a href="#!" class="indigo-text"
-                    ><i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i></a
-                ></span>
-                <span class="table-down"
-                  ><a href="#!" class="indigo-text"
-                    ><i class="fas fa-long-arrow-alt-down" aria-hidden="true"></i></a
-                ></span>
-              </td>
+        
               <td>
-                <span class="table-remove"
-                  ><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
-                    Remove
-                  </button></span
-                >
+                <a href="edit/{{Subtask.subtaskID}}" type="button" class="btn btn-primary">Edit</a>
               </td>
             </tr>
             {% endfor %}
