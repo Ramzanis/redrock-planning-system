@@ -12,4 +12,7 @@ router.register('operation', views.OperationViewSet)
 router.register('tes', views.SubtaskViewSet, basename='status')
 
 # URLConf
-urlpatterns = router.urls
+urlpatterns = [
+    path('', views.displaydata)
+    
+]+router.urls
