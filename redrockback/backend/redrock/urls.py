@@ -14,5 +14,5 @@ router.register('tes', views.SubtaskViewSet, basename='status')
 # URLConf
 urlpatterns = [
     path('', views.displaydata)
-
+    
 ]+router.urls

@@ -27,7 +27,14 @@ class SubtaskViewSet(ModelViewSet):
 
 def displaydata(request):
     results = Operation.objects.all()
-    return render(request, 'ee.html',{'Operation':results})
+    results1 = Subtask.objects.all()
+
+ 
+    return render(request, 'ee.html',{'Operation':results, 'Subtask':results1})
+
+
+
+
 
 
 
