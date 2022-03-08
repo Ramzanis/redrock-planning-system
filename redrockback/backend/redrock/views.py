@@ -1,5 +1,5 @@
 from django.db.models.aggregates import Count
-from django.shortcuts import get_object_or_404
+from django.shortcuts import get_object_or_404, render
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.response import Response
@@ -23,6 +23,12 @@ class OperationViewSet(ModelViewSet):
 class SubtaskViewSet(ModelViewSet):
     queryset = Subtask.objects.all()
     serializer_class = SubtaskSerializer
+
+
+def displaydata(request):
+    results = Operation.objects.all()
+    return render(request, 'ee.html',{'Operation':results})
+
 
 
     
