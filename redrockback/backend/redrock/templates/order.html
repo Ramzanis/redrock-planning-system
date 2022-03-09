@@ -16,7 +16,7 @@
         <div class="col-2" id="nav_bar">
             <img src="{% static 'img/logo.png' %}" class="img-fluid" alt="RedRock logo" >
 
-           
+            
             <div class="d-grid">
                 <a class="btn-g" href="{% url 'displayindex' %}" role="button"><i class="fa fa-home"></i> Home</a>
                 <a class="btn-g" href="{% url 'displaydata' %}" role="button"><i class="fa fa-calendar"></i> Planning</a>
@@ -28,7 +28,7 @@
         <div class="col-4" id="page">
             <div class="vl"></div>
 
-            <h1 class="title-home-e">Orders</h1>
+            <h1 class="title-home-e">Planning</h1>
             <table id="table" class="table table-hover" style="width: 40%">
                 <tr>
                     <th>OperationID</th>
@@ -54,15 +54,14 @@
         </div>
 
         <div class="col-6" id="page-s">
-            <h1 class="title-home-e">Subtasks</h1>
+            <h1 class="title-home-e">Planning</h1>
 
             ID:<input type="text" name="fname" id="fname"><br><br>
             Name:<input type="text" name="lname" id="lname"><br><br>
            
 
             <!-- Editable table -->
-            <h3 style="color:#c81618">Add a new Subtask:         <a href="{% url 'addsubtask' %}" type="button" class="btn btn-secondary">Add</a></h3>
-            
+            <a href="{% url 'addsubtask' %}" type="button" class="btn btn-primary">Add</a>
       <div id="table" class="table-editable">
        
         <table class="table table-bordered table-responsive-sm table-striped text-center">

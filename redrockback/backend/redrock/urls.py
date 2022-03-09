@@ -13,9 +13,13 @@ router.register('tes', views.SubtaskViewSet, basename='status')
 
 # URLConf
 urlpatterns = [
-    path('', views.displaydata, name='displaydata'),]+[
-    path('edit/<int:subtaskID>', views.updatedata),
-    path('update/<int:subtaskID>', views.updatefo),
+    path('', views.displayindex, name='displayindex'),
+    path('order', views.displayorder, name='displayorder'),
+    path('planning/', views.displaydata, name='displaydata'),
+    path('planning/add', views.add_subtask, name='addsubtask'),
+    path('planning/update/<subtaskID>', views.update_subtask, name='updatesubtask'),
+    path('planning/delete/<subtaskID>', views.delete_subtask, name='deletesubtask')
+
    
     
 ]

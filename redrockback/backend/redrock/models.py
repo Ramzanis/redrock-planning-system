@@ -20,7 +20,7 @@ class Operation(models.Model):
     status = models.ForeignKey(
         'Status', on_delete=models.CASCADE) 
 
-    def __int__(self) -> int:
+    def __int__(self) -> str:
         return self.operationID
 
 class Subtask(models.Model):
