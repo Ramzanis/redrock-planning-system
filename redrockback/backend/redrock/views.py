@@ -10,6 +10,7 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework import status
 from django.http import HttpResponseRedirect
 from .forms import SubtaskForm
+from .filters import SubtaskFilter
 
 
 from .models import Subtask, Operation, Status
@@ -43,9 +44,14 @@ def displayorder(request):
     return render(request, 'order.html',{'Operation':results, 'Subtask':results1})
 
 def displaydata(request):
-    results = Operation.objects.all()
+    
+  
     results1 = Subtask.objects.all()
-    return render(request, 'ee.html',{'Operation':results, 'Subtask':results1})
+    results = Operation.objects.all()
+    myFilter = SubtaskFilter(request.GET, queryset=results1)
+    results1 = myFilter.qs
+   
+    return render(request, 'ee.html',{'Operation':results, 'Subtask':results1, 'myFilter':myFilter})
 
 
 def add_subtask(request):
