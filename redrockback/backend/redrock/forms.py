@@ -4,7 +4,7 @@ from pyexpat import model
 from tkinter import Widget
 from django import forms
 from django.forms import ModelForm
-from .models import Subtask
+from .models import Subtask,Operation
 
 #create a Form
 
@@ -33,6 +33,25 @@ class SubtaskForm(ModelForm):
             'loadSeq': forms.TextInput(attrs={'class':'form-control', 'placeholder':'LoadSeq'}), 
             'moveTo': forms.TextInput(attrs={'class':'form-control', 'placeholder':'MoveTo'}), 
             'stow': forms.TextInput(attrs={'class':'form-control', 'placeholder':'Stow'}), 
+            
+        }
+
+class OperationForm(ModelForm):
+    class Meta:
+        model = Operation
+        fields = ('operationID','assignee', 'status')
+
+        labels = {
+            'operationID': '',
+            'assignee': '', 
+            'status': '', 
+            
+        }
+ 
+
+        widgets = {
+            'operationID': forms.TextInput(attrs={'class':'form-control', 'placeholder':'operationID'}), 
+            'assignee': forms.TextInput(attrs={'class':'form-control', 'placeholder':'assignee'}), 
             
         }
 
