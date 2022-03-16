@@ -13,6 +13,18 @@ router.register('tes', views.SubtaskViewSet, basename='status')
 
 # URLConf
 urlpatterns = [
+<<<<<<< Updated upstream
     path('', views.displaydata)
+=======
+    path('', views.displayindex, name='displayindex'),
+    path('order', views.displayorder, name='displayorder'),
+    path('planning/', views.displaydata, name='displaydata'),
+    path('planning/add', views.add_subtask, name='addsubtask'),
+    path('planning/opp', views.add_operation, name='addoperation'),
+    path('planning/update/<subtaskID>', views.update_subtask, name='updatesubtask'),
+    path('planning/delete/<subtaskID>', views.delete_subtask, name='deletesubtask')
+
+   
+>>>>>>> Stashed changes
     
 ]+router.urls
