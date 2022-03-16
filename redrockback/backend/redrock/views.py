@@ -8,7 +8,6 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from rest_framework import status
-from django.http import HttpResponseRedirect
 from .forms import SubtaskForm
 from .filters import SubtaskFilter
 
@@ -60,7 +59,7 @@ def add_subtask(request):
         form = SubtaskForm(request.POST)
         if form.is_valid():
             form.save()
-            return HttpResponseRedirect('/redrock')
+            return redirect('displaydata')
         else: 
             form = SubtaskForm
             if 'submitted' in request.GET:
