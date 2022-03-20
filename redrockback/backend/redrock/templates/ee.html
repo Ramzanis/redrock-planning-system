@@ -70,9 +70,9 @@
             <!-- Editable table -->
             <h3 style="color:#c81618">Add a new Subtask:         <a href="{% url 'addsubtask' %}" type="button" class="btn btn-secondary">Add</a></h3>
             
-      <div id="table" class="table-editable">
-       
-        <table class="table table-bordered table-responsive-sm table-striped text-center">
+      <div  class="scrollable">
+      
+        <table class="table table-bordered">
           <thead>
             <tr>
               <th class="text-center">ID</th>
@@ -90,9 +90,9 @@
           <tbody>
             {% for Subtask in Subtask  %}
             <tr>
-              <td class="" >{{Subtask.subtaskID}}</td>
+              <td class="">{{Subtask.subtaskID}}</td>
               <td class="">{{Subtask.operationID}}</td>
-              <td class="" >{{Subtask.containerID}}</td>
+              <td class="">{{Subtask.containerID}}</td>
               <td class="">{{Subtask.containerWeightT}}</td>
               <td class="">{{Subtask.loadSeq}}</td>
               <td class="">{{Subtask.moveTo}}</td>

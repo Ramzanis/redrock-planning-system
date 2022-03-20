@@ -47,7 +47,9 @@ def displaydata(request):
   
     results1 = Subtask.objects.all()
     results = Operation.objects.all()
+    
     myFilter = SubtaskFilter(request.GET, queryset=results1)
+    
     results1 = myFilter.qs
    
     return render(request, 'ee.html',{'Operation':results, 'Subtask':results1, 'myFilter':myFilter})

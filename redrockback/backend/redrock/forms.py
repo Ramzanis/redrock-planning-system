@@ -14,14 +14,14 @@ class SubtaskForm(ModelForm):
         fields = ('subtaskID','operationID', 'containerID', 'containerWeightT', 'loadSeq', 'moveTo', 'stow', 'status')
 
         labels = {
-            'subtaskID': '',
-            'operationID': '', 
-            'containerID': '', 
-            'containerWeightT': '', 
-            'loadSeq': '', 
-            'moveTo': '', 
-            'stow': '', 
-            'status': ''
+            'subtaskID': 'subtaskID',
+            'operationID': 'operation ID', 
+            'containerID': 'containerID', 
+            'containerWeightT': 'containerWeightT', 
+            'loadSeq': 'loadSeq', 
+            'moveTo': 'moveTo', 
+            'stow': 'stow', 
+            'status': 'status'
         }
  
 
@@ -31,8 +31,7 @@ class SubtaskForm(ModelForm):
             'containerID': forms.TextInput(attrs={'class':'form-control', 'placeholder':'ContainerID'}), 
             'containerWeightT': forms.TextInput(attrs={'class':'form-control', 'placeholder':'Container Weight'}), 
             'loadSeq': forms.TextInput(attrs={'class':'form-control', 'placeholder':'LoadSeq'}), 
-            'moveTo': forms.TextInput(attrs={'class':'form-control', 'placeholder':'MoveTo'}), 
-            'stow': forms.TextInput(attrs={'class':'form-control', 'placeholder':'Stow'}), 
+          
             
         }
 
@@ -42,16 +41,16 @@ class OperationForm(ModelForm):
         fields = ('operationID','assignee', 'status')
 
         labels = {
-            'operationID': '',
-            'assignee': '', 
-            'status': '', 
+            'operationID': 'operationID',
+            'assignee': 'assignee', 
+            'status': 'status', 
             
         }
  
 
         widgets = {
             'operationID': forms.TextInput(attrs={'class':'form-control', 'placeholder':'operationID'}), 
-            'assignee': forms.TextInput(attrs={'class':'form-control', 'placeholder':'assignee'}), 
+            
             
         }
 
