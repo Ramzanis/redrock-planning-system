@@ -100,3 +100,12 @@ h1{
 }
 
 .pt-3-half { padding-top: 1.4rem; }
+
+
+
+.scrollable{
+    height: 700px;
+    overflow: scroll;
+}
+
+  

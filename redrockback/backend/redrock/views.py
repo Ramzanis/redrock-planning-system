@@ -8,7 +8,7 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from rest_framework import status
-from .forms import SubtaskForm
+from .forms import SubtaskForm, OperationForm
 from .filters import SubtaskFilter
 
 
@@ -47,7 +47,9 @@ def displaydata(request):
   
     results1 = Subtask.objects.all()
     results = Operation.objects.all()
+    
     myFilter = SubtaskFilter(request.GET, queryset=results1)
+    
     results1 = myFilter.qs
    
     return render(request, 'ee.html',{'Operation':results, 'Subtask':results1, 'myFilter':myFilter})
@@ -82,6 +84,20 @@ def delete_subtask(request, subtaskID):
     subtask.delete()
     return redirect('displaydata')
 
+def add_operation(request):
+    submitted = False
+    if request.method == "POST":
+        form = OperationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('displaydata')
+        else: 
+            form = OperationForm
+            if 'submitted' in request.GET:
+                submitted = True
+
+    form = OperationForm
+    return render(request, 'addoperation.html', {'form':form, 'submitted':submitted})
 
 
 
