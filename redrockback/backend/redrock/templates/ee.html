@@ -59,9 +59,9 @@
             <h1 class="title-home-e">Subtasks</h1>
 
             <form id="myForm" method="get">
-                <input type="text" name="operationID" id="fname" value="*">
+                <input type="text" name="operationID" id="fname" value="*" oninput="update()">
                
-                <input type="submit" value="Submit" class="btn btn-secondary">
+              <input type="submit" id="teste" value="Submit" class="btn btn-secondary">
 
               </form>
 
@@ -129,6 +129,11 @@
             document.getElementById("lname").value = this.cells[1].innerHTML;
             document.getElementById("age").value = this.cells[2].innerHTML;
         };
+    }
+
+    function update(){
+      document.getElementById("teste").click();
+
     }
   
 
