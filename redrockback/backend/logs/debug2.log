@@ -1,0 +1,34 @@
+INFO Watching for file changes with StatReloader
+INFO /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO  Watching for file changes with StatReloader
+INFO  /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:03:27,404 Watching for file changes with StatReloader
+INFO 2022-04-11 12:03:28,679 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:03:29,061  Watching for file changes with StatReloader
+INFO 2022-04-11 12:03:30,327  /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:03:34,451 autoreload Watching for file changes with StatReloader
+INFO 2022-04-11 12:03:36,819 autoreload /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:03:37,174 autoreload  Watching for file changes with StatReloader
+INFO 2022-04-11 12:03:42,628 autoreload  /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:03:43,009 autoreload 11655 Watching for file changes with StatReloader
+INFO 2022-04-11 12:03:44,296 autoreload 11655 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:03:44,641 autoreload 11664 Watching for file changes with StatReloader
+INFO 2022-04-11 12:03:48,035 autoreload 11664 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:03:48,406 autoreload 11681  Watching for file changes with StatReloader
+INFO 2022-04-11 12:03:50,780 autoreload 11681  /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:03:56,624 autoreload 11701 4389045760 Watching for file changes with StatReloader
+INFO 2022-04-11 12:04:01,047 autoreload 11701 4389045760 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:04:03,845 autoreload 11731 4485072384 Watching for file changes with StatReloader
+INFO 2022-04-11 12:04:06,219 autoreload 11731 4485072384 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:04:06,592 autoreload 11736 4486985216 Watching for file changes with StatReloader
+INFO 2022-04-11 12:04:07,872 autoreload 11736 4486985216 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/redrockback/backend/backend/settings.py changed, reloading.
+INFO 2022-04-11 12:04:08,277 autoreload 11738 4402251264 Watching for file changes with StatReloader
+INFO 2022-04-11 12:04:25,653 basehttp 11738 123145554497536 "GET /redrock/planning/?operationID=2 HTTP/1.1" 200 11991
+INFO 2022-04-11 12:04:50,788 basehttp 11738 123145554497536 - Broken pipe from ('127.0.0.1', 53772)
+
+INFO 2022-04-11 12:04:52,281 basehttp 11738 123145588076544 "GET /redrock/planning/?operationID=32 HTTP/1.1" 200 17977
+INFO 2022-04-11 12:04:52,284 basehttp 11738 123145571287040 - Broken pipe from ('127.0.0.1', 53773)
+
+INFO 2022-04-11 12:05:20,645 basehttp 11738 123145588076544 "GET /redrock/planning/?operationID=2 HTTP/1.1" 200 11991
+INFO 2022-04-11 12:05:32,279 basehttp 11738 123145588076544 "GET /redrock/planning/delete/1 HTTP/1.1" 302 0
+INFO 2022-04-11 12:05:49,855 basehttp 11738 123145588076544 "GET /redrock/planning/ HTTP/1.1" 200 17314
