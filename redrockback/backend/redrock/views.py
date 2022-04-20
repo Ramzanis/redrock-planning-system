@@ -4,44 +4,31 @@ from re import sub
 from django.db.models.aggregates import Count
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, redirect, render
-from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework.filters import SearchFilter, OrderingFilter
-from rest_framework.response import Response
-from rest_framework.viewsets import ModelViewSet
-from rest_framework import status
-from .forms import SubtaskForm, OperationForm
-from .filters import SubtaskFilter
-from.tables import UsersTable
 
-from django_filters.views import FilterView
-from django_tables2.views import SingleTableMixin
+from rest_framework.viewsets import ModelViewSet
+
+from .forms import SubtaskForm, OperationForm
+
 
 
 from .models import Subtask, Operation, Status
 from .serializers import StatusSerializer, OperationSerializer, SubtaskSerializer
 
 
-class FilteredPersonListView(SingleTableMixin, FilterView):
-    table_class = UsersTable
-    model = Subtask
-    template_name = "ee.html"
-    filterset_class = SubtaskFilter
-
-
 class StatusViewSet(ModelViewSet):
-    queryset = Status.objects.all()
+    queryset = Subtask.objects.prefetch_related('moveTo','operationID','stow','status').all()
     serializer_class = StatusSerializer
     
     
 class OperationViewSet(ModelViewSet):
     serializer_class = OperationSerializer
-    queryset = Operation.objects.all()
+    queryset = Operation.objects.prefetch_related('assignee','status').all()
     
 
 
 
 class SubtaskViewSet(ModelViewSet):
-    queryset = Subtask.objects.all()
+    queryset = Subtask.objects.prefetch_related('moveTo','operationID','stow','status').all()
     serializer_class = SubtaskSerializer
 
 
@@ -50,25 +37,20 @@ def displayindex(request):
     return render(request, 'index.html',{})
 
 def displayorder(request):
-    results = Operation.objects.all()
+    results = Operation.objects.prefetch_related('assignee','status').all()
     
     return render(request, 'order.html',{'Operation':results})
 
-def displayorder1(request):
-    results = Operation.objects.all()
-    
-    return render(request, 'ee.html',{'Operation':results})
 
 def displaydata(request):
     
   
-    results1 = Subtask.objects.all()
-    results = Operation.objects.all()
-    myFilter = SubtaskFilter(request.GET, queryset=results1)
-    
-    results1 = myFilter.qs
+    results1 = Subtask.objects.prefetch_related('moveTo','operationID','stow','status').all()
+    results = Operation.objects.prefetch_related('assignee','status').all()
    
-    return render(request, 'ee.html',{'Operation':results, 'Subtask':results1, 'myFilter':myFilter})
+
+   
+    return render(request, 'ee.html',{'Operation':results, 'Subtask':results1})
 
 
 def add_subtask(request):
@@ -87,7 +69,7 @@ def add_subtask(request):
     return render(request, 'edit.html', {'form':form, 'submitted':submitted})
 
 def update_subtask(request, subtaskID):
-    subtask = Subtask.objects.get(subtaskID=subtaskID)
+    subtask = Subtask.objects.prefetch_related('moveTo','operationID','stow','status').get(subtaskID=subtaskID)
     form = SubtaskForm(request.POST or None, instance=subtask)
     if form.is_valid():
         form.save()
@@ -96,7 +78,7 @@ def update_subtask(request, subtaskID):
     return render(request,'editreal.html',{'subtask':subtask, 'form':form})
 
 def delete_subtask(request, subtaskID):
-    subtask = Subtask.objects.get(subtaskID=subtaskID)
+    subtask = Subtask.objects.prefetch_related('moveTo','operationID','stow','status').get(subtaskID=subtaskID)
     subtask.delete()
     return redirect('displaydata')
 

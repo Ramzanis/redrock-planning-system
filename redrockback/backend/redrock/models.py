@@ -1,8 +1,12 @@
+from auditlog.registry import auditlog
+
 from datetime import date
 from email.headerregistry import Address
+from re import M
 from tkinter import CASCADE
 from django.core.validators import MinValueValidator
 from django.db import models
+
 
 class Employee(models.Model):
     employeeID = models.IntegerField(primary_key=True)
@@ -11,6 +15,8 @@ class Employee(models.Model):
     address = models.CharField(max_length=40)
     zipCode = models.IntegerField()
     city = models.CharField(max_length=40)
+
+    
 
     def __str__(self) -> str:
         return self.firstName
@@ -62,4 +68,5 @@ class Subtask(models.Model):
     status = models.ForeignKey(
         'Status', on_delete=models.CASCADE) 
 
+auditlog.register(Subtask)
 
