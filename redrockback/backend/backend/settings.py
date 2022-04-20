@@ -41,9 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_filters',
     'django_tables2',
+    "debug_toolbar",
     'bootstrap3',
     'rest_framework',
     'redrock',
+    'auditlog',
     
 ]
 
@@ -55,6 +57,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
+    'auditlog.middleware.AuditlogMiddleware',
+    
+ 
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -119,7 +125,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Paris'
 
 USE_I18N = True
 
@@ -135,6 +141,10 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_URL = 'static/'
+
+INTERNAL_IPS = [
+    '127.0.0.1'
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
