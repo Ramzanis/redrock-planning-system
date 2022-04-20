@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_filters',
+    'django_tables2',
+    'bootstrap3',
     'rest_framework',
     'redrock',
     
@@ -164,3 +166,5 @@ LOGGING ={
         }
     }
 }
+
+DJANGO_TABLES2_TEMPLATE = "django_tables2/bootstrap.html"

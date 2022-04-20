@@ -1,3 +1,4 @@
+from lib2to3.pgen2.grammar import opmap_raw
 from pyexpat.errors import messages
 from re import sub
 from django.db.models.aggregates import Count
@@ -10,10 +11,21 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework import status
 from .forms import SubtaskForm, OperationForm
 from .filters import SubtaskFilter
+from.tables import UsersTable
+
+from django_filters.views import FilterView
+from django_tables2.views import SingleTableMixin
 
 
 from .models import Subtask, Operation, Status
 from .serializers import StatusSerializer, OperationSerializer, SubtaskSerializer
+
+
+class FilteredPersonListView(SingleTableMixin, FilterView):
+    table_class = UsersTable
+    model = Subtask
+    template_name = "ee.html"
+    filterset_class = SubtaskFilter
 
 
 class StatusViewSet(ModelViewSet):
@@ -39,15 +51,19 @@ def displayindex(request):
 
 def displayorder(request):
     results = Operation.objects.all()
-    results1 = Subtask.objects.all()
-    return render(request, 'order.html',{'Operation':results, 'Subtask':results1})
+    
+    return render(request, 'order.html',{'Operation':results})
+
+def displayorder1(request):
+    results = Operation.objects.all()
+    
+    return render(request, 'ee.html',{'Operation':results})
 
 def displaydata(request):
     
   
     results1 = Subtask.objects.all()
     results = Operation.objects.all()
-    
     myFilter = SubtaskFilter(request.GET, queryset=results1)
     
     results1 = myFilter.qs
