@@ -7,3 +7,4 @@ class SubtaskFilter(django_filters.FilterSet):
        model = Subtask
        fields = '__all__'
        exclude = ['subtaskID', 'containerID', 'containerWeightT', 'loadSeq', 'moveTo', 'stow', 'status']
+    
