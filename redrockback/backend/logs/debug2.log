@@ -1566,3 +1566,14 @@ INFO 2022-04-20 14:43:42,050 basehttp 46985 123145597575168 "GET /static/debug_t
 INFO 2022-04-20 14:43:42,057 basehttp 46985 123145597575168 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
 INFO 2022-04-20 14:43:53,232 basehttp 46985 123145597575168 "POST /redrock/planning/update/6 HTTP/1.1" 302 0
 INFO 2022-04-20 14:43:56,541 basehttp 46985 123145597575168 "GET /redrock/planning/ HTTP/1.1" 200 27249
+INFO 2022-04-21 13:58:32,503 basehttp 46985 123145597575168 "GET /redrock/planning/ HTTP/1.1" 200 27250
+INFO 2022-04-21 13:58:32,526 basehttp 46985 123145597575168 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-04-21 13:58:32,530 basehttp 46985 123145614364672 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-04-21 13:58:32,531 basehttp 46985 123145631154176 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-04-21 13:58:32,531 basehttp 46985 123145597575168 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-04-21 13:58:32,581 basehttp 46985 123145631154176 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2022-04-21 13:58:32,582 basehttp 46985 123145597575168 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2022-04-21 13:58:32,731 basehttp 46985 123145597575168 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2022-04-21 13:58:32,738 basehttp 46985 123145597575168 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2022-04-21 13:58:32,759 basehttp 46985 123145597575168 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
+INFO 2022-04-21 13:58:32,786 basehttp 46985 123145597575168 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
