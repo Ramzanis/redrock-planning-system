@@ -8,10 +8,20 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from rest_framework import status
+<<<<<<< HEAD
 from .forms import SubtaskForm
 from .filters import SubtaskFilter
 
 
+=======
+<<<<<<< Updated upstream
+=======
+from .forms import SubtaskForm, OperationForm
+from .filters import SubtaskFilter
+
+
+>>>>>>> Stashed changes
+>>>>>>> main
 from .models import Subtask, Operation, Status
 from .serializers import StatusSerializer, OperationSerializer, SubtaskSerializer
 
@@ -53,14 +63,22 @@ def displaydata(request):
     return render(request, 'ee.html',{'Operation':results, 'Subtask':results1, 'myFilter':myFilter})
 
 
+<<<<<<< HEAD
 def add_subtask(request):
     submitted = False
     if request.method == "POST":
         form = SubtaskForm(request.POST)
+=======
+def add_operation(request):
+    submitted = False
+    if request.method == "POST":
+        form = OperationForm(request.POST)
+>>>>>>> main
         if form.is_valid():
             form.save()
             return redirect('displaydata')
         else: 
+<<<<<<< HEAD
             form = SubtaskForm
             if 'submitted' in request.GET:
                 submitted = True
@@ -82,7 +100,14 @@ def delete_subtask(request, subtaskID):
     subtask.delete()
     return redirect('displaydata')
 
+=======
+            form = OperationForm
+            if 'submitted' in request.GET:
+                submitted = True
+>>>>>>> main
 
+    form = OperationForm
+    return render(request, 'addoreder.html', {'form':form, 'submitted':submitted})
 
 
 
