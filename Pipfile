@@ -4,8 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+django-filter = "*"
+drf-nested-routers = "*"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.10"
