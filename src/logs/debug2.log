@@ -2093,3 +2093,22 @@ INFO 2022-04-22 12:54:08,514 autoreload 61019 4577445376 /Users/tiberiuminzat/Do
 INFO 2022-04-22 12:54:09,108 autoreload 61048 4553500160 Watching for file changes with StatReloader
 INFO 2022-04-22 12:54:18,523 basehttp 61048 123145356972032 "GET /planning/ HTTP/1.1" 200 25944
 INFO 2022-04-22 12:54:18,554 basehttp 61048 123145356972032 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-04-25 11:45:06,644 autoreload 16312 11392 Watching for file changes with StatReloader
+INFO 2022-04-25 11:45:55,474 autoreload 15400 14840 Watching for file changes with StatReloader
+INFO 2022-04-25 11:48:49,663 autoreload 2204 11516 Watching for file changes with StatReloader
+INFO 2022-04-25 11:49:00,566 basehttp 2204 11000 "GET / HTTP/1.1" 200 11807
+INFO 2022-04-25 11:49:00,704 basehttp 2204 11000 "GET /static/css/stylesheet.css HTTP/1.1" 200 1593
+INFO 2022-04-25 11:49:00,723 basehttp 2204 2200 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-04-25 11:49:00,729 basehttp 2204 7876 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11479
+INFO 2022-04-25 11:49:00,733 basehttp 2204 8820 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 11275
+INFO 2022-04-25 11:49:00,745 basehttp 2204 8820 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2022-04-25 11:49:00,752 basehttp 2204 7876 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 3531
+WARNING 2022-04-25 11:49:00,819 log 2204 7876 Not Found: /favicon.ico
+WARNING 2022-04-25 11:49:00,820 basehttp 2204 7876 "GET /favicon.ico HTTP/1.1" 404 13493
+INFO 2022-04-25 11:49:05,571 basehttp 2204 7876 "GET /order HTTP/1.1" 200 15614
+INFO 2022-04-25 11:49:05,589 basehttp 2204 2200 "GET /static/DataTables/datatables.min.css HTTP/1.1" 200 17375
+INFO 2022-04-25 11:49:05,589 basehttp 2204 7876 "GET /static/js/java.js HTTP/1.1" 200 72
+INFO 2022-04-25 11:49:05,591 basehttp 2204 8820 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 132904
+INFO 2022-04-25 11:49:05,714 basehttp 2204 8820 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 200 201
+INFO 2022-04-25 11:49:05,736 basehttp 2204 8820 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 200 160
+INFO 2022-04-25 11:49:13,776 basehttp 2204 8820 "GET / HTTP/1.1" 200 11806
