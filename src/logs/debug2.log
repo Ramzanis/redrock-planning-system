@@ -2112,3 +2112,24 @@ INFO 2022-04-25 11:49:05,591 basehttp 2204 8820 "GET /static/DataTables/datatabl
 INFO 2022-04-25 11:49:05,714 basehttp 2204 8820 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 200 201
 INFO 2022-04-25 11:49:05,736 basehttp 2204 8820 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 200 160
 INFO 2022-04-25 11:49:13,776 basehttp 2204 8820 "GET / HTTP/1.1" 200 11806
+INFO 2022-04-28 14:46:35,774 autoreload 13980 17580 Watching for file changes with StatReloader
+INFO 2022-04-28 14:46:40,467 basehttp 13980 18412 "GET / HTTP/1.1" 200 11807
+INFO 2022-04-28 14:46:40,630 basehttp 13980 18412 "GET /static/css/stylesheet.css HTTP/1.1" 200 1593
+INFO 2022-04-28 14:46:40,658 basehttp 13980 2812 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11479
+INFO 2022-04-28 14:46:40,662 basehttp 13980 2064 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-04-28 14:46:40,665 basehttp 13980 684 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 11275
+INFO 2022-04-28 14:46:40,682 basehttp 13980 684 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2022-04-28 14:46:40,696 basehttp 13980 684 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 3531
+WARNING 2022-04-28 14:46:40,799 log 13980 684 Not Found: /favicon.ico
+WARNING 2022-04-28 14:46:40,800 basehttp 13980 684 "GET /favicon.ico HTTP/1.1" 404 13493
+INFO 2022-04-28 14:47:13,675 basehttp 13980 684 "GET /planning/ HTTP/1.1" 200 25577
+INFO 2022-04-28 14:47:13,701 basehttp 13980 684 "GET /static/js/java.js HTTP/1.1" 200 72
+INFO 2022-04-28 14:47:13,701 basehttp 13980 2812 "GET /static/DataTables/datatables.min.css HTTP/1.1" 200 17375
+INFO 2022-04-28 14:47:13,721 basehttp 13980 2064 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 132904
+INFO 2022-04-28 14:47:13,847 basehttp 13980 2064 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 200 201
+INFO 2022-04-28 14:47:13,867 basehttp 13980 2064 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 200 160
+INFO 2022-04-28 14:55:54,600 basehttp 13980 6952 "GET /planning/update/4 HTTP/1.1" 200 15570
+INFO 2022-04-28 14:56:05,287 basehttp 13980 6952 "POST /planning/update/4 HTTP/1.1" 302 0
+INFO 2022-04-28 14:56:07,478 basehttp 13980 6952 "GET /planning/ HTTP/1.1" 200 25575
+INFO 2022-04-28 14:56:37,977 basehttp 13980 6952 "GET / HTTP/1.1" 200 11807
+INFO 2022-04-28 14:58:10,993 basehttp 13980 6952 "GET / HTTP/1.1" 200 11807
