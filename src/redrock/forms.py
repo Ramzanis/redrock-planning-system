@@ -37,9 +37,11 @@ class OperationForm(ModelForm):
         labels = {
             'operationID': 'operationID',
             'assignee': 'assignee',
-            'status': 'status',
+            
+            
         }
 
         widgets = {
             'operationID': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'operationID'}),
+           
         }

@@ -2093,3 +2093,729 @@ INFO 2022-04-22 12:54:08,514 autoreload 61019 4577445376 /Users/tiberiuminzat/Do
 INFO 2022-04-22 12:54:09,108 autoreload 61048 4553500160 Watching for file changes with StatReloader
 INFO 2022-04-22 12:54:18,523 basehttp 61048 123145356972032 "GET /planning/ HTTP/1.1" 200 25944
 INFO 2022-04-22 12:54:18,554 basehttp 61048 123145356972032 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-04-22 13:34:52,913 autoreload 61048 4553500160 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-22 13:34:53,853 autoreload 61913 4565296640 Watching for file changes with StatReloader
+INFO 2022-04-22 13:34:55,316 autoreload 61913 4565296640 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-22 13:34:56,272 autoreload 61923 4766770688 Watching for file changes with StatReloader
+ERROR 2022-04-22 13:35:10,396 log 61923 123145585569792 Internal Server Error: /planning/
+Traceback (most recent call last):
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py", line 48, in displaydata
+    return render(request, 'ee.html', {'Subtask': results1})
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/defaulttags.py", line 217, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 1044, in render
+    return render_value_in_context(output, context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 1021, in render_value_in_context
+    value = str(value)
+TypeError: __str__ returned non-string (type int)
+ERROR 2022-04-22 13:35:10,478 basehttp 61923 123145585569792 "GET /planning/ HTTP/1.1" 500 137114
+INFO 2022-04-22 13:35:40,921 autoreload 61923 4766770688 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-22 13:35:41,923 autoreload 61952 4470679040 Watching for file changes with StatReloader
+INFO 2022-04-22 13:38:44,539 autoreload 61952 4470679040 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-22 13:38:45,330 autoreload 62012 4527969792 Watching for file changes with StatReloader
+INFO 2022-04-22 13:38:47,854 autoreload 62012 4527969792 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-22 13:38:48,486 autoreload 62024 4390573568 Watching for file changes with StatReloader
+INFO 2022-04-22 13:38:53,093 autoreload 62024 4390573568 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-22 13:38:53,988 autoreload 62034 4628362752 Watching for file changes with StatReloader
+INFO 2022-04-22 13:39:19,692 basehttp 62034 123145578221568 "GET /planning/ HTTP/1.1" 200 25944
+INFO 2022-04-22 13:39:19,717 basehttp 62034 123145578221568 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-04-22 13:39:50,930 autoreload 62075 4638103040 Watching for file changes with StatReloader
+INFO 2022-04-22 13:40:00,698 basehttp 62075 123145500450816 "GET /planning/ HTTP/1.1" 200 25944
+INFO 2022-04-22 13:40:22,513 basehttp 62075 123145500450816 "GET /order HTTP/1.1" 200 15978
+INFO 2022-04-22 13:40:37,520 basehttp 62075 123145500450816 "GET /planning/ HTTP/1.1" 200 25944
+INFO 2022-04-22 13:40:53,129 autoreload 62075 4638103040 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-22 13:40:53,926 autoreload 62104 4633245184 Watching for file changes with StatReloader
+INFO 2022-04-22 13:40:55,426 autoreload 62104 4633245184 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-22 13:40:56,129 autoreload 62115 4575270400 Watching for file changes with StatReloader
+INFO 2022-04-22 13:41:04,541 basehttp 62115 123145466839040 "GET /planning/ HTTP/1.1" 200 25944
+INFO 2022-04-22 13:41:13,491 autoreload 62115 4575270400 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-22 13:41:14,464 autoreload 62134 4626863616 Watching for file changes with StatReloader
+INFO 2022-04-22 13:41:29,631 autoreload 62134 4626863616 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-22 13:41:30,249 autoreload 62148 4566865408 Watching for file changes with StatReloader
+INFO 2022-04-22 13:41:37,164 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 25944
+INFO 2022-04-22 13:49:18,978 basehttp 62148 123145566531584 "GET /order HTTP/1.1" 200 15978
+INFO 2022-04-22 13:49:19,012 basehttp 62148 123145583321088 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-04-22 13:49:19,013 basehttp 62148 123145566531584 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-04-22 14:53:24,746 basehttp 62148 123145566531584 "GET /order HTTP/1.1" 200 12665
+INFO 2022-04-22 14:53:24,771 basehttp 62148 123145566531584 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+ERROR 2022-04-22 14:53:48,370 log 62148 123145566531584 Internal Server Error: /planning/
+Traceback (most recent call last):
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py", line 48, in displaydata
+    return render(request, 'ee.html', {'Subtask': results1})
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/defaulttags.py", line 217, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'updatesubtask' with arguments '('',)' not found. 1 pattern(s) tried: ['planning/update/(?P<subtaskID>[^/]+)\\Z']
+ERROR 2022-04-22 14:53:48,431 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 500 148736
+INFO 2022-04-22 14:55:29,320 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 25944
+INFO 2022-04-26 13:11:51,407 basehttp 62148 123145566531584 "GET /order HTTP/1.1" 200 15978
+INFO 2022-04-26 13:11:51,472 basehttp 62148 123145600110592 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-04-26 13:11:51,472 basehttp 62148 123145616900096 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-04-26 13:11:51,489 basehttp 62148 123145583321088 "GET /static/DataTables/datatables.min.css HTTP/1.1" 200 16785
+INFO 2022-04-26 13:11:51,493 basehttp 62148 123145566531584 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 128769
+INFO 2022-04-26 13:11:51,530 basehttp 62148 123145616900096 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 11275
+INFO 2022-04-26 13:11:51,531 basehttp 62148 123145566531584 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11479
+INFO 2022-04-26 13:11:51,535 basehttp 62148 123145583321088 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-04-26 13:11:51,654 basehttp 62148 123145583321088 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2022-04-26 13:11:51,654 basehttp 62148 123145566531584 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 3531
+INFO 2022-04-26 13:11:51,680 basehttp 62148 123145566531584 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
+INFO 2022-04-26 13:11:51,700 basehttp 62148 123145566531584 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
+INFO 2022-04-26 13:11:52,501 basehttp 62148 123145566531584 "GET / HTTP/1.1" 200 12170
+WARNING 2022-04-26 13:14:29,575 log 62148 123145566531584 Not Found: /favicon.ico
+WARNING 2022-04-26 13:14:29,576 basehttp 62148 123145566531584 "GET /favicon.ico HTTP/1.1" 404 13856
+INFO 2022-04-26 13:14:50,744 basehttp 62148 123145566531584 "GET / HTTP/1.1" 200 12170
+INFO 2022-04-26 13:15:08,460 basehttp 62148 123145566531584 "GET /order HTTP/1.1" 200 15978
+INFO 2022-04-26 13:15:12,060 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 25943
+INFO 2022-04-26 13:15:12,062 basehttp 62148 123145566531584 - Broken pipe from ('127.0.0.1', 57616)
+
+INFO 2022-04-26 13:15:13,873 basehttp 62148 123145583321088 "GET /planning/ HTTP/1.1" 200 25944
+INFO 2022-04-26 13:17:16,292 basehttp 62148 123145583321088 "GET /static/DataTables/DataTables-1.11.5/images/sort_desc.png HTTP/1.1" 200 158
+INFO 2022-04-26 13:20:09,171 basehttp 62148 123145583321088 "GET /order HTTP/1.1" 200 15978
+INFO 2022-04-26 13:23:04,490 basehttp 62148 123145583321088 "GET /order/add HTTP/1.1" 200 12855
+INFO 2022-04-26 13:23:13,488 basehttp 62148 123145583321088 "GET /order HTTP/1.1" 200 15978
+INFO 2022-04-26 13:27:05,744 basehttp 62148 123145583321088 "GET /planning/ HTTP/1.1" 200 25943
+INFO 2022-04-26 13:28:02,582 basehttp 62148 123145583321088 "GET /planning/update/5 HTTP/1.1" 200 15938
+INFO 2022-04-26 13:28:31,395 basehttp 62148 123145583321088 "POST /planning/update/5 HTTP/1.1" 302 0
+INFO 2022-04-26 13:28:33,682 basehttp 62148 123145583321088 "GET /planning/ HTTP/1.1" 200 25939
+INFO 2022-04-26 13:32:09,458 basehttp 62148 123145583321088 "GET /order HTTP/1.1" 200 15978
+INFO 2022-04-26 13:32:21,666 basehttp 62148 123145583321088 "GET /planning/ HTTP/1.1" 200 25940
+INFO 2022-04-26 13:38:14,264 basehttp 62148 123145566531584 "GET / HTTP/1.1" 200 12170
+INFO 2022-04-26 13:39:32,215 basehttp 62148 123145566531584 - Broken pipe from ('127.0.0.1', 58019)
+
+INFO 2022-04-26 13:39:32,879 basehttp 62148 123145583321088 "GET /order HTTP/1.1" 200 15978
+INFO 2022-04-26 14:00:46,010 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 25940
+INFO 2022-04-26 21:15:34,258 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 25912
+INFO 2022-04-26 21:15:34,286 basehttp 62148 123145566531584 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 128769
+INFO 2022-04-26 21:15:34,404 basehttp 62148 123145566531584 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-04-26 21:15:56,338 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 23722
+INFO 2022-04-26 21:16:50,504 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 23710
+INFO 2022-04-26 21:17:17,534 basehttp 62148 123145566531584 "GET /order HTTP/1.1" 200 15978
+INFO 2022-04-26 21:17:37,810 basehttp 62148 123145566531584 "GET /order HTTP/1.1" 200 15978
+INFO 2022-04-26 21:17:37,812 basehttp 62148 123145566531584 - Broken pipe from ('127.0.0.1', 60376)
+
+INFO 2022-04-26 21:17:39,365 basehttp 62148 123145583321088 "GET /order HTTP/1.1" 200 15979
+INFO 2022-04-26 21:17:39,366 basehttp 62148 123145583321088 - Broken pipe from ('127.0.0.1', 60387)
+
+INFO 2022-04-26 21:17:40,583 basehttp 62148 123145600110592 "GET /planning/ HTTP/1.1" 200 23710
+INFO 2022-04-26 21:19:55,245 basehttp 62148 123145600110592 "GET /planning/ HTTP/1.1" 200 23750
+INFO 2022-04-26 21:20:11,716 basehttp 62148 123145600110592 "GET /planning/ HTTP/1.1" 200 23746
+INFO 2022-04-26 21:21:53,450 basehttp 62148 123145600110592 "GET /planning/ HTTP/1.1" 200 23749
+INFO 2022-04-26 21:23:48,139 basehttp 62148 123145600110592 "GET /planning/ HTTP/1.1" 200 23771
+INFO 2022-04-26 21:27:33,940 basehttp 62148 123145600110592 "GET /planning/ HTTP/1.1" 200 23771
+INFO 2022-04-26 21:27:57,607 basehttp 62148 123145600110592 "GET /planning/ HTTP/1.1" 200 23771
+INFO 2022-04-26 21:29:00,114 basehttp 62148 123145600110592 "GET /planning/ HTTP/1.1" 200 23771
+INFO 2022-04-26 21:29:06,409 basehttp 62148 123145600110592 "GET /order HTTP/1.1" 200 15939
+INFO 2022-04-26 21:29:45,547 basehttp 62148 123145600110592 "GET /order HTTP/1.1" 200 15938
+INFO 2022-04-26 21:29:49,971 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 23783
+INFO 2022-04-26 21:29:55,157 basehttp 62148 123145566531584 "GET /order HTTP/1.1" 200 15939
+INFO 2022-04-26 21:30:11,237 basehttp 62148 123145566531584 "GET /order HTTP/1.1" 200 15953
+INFO 2022-04-26 21:30:26,925 basehttp 62148 123145566531584 "GET /order HTTP/1.1" 200 15287
+INFO 2022-04-26 21:53:02,046 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 23783
+INFO 2022-04-26 21:55:48,873 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 23783
+INFO 2022-04-26 21:59:20,806 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 24039
+INFO 2022-04-26 22:00:18,973 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 23960
+INFO 2022-04-26 22:00:49,589 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 24036
+INFO 2022-04-26 22:00:57,225 basehttp 62148 123145566531584 "GET /__debug__/render_panel/?store_id=c0b5f64ff321418ab886df5442c2d6a9&panel_id=TimerPanel HTTP/1.1" 200 1383
+INFO 2022-04-26 22:00:57,265 basehttp 62148 123145566531584 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 200 3395
+INFO 2022-04-26 22:01:12,144 basehttp 62148 123145566531584 "GET /order HTTP/1.1" 200 15287
+INFO 2022-04-26 22:02:34,977 basehttp 62148 123145566531584 "GET /planning/ HTTP/1.1" 200 24036
+INFO 2022-04-26 22:14:38,496 autoreload 62148 4566865408 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:14:39,693 autoreload 78425 4580828672 Watching for file changes with StatReloader
+INFO 2022-04-26 22:14:41,091 autoreload 78425 4580828672 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:14:41,616 autoreload 78435 4676318720 Watching for file changes with StatReloader
+INFO 2022-04-26 22:14:43,969 autoreload 78435 4676318720 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:14:44,460 autoreload 78439 4570871296 Watching for file changes with StatReloader
+INFO 2022-04-26 22:14:45,827 autoreload 78439 4570871296 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:14:46,583 autoreload 78448 4452361728 Watching for file changes with StatReloader
+INFO 2022-04-26 22:14:54,331 autoreload 78448 4452361728 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:14:54,822 autoreload 78460 4684760576 Watching for file changes with StatReloader
+INFO 2022-04-26 22:15:20,880 autoreload 78460 4684760576 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:15:21,629 autoreload 78483 4475332096 Watching for file changes with StatReloader
+INFO 2022-04-26 22:15:23,000 autoreload 78483 4475332096 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:15:23,511 autoreload 78494 4483728896 Watching for file changes with StatReloader
+INFO 2022-04-26 22:15:25,879 autoreload 78494 4483728896 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:15:26,698 autoreload 78495 4654769664 Watching for file changes with StatReloader
+INFO 2022-04-26 22:15:32,308 autoreload 78495 4654769664 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:15:32,822 autoreload 78507 4416022016 Watching for file changes with StatReloader
+INFO 2022-04-26 22:15:35,188 autoreload 78507 4416022016 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:15:35,731 autoreload 78516 4617012736 Watching for file changes with StatReloader
+INFO 2022-04-26 22:15:39,235 autoreload 78516 4617012736 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:15:39,926 autoreload 78525 4346275328 Watching for file changes with StatReloader
+INFO 2022-04-26 22:15:46,340 autoreload 78525 4346275328 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:15:46,860 autoreload 78537 4514469376 Watching for file changes with StatReloader
+INFO 2022-04-26 22:15:53,255 autoreload 78537 4514469376 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:15:53,768 autoreload 78550 4490966528 Watching for file changes with StatReloader
+INFO 2022-04-26 22:15:56,017 autoreload 78550 4490966528 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:15:56,536 autoreload 78557 4456723968 Watching for file changes with StatReloader
+INFO 2022-04-26 22:16:49,564 autoreload 78557 4456723968 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:16:50,078 autoreload 78582 4340368896 Watching for file changes with StatReloader
+INFO 2022-04-26 22:16:53,610 autoreload 78582 4340368896 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:16:54,144 autoreload 78593 4537218560 Watching for file changes with StatReloader
+INFO 2022-04-26 22:16:57,716 autoreload 78593 4537218560 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:16:58,393 autoreload 78602 4586014208 Watching for file changes with StatReloader
+INFO 2022-04-26 22:17:07,391 basehttp 78602 123145377230848 "GET /planning/ HTTP/1.1" 200 24036
+INFO 2022-04-26 22:17:32,442 autoreload 78602 4586014208 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:17:33,301 autoreload 78661 4673459712 Watching for file changes with StatReloader
+INFO 2022-04-26 22:17:48,320 autoreload 78661 4673459712 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:17:49,239 autoreload 78682 4662867456 Watching for file changes with StatReloader
+INFO 2022-04-26 22:17:59,504 basehttp 78682 123145404686336 "GET /planning/ HTTP/1.1" 200 24036
+INFO 2022-04-26 22:18:04,371 basehttp 78682 123145404686336 "GET /order HTTP/1.1" 200 13941
+INFO 2022-04-26 22:18:10,329 basehttp 78682 123145404686336 "GET /planning/ HTTP/1.1" 200 24036
+INFO 2022-04-26 22:18:27,217 autoreload 78682 4662867456 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:18:28,075 autoreload 78710 4363552256 Watching for file changes with StatReloader
+INFO 2022-04-26 22:18:32,646 autoreload 78710 4363552256 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:18:33,164 autoreload 78722 4370544128 Watching for file changes with StatReloader
+INFO 2022-04-26 22:18:36,460 autoreload 78722 4370544128 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:18:36,981 autoreload 78735 4586440192 Watching for file changes with StatReloader
+INFO 2022-04-26 22:18:38,350 autoreload 78735 4586440192 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:18:38,869 autoreload 78736 4638283264 Watching for file changes with StatReloader
+INFO 2022-04-26 22:18:40,212 autoreload 78736 4638283264 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:18:40,703 autoreload 78745 4590151168 Watching for file changes with StatReloader
+INFO 2022-04-26 22:18:44,212 autoreload 78745 4590151168 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:18:44,728 autoreload 78756 4737259008 Watching for file changes with StatReloader
+INFO 2022-04-26 22:18:46,067 autoreload 78756 4737259008 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:18:46,573 autoreload 78757 4609476096 Watching for file changes with StatReloader
+INFO 2022-04-26 22:18:47,920 autoreload 78757 4609476096 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:18:48,436 autoreload 78758 4425455104 Watching for file changes with StatReloader
+INFO 2022-04-26 22:18:49,758 autoreload 78758 4425455104 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:18:50,279 autoreload 78767 4448404992 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:03,920 autoreload 78767 4448404992 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:04,860 autoreload 78791 4720952832 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:08,162 autoreload 78791 4720952832 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:08,847 autoreload 78800 4425737728 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:15,907 basehttp 78800 123145435185152 "GET /planning/ HTTP/1.1" 200 14841
+INFO 2022-04-26 22:19:26,046 autoreload 78800 4425737728 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:26,560 autoreload 78816 4600686080 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:31,915 autoreload 78816 4600686080 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:32,413 autoreload 78831 4508337664 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:37,958 autoreload 78831 4508337664 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:38,460 autoreload 78844 4374554112 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:42,967 autoreload 78844 4374554112 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:43,471 autoreload 78854 4570883584 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:45,719 autoreload 78854 4570883584 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:46,232 autoreload 78856 4604184064 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:47,455 autoreload 78856 4604184064 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:47,944 autoreload 78863 4446246400 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:49,147 autoreload 78863 4446246400 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:49,636 autoreload 78866 4354389504 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:51,865 autoreload 78866 4354389504 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:52,375 autoreload 78867 4377118208 Watching for file changes with StatReloader
+INFO 2022-04-26 22:19:57,743 autoreload 78867 4377118208 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:19:58,252 autoreload 78886 4515620352 Watching for file changes with StatReloader
+INFO 2022-04-26 22:21:38,850 autoreload 78886 4515620352 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:21:39,595 autoreload 78924 4577863168 Watching for file changes with StatReloader
+INFO 2022-04-26 22:21:49,765 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24036
+INFO 2022-04-26 22:31:19,549 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24250
+INFO 2022-04-26 22:31:44,370 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24250
+INFO 2022-04-26 22:32:02,205 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24241
+INFO 2022-04-26 22:32:13,936 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24240
+INFO 2022-04-26 22:32:29,922 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24240
+INFO 2022-04-26 22:33:41,738 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24238
+INFO 2022-04-26 22:34:26,099 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24382
+INFO 2022-04-26 22:34:45,832 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24077
+INFO 2022-04-26 22:36:35,707 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24173
+INFO 2022-04-26 22:37:06,026 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24317
+INFO 2022-04-26 22:37:11,693 basehttp 78924 123145563369472 "GET /planning/ HTTP/1.1" 200 24317
+INFO 2022-04-26 22:40:58,189 autoreload 78924 4577863168 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:40:59,084 autoreload 79496 4722898432 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:02,667 autoreload 79496 4722898432 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:03,279 autoreload 79509 4592211456 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:04,678 autoreload 79509 4592211456 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:05,219 autoreload 79516 4395464192 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:09,873 autoreload 79516 4395464192 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:10,473 autoreload 79528 4566169088 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:12,953 autoreload 79528 4566169088 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:13,464 autoreload 79531 4687480320 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:17,781 autoreload 79531 4687480320 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:18,456 autoreload 79544 4587525632 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:24,572 basehttp 79544 123145430835200 "GET /planning/ HTTP/1.1" 200 14866
+INFO 2022-04-26 22:41:36,598 autoreload 79544 4587525632 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:37,139 autoreload 79567 4612064768 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:38,356 autoreload 79567 4612064768 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:38,852 autoreload 79570 4514440704 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:41,315 autoreload 79570 4514440704 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:41,875 autoreload 79577 4622001664 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:43,093 autoreload 79577 4622001664 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:43,659 autoreload 79582 4574279168 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:46,134 autoreload 79582 4574279168 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:46,655 autoreload 79589 4611405312 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:50,299 autoreload 79589 4611405312 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:50,864 autoreload 79600 4363015680 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:54,471 autoreload 79600 4363015680 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:55,014 autoreload 79603 4461622784 Watching for file changes with StatReloader
+INFO 2022-04-26 22:41:57,260 autoreload 79603 4461622784 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:41:58,066 autoreload 79612 4585899520 Watching for file changes with StatReloader
+INFO 2022-04-26 22:42:55,057 autoreload 79612 4585899520 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:42:55,852 autoreload 79645 4686575104 Watching for file changes with StatReloader
+INFO 2022-04-26 22:43:16,029 autoreload 79645 4686575104 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:43:16,647 autoreload 79666 4512306688 Watching for file changes with StatReloader
+INFO 2022-04-26 22:43:19,961 autoreload 79666 4512306688 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:43:20,513 autoreload 79700 4442834432 Watching for file changes with StatReloader
+INFO 2022-04-26 22:43:25,850 autoreload 79700 4442834432 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:43:26,704 autoreload 79709 4384769536 Watching for file changes with StatReloader
+INFO 2022-04-26 22:43:33,473 autoreload 79709 4384769536 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:43:34,243 autoreload 79723 4333639168 Watching for file changes with StatReloader
+INFO 2022-04-26 22:43:39,984 autoreload 79723 4333639168 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:43:40,518 autoreload 79734 4569830912 Watching for file changes with StatReloader
+INFO 2022-04-26 22:43:41,743 autoreload 79734 4569830912 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 22:43:42,569 autoreload 79737 4584900096 Watching for file changes with StatReloader
+INFO 2022-04-26 22:43:51,315 basehttp 79737 123145528696832 "GET /planning/ HTTP/1.1" 200 15572
+INFO 2022-04-26 22:45:13,550 basehttp 79737 123145528696832 "GET /order HTTP/1.1" 200 15287
+INFO 2022-04-26 23:25:22,206 autoreload 79737 4584900096 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 23:25:23,106 autoreload 80064 4633806336 Watching for file changes with StatReloader
+INFO 2022-04-26 23:25:30,829 autoreload 80064 4633806336 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 23:25:31,347 autoreload 80088 4637689344 Watching for file changes with StatReloader
+INFO 2022-04-26 23:25:36,903 autoreload 80088 4637689344 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 23:25:37,410 autoreload 80098 4470617600 Watching for file changes with StatReloader
+INFO 2022-04-26 23:26:07,026 autoreload 80098 4470617600 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 23:26:07,554 autoreload 80121 4741527040 Watching for file changes with StatReloader
+INFO 2022-04-26 23:26:09,788 autoreload 80121 4741527040 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 23:26:10,322 autoreload 80131 4441679360 Watching for file changes with StatReloader
+INFO 2022-04-26 23:26:25,329 autoreload 80131 4441679360 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 23:26:25,815 autoreload 80151 4548716032 Watching for file changes with StatReloader
+INFO 2022-04-26 23:26:52,057 autoreload 80151 4548716032 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 23:26:52,563 autoreload 80173 4356974080 Watching for file changes with StatReloader
+INFO 2022-04-26 23:26:57,071 autoreload 80173 4356974080 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-26 23:26:57,585 autoreload 80183 4490049024 Watching for file changes with StatReloader
+INFO 2022-04-26 23:27:14,581 autoreload 80183 4490049024 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:27:15,095 autoreload 80207 4728108544 Watching for file changes with StatReloader
+INFO 2022-04-26 23:27:16,427 autoreload 80207 4728108544 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:27:16,948 autoreload 80213 4650280448 Watching for file changes with StatReloader
+INFO 2022-04-26 23:27:19,187 autoreload 80213 4650280448 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:27:19,669 autoreload 80218 4533540352 Watching for file changes with StatReloader
+INFO 2022-04-26 23:27:24,205 autoreload 80218 4533540352 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:27:24,734 autoreload 80227 4539840000 Watching for file changes with StatReloader
+INFO 2022-04-26 23:27:42,701 autoreload 80227 4539840000 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:27:43,243 autoreload 80261 4645324288 Watching for file changes with StatReloader
+INFO 2022-04-26 23:27:46,733 autoreload 80261 4645324288 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:27:47,249 autoreload 80271 4787766784 Watching for file changes with StatReloader
+INFO 2022-04-26 23:27:49,602 autoreload 80271 4787766784 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:27:50,122 autoreload 80281 4488324608 Watching for file changes with StatReloader
+INFO 2022-04-26 23:27:51,437 autoreload 80281 4488324608 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:27:51,949 autoreload 80282 4529735168 Watching for file changes with StatReloader
+INFO 2022-04-26 23:27:53,283 autoreload 80282 4529735168 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:27:53,799 autoreload 80283 4783887872 Watching for file changes with StatReloader
+INFO 2022-04-26 23:28:00,395 autoreload 80283 4783887872 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:28:00,877 autoreload 80302 4421559808 Watching for file changes with StatReloader
+INFO 2022-04-26 23:28:05,395 autoreload 80302 4421559808 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:28:05,928 autoreload 80312 4691269120 Watching for file changes with StatReloader
+INFO 2022-04-26 23:28:08,177 autoreload 80312 4691269120 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:28:08,681 autoreload 80313 4415669760 Watching for file changes with StatReloader
+INFO 2022-04-26 23:28:12,163 autoreload 80313 4415669760 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-04-26 23:28:12,650 autoreload 80323 4500588032 Watching for file changes with StatReloader
+INFO 2022-04-26 23:29:50,788 basehttp 80323 123145566175232 "GET /order HTTP/1.1" 200 15288
+INFO 2022-04-26 23:29:50,830 basehttp 80323 123145566175232 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2022-04-26 23:29:50,831 basehttp 80323 123145582964736 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2022-04-26 23:29:51,095 basehttp 80323 123145582964736 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2022-04-26 23:29:51,101 basehttp 80323 123145582964736 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2022-04-26 23:29:57,326 basehttp 80323 123145582964736 "GET /planning/ HTTP/1.1" 200 15695
+INFO 2022-04-26 23:30:03,440 basehttp 80323 123145582964736 "GET /planning/finisd HTTP/1.1" 200 17802
+INFO 2022-04-26 23:30:57,430 basehttp 80323 123145582964736 "GET /planning/ HTTP/1.1" 200 15695
+INFO 2022-04-26 23:31:07,324 basehttp 80323 123145582964736 "GET /planning/finisd HTTP/1.1" 200 17802
+INFO 2022-04-26 23:31:43,268 basehttp 80323 123145582964736 "GET /planning/finisd HTTP/1.1" 200 17784
+INFO 2022-04-26 23:31:48,456 basehttp 80323 123145582964736 "GET /order HTTP/1.1" 200 15287
+INFO 2022-04-26 23:32:03,812 basehttp 80323 123145582964736 "GET /planning/finisd HTTP/1.1" 200 17788
+INFO 2022-04-26 23:32:08,289 basehttp 80323 123145582964736 "GET /planning/ HTTP/1.1" 200 15695
+INFO 2022-04-26 23:37:58,801 basehttp 80323 123145566175232 "GET /planning/ HTTP/1.1" 200 15698
+INFO 2022-04-26 23:42:49,500 basehttp 80323 123145566175232 "GET /order HTTP/1.1" 200 15288
+INFO 2022-04-26 23:42:59,137 basehttp 80323 123145566175232 "GET /order/update/3 HTTP/1.1" 200 13617
+INFO 2022-04-26 23:43:54,530 autoreload 80323 4500588032 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:43:55,393 autoreload 80706 4809438720 Watching for file changes with StatReloader
+INFO 2022-04-26 23:44:01,021 autoreload 80706 4809438720 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:44:01,578 autoreload 80717 4596479488 Watching for file changes with StatReloader
+INFO 2022-04-26 23:44:02,833 autoreload 80717 4596479488 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:44:03,379 autoreload 80727 4595881472 Watching for file changes with StatReloader
+INFO 2022-04-26 23:44:05,625 autoreload 80727 4595881472 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:44:06,145 autoreload 80729 4538627584 Watching for file changes with StatReloader
+INFO 2022-04-26 23:44:07,498 autoreload 80729 4538627584 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:44:08,085 autoreload 80738 4699870720 Watching for file changes with StatReloader
+INFO 2022-04-26 23:44:15,462 basehttp 80738 123145434677248 "GET /order/update/3 HTTP/1.1" 200 13765
+INFO 2022-04-26 23:44:30,435 autoreload 80738 4699870720 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:44:31,180 autoreload 80764 4694144512 Watching for file changes with StatReloader
+INFO 2022-04-26 23:44:32,545 autoreload 80764 4694144512 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:44:33,079 autoreload 80774 4639348224 Watching for file changes with StatReloader
+INFO 2022-04-26 23:44:35,337 autoreload 80774 4639348224 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:44:35,873 autoreload 80776 4601746944 Watching for file changes with StatReloader
+INFO 2022-04-26 23:44:38,133 autoreload 80776 4601746944 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:44:38,699 autoreload 80786 4651111936 Watching for file changes with StatReloader
+INFO 2022-04-26 23:45:58,568 autoreload 80872 4531201536 Watching for file changes with StatReloader
+INFO 2022-04-26 23:46:07,745 basehttp 80872 123145389187072 "GET /order/update/3 HTTP/1.1" 200 13765
+INFO 2022-04-26 23:46:17,964 autoreload 80872 4531201536 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:46:18,737 autoreload 80892 4702578176 Watching for file changes with StatReloader
+INFO 2022-04-26 23:46:26,835 basehttp 80892 123145372053504 "GET /order/update/3 HTTP/1.1" 200 13765
+INFO 2022-04-26 23:46:32,637 basehttp 80892 123145372053504 "GET /order/update/3 HTTP/1.1" 200 13765
+INFO 2022-04-26 23:46:40,308 autoreload 80892 4702578176 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:46:41,014 autoreload 80913 4740589056 Watching for file changes with StatReloader
+INFO 2022-04-26 23:46:44,310 autoreload 80913 4740589056 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:46:44,904 autoreload 80923 4763121152 Watching for file changes with StatReloader
+ERROR 2022-04-26 23:46:56,162 log 80923 123145540206592 Internal Server Error: /order/update/3
+Traceback (most recent call last):
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py", line 92, in update_operation
+    return render(request, 'editreal.html', {'operation': operation, 'form': form})
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/loader_tags.py", line 56, in render
+    result = self.nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/defaulttags.py", line 298, in render
+    return nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 1038, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 701, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 829, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current()
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/utils.py", line 65, in as_p
+    return self.render(self.template_name_p)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/forms.py", line 301, in get_context
+    if bf.is_hidden:
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/boundfield.py", line 203, in is_hidden
+    return self.field.widget.is_hidden
+AttributeError: 'DateTimeField' object has no attribute 'is_hidden'
+ERROR 2022-04-26 23:46:56,215 basehttp 80923 123145540206592 "GET /order/update/3 HTTP/1.1" 500 182558
+INFO 2022-04-26 23:47:53,053 autoreload 80923 4763121152 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-26 23:47:53,779 autoreload 80962 4558845440 Watching for file changes with StatReloader
+INFO 2022-04-26 23:48:06,102 autoreload 80962 4558845440 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-26 23:48:06,626 autoreload 80977 4629730816 Watching for file changes with StatReloader
+INFO 2022-04-26 23:49:21,970 autoreload 80977 4629730816 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:49:22,830 autoreload 81066 4604909056 Watching for file changes with StatReloader
+INFO 2022-04-26 23:49:39,644 autoreload 81066 4604909056 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:49:40,544 autoreload 81081 4608448000 Watching for file changes with StatReloader
+INFO 2022-04-26 23:50:04,636 autoreload 81112 4588348928 Watching for file changes with StatReloader
+INFO 2022-04-26 23:50:54,637 autoreload 81112 4588348928 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:50:55,376 autoreload 81131 4774454784 Watching for file changes with StatReloader
+INFO 2022-04-26 23:51:10,067 autoreload 81131 4774454784 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:51:10,604 autoreload 81146 4492932608 Watching for file changes with StatReloader
+INFO 2022-04-26 23:51:12,867 autoreload 81146 4492932608 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:51:13,378 autoreload 81156 4340082176 Watching for file changes with StatReloader
+ERROR 2022-04-26 23:51:20,612 log 81156 123145573265408 Internal Server Error: /order/update/3
+Traceback (most recent call last):
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py", line 92, in update_operation
+    return render(request, 'editreal.html', {'operation': operation, 'form': form})
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/loader_tags.py", line 56, in render
+    result = self.nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/defaulttags.py", line 298, in render
+    return nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 1038, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 701, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 829, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current()
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/utils.py", line 65, in as_p
+    return self.render(self.template_name_p)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/forms.py", line 301, in get_context
+    if bf.is_hidden:
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/boundfield.py", line 203, in is_hidden
+    return self.field.widget.is_hidden
+AttributeError: 'DateTimeField' object has no attribute 'is_hidden'
+ERROR 2022-04-26 23:51:20,663 basehttp 81156 123145573265408 "GET /order/update/3 HTTP/1.1" 500 182558
+INFO 2022-04-26 23:54:36,106 autoreload 81156 4340082176 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:54:36,871 autoreload 81234 4456437248 Watching for file changes with StatReloader
+INFO 2022-04-26 23:54:41,193 autoreload 81234 4456437248 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:54:41,687 autoreload 81249 4554327552 Watching for file changes with StatReloader
+INFO 2022-04-26 23:54:52,032 basehttp 81249 123145592868864 "GET /order HTTP/1.1" 200 15288
+INFO 2022-04-26 23:54:52,051 basehttp 81249 123145592868864 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-04-26 23:54:52,065 basehttp 81249 123145592868864 "GET /static/css/stylesheet.css HTTP/1.1" 200 1553
+ERROR 2022-04-26 23:54:56,957 log 81249 123145592868864 Internal Server Error: /order/update/3
+Traceback (most recent call last):
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py", line 92, in update_operation
+    return render(request, 'editreal.html', {'operation': operation, 'form': form})
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/loader_tags.py", line 56, in render
+    result = self.nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/defaulttags.py", line 298, in render
+    return nodelist.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 1038, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 701, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 829, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current()
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/utils.py", line 65, in as_p
+    return self.render(self.template_name_p)
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/forms.py", line 301, in get_context
+    if bf.is_hidden:
+  File "/Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/django/forms/boundfield.py", line 203, in is_hidden
+    return self.field.widget.is_hidden
+AttributeError: 'DateField' object has no attribute 'is_hidden'
+ERROR 2022-04-26 23:54:56,991 basehttp 81249 123145592868864 "GET /order/update/3 HTTP/1.1" 500 182397
+INFO 2022-04-26 23:55:25,874 autoreload 81249 4554327552 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:55:26,508 autoreload 81276 4604970496 Watching for file changes with StatReloader
+INFO 2022-04-26 23:55:34,166 basehttp 81276 123145572683776 "GET /order/update/3 HTTP/1.1" 200 13765
+INFO 2022-04-26 23:55:45,769 autoreload 81276 4604970496 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:55:46,581 autoreload 81303 4559402496 Watching for file changes with StatReloader
+INFO 2022-04-26 23:56:08,736 autoreload 81303 4559402496 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:56:09,328 autoreload 81332 4802708992 Watching for file changes with StatReloader
+INFO 2022-04-26 23:56:23,258 autoreload 81332 4802708992 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:56:23,767 autoreload 81353 4544005632 Watching for file changes with StatReloader
+INFO 2022-04-26 23:56:27,055 autoreload 81353 4544005632 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:56:27,558 autoreload 81363 4794533376 Watching for file changes with StatReloader
+INFO 2022-04-26 23:56:29,791 autoreload 81363 4794533376 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-04-26 23:56:30,313 autoreload 81372 4490708480 Watching for file changes with StatReloader
+INFO 2022-04-26 23:59:24,049 autoreload 81549 4548093440 Watching for file changes with StatReloader
+INFO 2022-04-26 23:59:33,215 basehttp 81549 123145488879616 "GET /order HTTP/1.1" 200 15288
+INFO 2022-04-26 23:59:38,518 basehttp 81549 123145488879616 "GET /order HTTP/1.1" 200 15288
+INFO 2022-04-26 23:59:43,143 basehttp 81549 123145488879616 "GET /planning/ HTTP/1.1" 200 21353
+INFO 2022-04-26 23:59:53,100 basehttp 81549 123145488879616 "GET /planning/finisd HTTP/1.1" 200 14393
+INFO 2022-04-27 00:00:18,585 basehttp 81549 123145488879616 "GET /planning/finisd HTTP/1.1" 200 14401
+INFO 2022-04-27 00:00:26,155 basehttp 81549 123145488879616 "GET /planning/ HTTP/1.1" 200 21353
+INFO 2022-04-27 20:37:15,957 autoreload 81549 4548093440 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-04-27 20:37:17,163 autoreload 85995 4738053632 Watching for file changes with StatReloader
+INFO 2022-04-27 20:37:31,348 basehttp 85995 123145354457088 "GET / HTTP/1.1" 200 12170
+INFO 2022-04-27 20:37:31,364 basehttp 85995 123145354457088 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-04-27 20:37:31,394 basehttp 85995 123145354457088 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11479
+INFO 2022-04-27 20:37:31,395 basehttp 85995 123145388036096 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 11275
+INFO 2022-04-27 20:37:31,397 basehttp 85995 123145371246592 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-04-27 20:37:31,562 basehttp 85995 123145371246592 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2022-04-27 20:37:31,569 basehttp 85995 123145371246592 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2022-04-27 20:37:37,139 basehttp 85995 123145371246592 "GET /order HTTP/1.1" 200 15288
+INFO 2022-04-27 20:37:37,167 basehttp 85995 123145354457088 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-04-27 20:37:37,169 basehttp 85995 123145388036096 "GET /static/DataTables/datatables.min.css HTTP/1.1" 200 16785
+INFO 2022-04-27 20:37:37,170 basehttp 85995 123145371246592 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 128769
+INFO 2022-04-27 20:37:37,273 basehttp 85995 123145371246592 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
+INFO 2022-04-27 20:37:37,296 basehttp 85995 123145371246592 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
+INFO 2022-04-27 20:37:48,059 basehttp 85995 123145371246592 "GET /order/update/4 HTTP/1.1" 200 13624
+INFO 2022-04-27 20:38:00,668 basehttp 85995 123145371246592 "POST /order/update/4 HTTP/1.1" 302 0
+INFO 2022-04-27 20:38:05,466 basehttp 85995 123145371246592 "GET /order HTTP/1.1" 200 15289
+INFO 2022-04-27 20:38:17,152 basehttp 85995 123145371246592 "GET /planning/ HTTP/1.1" 200 21353
+INFO 2022-04-27 20:39:22,681 basehttp 85995 123145371246592 "GET /planning/ HTTP/1.1" 200 21373
+INFO 2022-04-27 20:39:50,937 basehttp 85995 123145371246592 "GET /planning/ HTTP/1.1" 200 21394
+INFO 2022-04-27 20:39:55,884 basehttp 85995 123145371246592 "GET / HTTP/1.1" 200 12170
+INFO 2022-04-27 20:40:52,175 basehttp 85995 123145371246592 "GET /order HTTP/1.1" 200 15289
+INFO 2022-04-27 20:41:05,927 basehttp 85995 123145371246592 "GET /order/update/4 HTTP/1.1" 200 13624
+INFO 2022-04-27 20:41:22,131 basehttp 85995 123145371246592 "POST /order/update/4 HTTP/1.1" 302 0
+INFO 2022-04-27 20:41:26,786 basehttp 85995 123145371246592 "GET /order HTTP/1.1" 200 15284
+INFO 2022-04-27 20:41:39,691 basehttp 85995 123145371246592 "GET /order/delete/4 HTTP/1.1" 302 0
+INFO 2022-04-27 20:41:45,622 basehttp 85995 123145371246592 "GET /order HTTP/1.1" 200 14624
+INFO 2022-04-27 20:41:53,270 basehttp 85995 123145371246592 "GET /order/add HTTP/1.1" 200 12856
+INFO 2022-04-27 20:42:10,869 basehttp 85995 123145371246592 "POST /order/add HTTP/1.1" 302 0
+INFO 2022-04-27 20:42:19,090 basehttp 85995 123145371246592 "GET /planning/ HTTP/1.1" 200 21394
+INFO 2022-04-27 20:42:27,329 basehttp 85995 123145371246592 "GET /order HTTP/1.1" 200 15281
+INFO 2022-04-27 20:42:35,610 basehttp 85995 123145371246592 "GET /planning/ HTTP/1.1" 200 21394
+INFO 2022-04-27 20:43:01,209 basehttp 85995 123145371246592 "GET /planning/finisd HTTP/1.1" 200 14401
+INFO 2022-04-27 20:43:10,842 basehttp 85995 123145371246592 "GET /planning/ HTTP/1.1" 200 21394
+INFO 2022-04-27 20:43:21,043 basehttp 85995 123145371246592 "GET /planning/update/11 HTTP/1.1" 200 15936
+INFO 2022-04-27 20:43:48,852 basehttp 85995 123145371246592 "POST /planning/update/11 HTTP/1.1" 302 0
+INFO 2022-04-27 20:43:52,736 basehttp 85995 123145371246592 "GET /planning/ HTTP/1.1" 200 20688
+INFO 2022-04-28 11:03:17,837 autoreload 85995 4738053632 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-28 11:03:18,972 autoreload 87121 4390434304 Watching for file changes with StatReloader
+INFO 2022-04-28 11:03:20,189 autoreload 87121 4390434304 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-28 11:03:20,633 autoreload 87131 4399613440 Watching for file changes with StatReloader
+INFO 2022-04-28 11:03:22,838 autoreload 87131 4399613440 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-28 11:03:23,379 autoreload 87133 4637079040 Watching for file changes with StatReloader
+INFO 2022-04-28 11:03:24,636 autoreload 87133 4637079040 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-28 11:03:25,129 autoreload 87141 4594021888 Watching for file changes with StatReloader
+INFO 2022-04-28 11:04:12,917 autoreload 87141 4594021888 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-04-28 11:04:13,412 autoreload 87166 4697794048 Watching for file changes with StatReloader
+INFO 2022-04-28 11:04:14,755 autoreload 87166 4697794048 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-04-28 11:04:15,254 autoreload 87171 4580570624 Watching for file changes with StatReloader
+INFO 2022-04-28 11:04:18,442 autoreload 87181 4568000000 Watching for file changes with StatReloader
+INFO 2022-04-28 11:04:40,874 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20688
+INFO 2022-04-28 11:04:40,906 basehttp 87181 123145382289408 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-04-28 11:04:40,906 basehttp 87181 123145399078912 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-04-28 11:04:40,908 basehttp 87181 123145415868416 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-04-28 11:04:40,948 basehttp 87181 123145415868416 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2022-04-28 11:04:40,948 basehttp 87181 123145399078912 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2022-04-28 11:04:41,049 basehttp 87181 123145399078912 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2022-04-28 11:04:41,053 basehttp 87181 123145399078912 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2022-04-28 11:04:45,358 basehttp 87181 123145399078912 "GET /order HTTP/1.1" 200 15280
+INFO 2022-04-28 11:04:52,970 basehttp 87181 123145399078912 "GET /order/update/5 HTTP/1.1" 200 13624
+INFO 2022-04-28 11:05:01,587 basehttp 87181 123145399078912 "POST /order/update/5 HTTP/1.1" 302 0
+INFO 2022-04-28 11:05:03,858 basehttp 87181 123145399078912 "GET /order HTTP/1.1" 200 15303
+INFO 2022-04-28 11:19:13,291 basehttp 87181 123145382289408 "GET / HTTP/1.1" 200 12170
+INFO 2022-04-28 11:19:16,938 basehttp 87181 123145382289408 "GET /order HTTP/1.1" 200 15303
+INFO 2022-04-28 11:45:47,551 basehttp 87181 123145382289408 "GET /order/update/3 HTTP/1.1" 200 13624
+INFO 2022-04-28 11:45:57,573 basehttp 87181 123145382289408 "POST /order/update/3 HTTP/1.1" 302 0
+INFO 2022-04-28 11:45:59,929 basehttp 87181 123145382289408 "GET /order HTTP/1.1" 200 15326
+INFO 2022-04-28 13:08:24,787 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20688
+INFO 2022-04-28 13:08:24,906 basehttp 87181 123145382289408 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-04-28 13:08:40,347 basehttp 87181 123145382289408 "GET /order HTTP/1.1" 200 15326
+INFO 2022-04-28 13:08:44,101 basehttp 87181 123145382289408 "GET / HTTP/1.1" 200 12170
+INFO 2022-04-28 13:12:31,217 basehttp 87181 123145382289408 "GET / HTTP/1.1" 200 12170
+INFO 2022-04-28 13:12:35,866 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20683
+INFO 2022-04-28 13:13:10,837 basehttp 87181 123145382289408 "GET /order HTTP/1.1" 200 15326
+INFO 2022-04-28 13:13:19,355 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20683
+INFO 2022-04-28 13:13:37,193 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20683
+INFO 2022-04-28 13:13:40,460 basehttp 87181 123145382289408 "GET /order HTTP/1.1" 200 15326
+INFO 2022-04-28 13:19:53,090 basehttp 87181 123145382289408 "GET /order HTTP/1.1" 200 15326
+INFO 2022-04-28 13:19:57,063 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20745
+INFO 2022-04-28 13:19:57,101 basehttp 87181 123145382289408 "GET /static/css/responsive.css HTTP/1.1" 200 847
+INFO 2022-04-28 13:20:34,394 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20745
+INFO 2022-04-28 13:20:34,410 basehttp 87181 123145382289408 "GET /static/css/responsive.css HTTP/1.1" 200 869
+INFO 2022-04-28 13:20:58,680 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20745
+INFO 2022-04-28 13:20:58,696 basehttp 87181 123145382289408 "GET /static/css/responsive.css HTTP/1.1" 200 856
+INFO 2022-04-28 13:21:44,880 basehttp 87181 123145382289408 "GET /order HTTP/1.1" 200 15386
+INFO 2022-04-28 13:21:44,897 basehttp 87181 123145382289408 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-04-28 13:22:42,100 basehttp 87181 123145382289408 "GET /order HTTP/1.1" 200 15386
+INFO 2022-04-28 13:22:42,120 basehttp 87181 123145382289408 "GET /static/css/responsive.css HTTP/1.1" 200 954
+INFO 2022-04-28 13:22:54,889 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20745
+INFO 2022-04-28 13:22:54,946 basehttp 87181 123145382289408 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-04-28 13:23:31,317 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20745
+INFO 2022-04-28 13:23:31,335 basehttp 87181 123145382289408 "GET /static/css/responsive.css HTTP/1.1" 200 1150
+INFO 2022-04-28 13:24:30,984 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20745
+INFO 2022-04-28 13:24:31,005 basehttp 87181 123145382289408 "GET /static/css/responsive.css HTTP/1.1" 200 1170
+INFO 2022-04-28 13:25:14,854 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20745
+INFO 2022-04-28 13:25:14,871 basehttp 87181 123145382289408 "GET /static/css/responsive.css HTTP/1.1" 200 1190
+INFO 2022-04-28 13:26:00,030 basehttp 87181 123145382289408 "GET /planning/ HTTP/1.1" 200 20745
+INFO 2022-04-28 13:26:00,047 basehttp 87181 123145382289408 "GET /static/css/responsive.css HTTP/1.1" 200 1168
+INFO 2022-04-28 13:26:25,262 basehttp 87181 123145399078912 "GET / HTTP/1.1" 200 12170
+INFO 2022-04-28 13:26:26,832 basehttp 87181 123145382289408 - Broken pipe from ('127.0.0.1', 53545)
+
+INFO 2022-04-28 13:26:28,977 basehttp 87181 123145399078912 - Broken pipe from ('127.0.0.1', 55045)
+
+INFO 2022-04-28 13:26:30,345 basehttp 87181 123145415868416 "GET /planning/ HTTP/1.1" 200 20745
+INFO 2022-04-28 13:26:30,373 basehttp 87181 123145415868416 "GET /static/css/responsive.css HTTP/1.1" 304 0

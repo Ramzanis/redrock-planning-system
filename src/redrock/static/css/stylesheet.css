@@ -57,7 +57,7 @@ h1 {
     padding-left: 90px;
 }
 
-.title-home-e {
+.headder h1 {
     padding-top: 40px;
     padding-left: 90px;
 }
@@ -112,3 +112,9 @@ h1 {
     height: 700px;
     overflow: scroll;
 }
+
+.red_bg{
+    background:rgba(59, 252, 0, 0.349);
+    color:#fff;
+   
+   }
