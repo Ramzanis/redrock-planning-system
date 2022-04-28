@@ -11,7 +11,7 @@ class StatusAdmin(admin.ModelAdmin):
 class OperationAdmin(admin.ModelAdmin):
     list_display = ['operationID', 'assignee',
                     'dateRegistered', 'timeStart', 'timeFinish', 'status']
-    list_editable = ['timeFinish', 'assignee', 'status']
+    list_editable = ['assignee', 'status']
     list_filter = ['status', 'dateRegistered']
     list_per_page = 10
 

@@ -45,10 +45,12 @@ class Operation(models.Model):
     assignee = models.ForeignKey('Employee', on_delete=models.CASCADE)
     dateRegistered = models.DateTimeField(auto_now_add=True)
     timeStart = models.DateTimeField(auto_now_add=True, null=True)
-    timeFinish = models.DateTimeField(null=True)
+    timeFinish = models.DateTimeField(auto_now=True)
     status = models.ForeignKey(
         'Status', on_delete=models.CASCADE)
-
+    
+    def __int__(self):
+        return self.operationID 
    
 
 
@@ -63,6 +65,7 @@ class Subtask(models.Model):
     stow = models.ForeignKey('Stow', on_delete=models.CASCADE)
     status = models.ForeignKey(
         'Status', on_delete=models.CASCADE)
+    
 
 auditlog.register(Subtask)
 auditlog.register(Operation)

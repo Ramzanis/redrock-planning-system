@@ -8,6 +8,7 @@ from django.shortcuts import get_object_or_404, redirect, render
 from rest_framework.viewsets import ModelViewSet
 
 from .forms import SubtaskForm, OperationForm
+from django.db.models import Q
 
 
 from .models import Subtask, Operation, Status
@@ -43,10 +44,15 @@ def displayorder(request):
 
 def displaydata(request):
     results1 = Subtask.objects.prefetch_related(
-        'moveTo', 'operationID', 'stow', 'status').all()
+        'moveTo', 'operationID', 'stow', 'status').filter(~Q(status_id=3))
 
     return render(request, 'ee.html', {'Subtask': results1})
 
+def displayfinish(request):
+    finish = Subtask.objects.prefetch_related(
+        'moveTo', 'operationID', 'stow', 'status').filter(status_id=3)
+
+    return render(request, 'finish.html', {'Subtask': finish})
 
 def add_subtask(request):
     submitted = False
@@ -83,7 +89,7 @@ def update_operation(request, operationID):
         form.save()
         return redirect('displayorder')
 
-    return render(request, 'editreal.html', {'operation': operation, 'form': form})
+    return render(request, 'editoperation.html', {'operation': operation, 'form': form})
 
 
 def delete_subtask(request, subtaskID):
