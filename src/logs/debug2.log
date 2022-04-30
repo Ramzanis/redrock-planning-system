@@ -2819,3 +2819,12 @@ INFO 2022-04-28 13:26:28,977 basehttp 87181 123145399078912 - Broken pipe from (
 
 INFO 2022-04-28 13:26:30,345 basehttp 87181 123145415868416 "GET /planning/ HTTP/1.1" 200 20745
 INFO 2022-04-28 13:26:30,373 basehttp 87181 123145415868416 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-04-30 22:28:38,368 autoreload 3214 4477240832 Watching for file changes with StatReloader
+INFO 2022-04-30 22:30:43,095 basehttp 3214 123145455677440 "GET /planning/ HTTP/1.1" 200 12979
+INFO 2022-04-30 22:47:36,787 autoreload 3214 4477240832 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-04-30 22:47:37,363 autoreload 4199 4661290496 Watching for file changes with StatReloader
+INFO 2022-04-30 22:50:32,123 basehttp 4199 123145578287104 "GET /planning/ HTTP/1.1" 200 19677
+INFO 2022-04-30 22:51:07,293 basehttp 4199 123145578287104 "GET /planning/ HTTP/1.1" 200 19331
+INFO 2022-04-30 22:51:40,753 basehttp 4199 123145578287104 "GET /planning/ HTTP/1.1" 200 19741
+INFO 2022-04-30 22:51:49,330 basehttp 4199 123145578287104 "GET /planning/finisd HTTP/1.1" 200 15523
+INFO 2022-04-30 22:51:58,389 basehttp 4199 123145578287104 "GET /planning/ HTTP/1.1" 200 19741

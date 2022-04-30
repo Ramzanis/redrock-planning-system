@@ -58,6 +58,7 @@ class Operation(models.Model):
 class Subtask(models.Model):
     subtaskID = models.IntegerField(primary_key=True, auto_created=True)
     operationID = models.ForeignKey('Operation', on_delete=models.CASCADE)
+    assignee = models.ForeignKey('Employee', on_delete=models.CASCADE)
     containerID = models.CharField(max_length=255)
     containerWeightT = models.DecimalField(max_digits=6, decimal_places=2)
     loadSeq = models.IntegerField()
