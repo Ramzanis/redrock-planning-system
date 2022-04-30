@@ -38,7 +38,7 @@ class OperationForm(ModelForm):
             'operationID': 'operationID',
             'assignee': 'assignee',
             
-            
+                        
         }
 
         widgets = {

@@ -12,7 +12,7 @@ router.register('tes', views.SubtaskViewSet, basename='status')
 
 # URLConf
 urlpatterns = [
-     path('', views.displayindex, name='displayindex'),
+     path('', views.displaydata1, name='displayindex'),
      path('order', views.displayorder, name='displayorder'),
      path('order/add', views.add_operation, name='addoperation'),
      path('order/update/<operationID>',

@@ -40,7 +40,11 @@ def displayorder(request):
     results = Operation.objects.prefetch_related('assignee', 'status').all()
 
     return render(request, 'order.html', {'Operation': results})
-
+    
+def displaydata1(request):
+    results1 = Subtask.objects.prefetch_related(
+        'moveTo', 'operationID', 'stow', 'status').filter(status_id=1)
+    return render(request, 'index.html', {'Subtask': results1})
 
 def displaydata(request):
     results1 = Subtask.objects.prefetch_related(

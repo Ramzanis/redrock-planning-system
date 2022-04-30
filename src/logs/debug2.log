@@ -2133,3 +2133,92 @@ INFO 2022-04-28 14:56:05,287 basehttp 13980 6952 "POST /planning/update/4 HTTP/1
 INFO 2022-04-28 14:56:07,478 basehttp 13980 6952 "GET /planning/ HTTP/1.1" 200 25575
 INFO 2022-04-28 14:56:37,977 basehttp 13980 6952 "GET / HTTP/1.1" 200 11807
 INFO 2022-04-28 14:58:10,993 basehttp 13980 6952 "GET / HTTP/1.1" 200 11807
+INFO 2022-04-28 15:01:21,358 autoreload 13980 17580 C:\Users\Ramza\OneDrive\Dokumenter\Git\redrock\src\redrock\admin.py changed, reloading.
+INFO 2022-04-28 15:01:22,067 autoreload 13804 12408 Watching for file changes with StatReloader
+INFO 2022-04-28 15:02:45,786 autoreload 14256 12656 Watching for file changes with StatReloader
+INFO 2022-04-28 15:02:57,198 basehttp 14256 15436 "GET / HTTP/1.1" 200 11807
+INFO 2022-04-28 15:03:33,542 basehttp 14256 15436 "GET /order HTTP/1.1" 200 15022
+INFO 2022-04-28 15:03:33,616 basehttp 14256 15436 "GET /static/css/responsive.css HTTP/1.1" 200 1234
+INFO 2022-04-28 15:03:49,195 basehttp 14256 15436 "GET /planning/ HTTP/1.1" 200 20379
+INFO 2022-04-28 15:03:49,211 basehttp 14256 15436 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-04-28 15:04:03,357 basehttp 14256 15436 "GET /planning/finisd HTTP/1.1" 200 14462
+INFO 2022-04-28 15:04:12,100 basehttp 14256 15436 "GET /planning/ HTTP/1.1" 200 20379
+INFO 2022-04-28 15:04:12,119 basehttp 14256 15436 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-04-28 15:04:30,972 basehttp 14256 15436 "GET /planning/update/15 HTTP/1.1" 200 15572
+INFO 2022-04-28 15:04:41,532 basehttp 14256 15436 "POST /planning/update/15 HTTP/1.1" 302 0
+INFO 2022-04-28 15:04:43,740 basehttp 14256 15436 "GET /planning/ HTTP/1.1" 200 19673
+INFO 2022-04-28 15:04:43,761 basehttp 14256 15436 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-04-28 15:04:51,560 basehttp 14256 15436 "GET /planning/finisd HTTP/1.1" 200 14887
+INFO 2022-04-28 15:05:58,816 basehttp 14256 15436 "GET / HTTP/1.1" 200 11807
+INFO 2022-04-28 15:06:01,697 basehttp 14256 15436 "GET /order HTTP/1.1" 200 15022
+INFO 2022-04-28 15:06:01,716 basehttp 14256 15436 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-04-28 15:08:17,173 basehttp 14256 15436 "GET / HTTP/1.1" 200 11756
+INFO 2022-04-28 15:08:48,078 basehttp 14256 15436 "GET / HTTP/1.1" 200 11757
+INFO 2022-04-28 16:49:42,141 basehttp 14256 19356 - Broken pipe from ('127.0.0.1', 51114)
+
+INFO 2022-04-28 16:49:42,951 basehttp 14256 18376 "GET /planning/ HTTP/1.1" 200 19673
+INFO 2022-04-28 16:49:42,972 basehttp 14256 18376 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-04-28 16:49:52,545 basehttp 14256 18376 "GET /planning/update/13 HTTP/1.1" 200 15572
+INFO 2022-04-28 16:49:57,260 basehttp 14256 18376 "GET / HTTP/1.1" 200 11757
+INFO 2022-04-28 16:50:01,387 basehttp 14256 18376 "GET /planning/ HTTP/1.1" 200 19673
+INFO 2022-04-28 16:51:37,079 basehttp 14256 18376 "GET / HTTP/1.1" 200 11757
+INFO 2022-04-28 16:52:24,490 basehttp 14256 18376 "GET /planning/ HTTP/1.1" 200 19673
+INFO 2022-04-28 16:56:37,853 basehttp 14256 18376 "GET / HTTP/1.1" 200 12575
+INFO 2022-04-28 16:58:43,572 basehttp 14256 18376 "GET / HTTP/1.1" 200 12135
+INFO 2022-04-28 17:39:39,167 autoreload 14256 12656 C:\Users\Ramza\OneDrive\Dokumenter\Git\redrock\src\redrock\views.py changed, reloading.
+INFO 2022-04-28 17:39:39,916 autoreload 17280 1644 Watching for file changes with StatReloader
+INFO 2022-04-28 17:39:45,373 basehttp 17280 18412 "GET / HTTP/1.1" 200 12135
+INFO 2022-04-28 17:40:24,683 autoreload 17280 1644 C:\Users\Ramza\OneDrive\Dokumenter\Git\redrock\src\redrock\urls.py changed, reloading.
+INFO 2022-04-28 17:40:25,341 autoreload 19296 8080 Watching for file changes with StatReloader
+INFO 2022-04-28 17:41:01,537 autoreload 19296 8080 C:\Users\Ramza\OneDrive\Dokumenter\Git\redrock\src\redrock\views.py changed, reloading.
+INFO 2022-04-28 17:41:02,193 autoreload 18836 8320 Watching for file changes with StatReloader
+INFO 2022-04-28 17:42:00,137 autoreload 18836 8320 C:\Users\Ramza\OneDrive\Dokumenter\Git\redrock\src\redrock\views.py changed, reloading.
+INFO 2022-04-28 17:42:00,818 autoreload 13880 12872 Watching for file changes with StatReloader
+INFO 2022-04-28 17:42:21,828 autoreload 13880 12872 C:\Users\Ramza\OneDrive\Dokumenter\Git\redrock\src\redrock\urls.py changed, reloading.
+INFO 2022-04-28 17:42:22,496 autoreload 5152 5052 Watching for file changes with StatReloader
+INFO 2022-04-28 17:42:37,609 basehttp 5152 16716 "GET / HTTP/1.1" 200 15998
+INFO 2022-04-28 17:45:34,816 basehttp 5152 16716 "GET / HTTP/1.1" 200 16706
+INFO 2022-04-28 17:45:34,829 basehttp 5152 16716 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-04-28 17:46:27,378 basehttp 5152 16716 "GET / HTTP/1.1" 200 16706
+INFO 2022-04-29 17:31:08,469 autoreload 7 140126141355840 Watching for file changes with StatReloader
+INFO 2022-04-29 17:31:40,216 autoreload 7 139945250277184 Watching for file changes with StatReloader
+INFO 2022-04-29 17:39:09,209 autoreload 8 139871086790464 Watching for file changes with StatReloader
+INFO 2022-04-29 17:42:10,635 autoreload 7 139887474558784 Watching for file changes with StatReloader
+INFO 2022-04-29 17:49:11,709 autoreload 7 140304370337600 Watching for file changes with StatReloader
+INFO 2022-04-29 17:56:03,128 autoreload 7 140018659977024 Watching for file changes with StatReloader
+INFO 2022-04-29 18:22:53,920 autoreload 7 140031269861184 Watching for file changes with StatReloader
+INFO 2022-04-29 18:28:24,347 autoreload 7 139734830384960 Watching for file changes with StatReloader
+INFO 2022-04-29 18:28:51,765 basehttp 7 139734759118592 "GET / HTTP/1.1" 200 7098
+INFO 2022-04-29 18:28:51,803 basehttp 7 139734767511296 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-04-29 18:28:51,803 basehttp 7 139734546380544 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-04-29 18:28:51,806 basehttp 7 139734529595136 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-04-29 18:28:51,806 basehttp 7 139734759118592 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-04-29 18:28:51,821 basehttp 7 139734537987840 "GET /static/css/stylesheet.css HTTP/1.1" 200 1672
+INFO 2022-04-29 18:28:51,842 basehttp 7 139734537987840 "GET /static/img/logo.png HTTP/1.1" 304 0
+INFO 2022-04-29 18:28:52,004 basehttp 7 139734537987840 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
+INFO 2022-04-29 18:28:52,028 basehttp 7 139734537987840 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
+WARNING 2022-04-29 18:28:52,052 log 7 139734537987840 Not Found: /favicon.ico
+WARNING 2022-04-29 18:28:52,052 basehttp 7 139734537987840 "GET /favicon.ico HTTP/1.1" 404 4087
+INFO 2022-04-29 18:29:00,989 basehttp 7 139734537987840 "GET /planning/ HTTP/1.1" 200 10060
+INFO 2022-04-29 18:29:17,915 basehttp 7 139734537987840 "GET / HTTP/1.1" 200 7098
+INFO 2022-04-29 18:29:53,556 autoreload 8 140676724229952 Watching for file changes with StatReloader
+INFO 2022-04-29 18:31:19,287 autoreload 8 140002616608576 Watching for file changes with StatReloader
+INFO 2022-04-29 18:31:58,416 autoreload 8 139678759311168 Watching for file changes with StatReloader
+INFO 2022-04-29 18:32:03,032 basehttp 8 139678689093376 "GET / HTTP/1.1" 200 7098
+INFO 2022-04-29 18:32:29,631 basehttp 8 139678671259392 "GET / HTTP/1.1" 200 7098
+INFO 2022-04-29 18:32:29,686 basehttp 8 139678654473984 "GET /static/css/stylesheet.css HTTP/1.1" 200 1672
+INFO 2022-04-29 18:32:29,687 basehttp 8 139678671259392 "GET /static/js/java.js HTTP/1.1" 200 72
+INFO 2022-04-29 18:32:29,692 basehttp 8 139678174934784 "GET /static/css/responsive.css HTTP/1.1" 200 1234
+INFO 2022-04-29 18:32:29,694 basehttp 8 139678662866688 "GET /static/DataTables/datatables.min.css HTTP/1.1" 200 17375
+INFO 2022-04-29 18:32:29,715 basehttp 8 139678679652096 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 132904
+INFO 2022-04-29 18:32:29,750 basehttp 8 139678679652096 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-04-29 18:32:29,919 basehttp 8 139678679652096 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 200 201
+WARNING 2022-04-29 18:32:29,946 log 8 139678662866688 Not Found: /favicon.ico
+WARNING 2022-04-29 18:32:29,947 basehttp 8 139678662866688 "GET /favicon.ico HTTP/1.1" 404 4087
+INFO 2022-04-29 18:32:29,952 basehttp 8 139678679652096 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 200 160
+INFO 2022-04-29 18:41:22,595 autoreload 7 140688453314368 Watching for file changes with StatReloader
+INFO 2022-04-29 18:41:46,191 autoreload 8 140495509178176 Watching for file changes with StatReloader
+INFO 2022-04-29 18:46:23,042 autoreload 8 139817503459136 Watching for file changes with StatReloader
+INFO 2022-04-29 18:46:29,349 basehttp 8 139817440585472 "GET / HTTP/1.1" 200 7098
+INFO 2022-04-29 18:46:40,392 basehttp 8 139817350326016 "GET / HTTP/1.1" 200 7098
+INFO 2022-04-29 21:03:39,154 autoreload 8 139700173678400 Watching for file changes with StatReloader
