@@ -7,12 +7,11 @@ from .models import Subtask, Operation
 class SubtaskForm(ModelForm):
     class Meta:
         model = Subtask
-        fields = ('subtaskID', 'operationID', 'containerID',
+        fields = ('subtaskID',  'containerID',
                   'containerWeightT', 'loadSeq', 'moveTo', 'stow', 'status')
 
         labels = {
             'subtaskID': 'subtaskID',
-            'operationID': 'operation ID',
             'containerID': 'containerID',
             'containerWeightT': 'containerWeightT',
             'loadSeq': 'loadSeq',
@@ -38,7 +37,7 @@ class OperationForm(ModelForm):
             'operationID': 'operationID',
             'assignee': 'assignee',
             
-                        
+            
         }
 
         widgets = {

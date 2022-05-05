@@ -41,7 +41,7 @@ class Stow(models.Model):
 
 
 class Operation(models.Model):
-    operationID = models.IntegerField(primary_key=True)
+    operationID = models.IntegerField(primary_key=True, auto_created=True)
     assignee = models.ForeignKey('Employee', on_delete=models.CASCADE)
     dateRegistered = models.DateTimeField(auto_now_add=True)
     timeStart = models.DateTimeField(auto_now_add=True, null=True)
@@ -49,15 +49,9 @@ class Operation(models.Model):
     status = models.ForeignKey(
         'Status', on_delete=models.CASCADE)
     
-    def __int__(self):
-        return self.operationID 
-   
-
-
-
 class Subtask(models.Model):
     subtaskID = models.IntegerField(primary_key=True, auto_created=True)
-    operationID = models.ForeignKey('Operation', on_delete=models.CASCADE)
+    assignee = models.ForeignKey('Employee', on_delete=models.CASCADE)
     containerID = models.CharField(max_length=255)
     containerWeightT = models.DecimalField(max_digits=6, decimal_places=2)
     loadSeq = models.IntegerField()

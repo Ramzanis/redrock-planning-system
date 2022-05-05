@@ -18,5 +18,5 @@ class OperationSerializer(serializers.ModelSerializer):
 class SubtaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Subtask
-        fields = ['subtaskID', 'operationID', 'containerID',
+        fields = ['subtaskID',  'containerID',
                   'containerWeightT', 'loadSeq', 'moveTo', 'stow', 'status']
