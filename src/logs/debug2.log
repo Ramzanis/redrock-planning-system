@@ -2974,3 +2974,4 @@ Traceback (most recent call last):
 django.db.utils.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
 ERROR 2022-05-05 14:11:38,839 basehttp 8 140706252187392 "GET / HTTP/1.1" 500 188296
 >>>>>>> Stashed changes
+INFO 2022-05-05 14:16:46,255 autoreload 8 139750694442816 Watching for file changes with StatReloader
