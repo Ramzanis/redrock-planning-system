@@ -3408,3 +3408,13 @@ INFO 2022-05-05 10:48:38,965 autoreload 6451 4522063360 /Users/tiberiuminzat/Doc
 INFO 2022-05-05 10:48:39,603 autoreload 6469 4588393984 Watching for file changes with StatReloader
 INFO 2022-05-05 10:51:36,355 basehttp 6469 123145598246912 "GET /admin/redrock/subtask/ HTTP/1.1" 200 61375
 INFO 2022-05-05 10:51:38,331 basehttp 6469 123145598246912 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-05 14:24:01,894 autoreload 8 139911036757824 Watching for file changes with StatReloader
+INFO 2022-05-05 14:31:12,254 autoreload 8 140000545167168 Watching for file changes with StatReloader
+INFO 2022-05-05 14:35:19,805 autoreload 8 139960909752128 Watching for file changes with StatReloader
+INFO 2022-05-05 14:36:30,908 autoreload 8 140226092799808 Watching for file changes with StatReloader
+INFO 2022-05-05 14:38:04,028 autoreload 8 140226092799808 /usr/src/app/backend/settings.py changed, reloading.
+INFO 2022-05-05 14:38:04,410 autoreload 10 139808975968064 Watching for file changes with StatReloader
+INFO 2022-05-05 14:38:11,637 autoreload 10 139808975968064 /usr/src/app/backend/settings.py changed, reloading.
+INFO 2022-05-05 14:38:12,035 autoreload 12 139799419520832 Watching for file changes with StatReloader
+INFO 2022-05-05 14:38:51,572 autoreload 7 140233022687040 Watching for file changes with StatReloader
+INFO 2022-05-05 14:41:33,323 autoreload 7 139687130806080 Watching for file changes with StatReloader

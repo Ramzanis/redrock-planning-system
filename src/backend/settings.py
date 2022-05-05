@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'redrock',
     'auditlog',
     'import_export',
-
 ]
 
 MIDDLEWARE = [
