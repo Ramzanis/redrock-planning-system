@@ -1,0 +1,228 @@
+[
+    {"model":"redrock.Subtask",
+        "pk":1,
+        "fields":
+    {
+      "subtaskID": 4,
+      "containerID": "CONTAINER1127",
+      "assignee": 1,
+      "containerWeightT": 33.00,
+      "loadSeq": 4,
+      "moveTo_id": 4,
+      "stow_id": 4,
+      "operationID_id": 1,
+      "status_id": 1
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":2,
+    "fields":
+    {
+      "subtaskID": 5,
+      "containerID": "CONTAINER9999",
+      "assignee": 1,
+      "containerWeightT": 240.00,
+      "loadSeq": 4,
+      "moveTo_id": 5,
+      "stow_id": 6,
+      "operationID_id": 1,
+      "status_id": 2
+    }
+},
+
+ {"model":"redrock.Subtask",
+    "pk":3,
+    "fields":
+    {
+      "subtaskID": 7,
+      "assignee": 1,
+      "containerID": "CONTAINER1130",
+      "containerWeightT": 5.00,
+      "loadSeq": 7,
+      "moveTo_id": 7,
+      "stow_id": 7,
+      "operationID_id": 1,
+      "status_id": 1
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":4,
+    "fields":
+    {
+      "subtaskID": 8,
+      "assignee": 1,
+      "containerID": "CONTAINER1131",
+      "containerWeightT": 33.20,
+      "loadSeq": 8,
+      "moveTo_id": 8,
+      "stow_id": 8,
+      "operationID_id": 1,
+      "status_id": 1
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":5,
+    "fields":
+    {
+      "subtaskID": 9,
+      "assignee": 1,
+      "containerID": "CONTAINER1132",
+      "containerWeightT": 26.30,
+      "loadSeq": 9,
+      "moveTo_id": 9,
+      "stow_id": 9,
+      "operationID_id": 1,
+      "status_id": 1
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":6,
+    "fields":
+    {
+      "subtaskID": 11,
+      "assignee": 1,
+      "containerID": "CONTAINER1124",
+      "containerWeightT": 25.00,
+      "loadSeq": 1,
+      "moveTo_id": 16,
+      "stow_id": 13,
+      "operationID_id": 2,
+      "status_id": 3
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":7,
+    "fields":
+    {
+      "subtaskID": 12,
+      "assignee": 1,
+      "containerID": "CONTAINER1125",
+      "containerWeightT": 26.30,
+      "loadSeq": 2,
+      "moveTo_id": 12,
+      "stow_id": 12,
+      "operationID_id": 2,
+      "status_id": 2
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":8,
+    "fields":
+    {
+      "subtaskID": 13,
+      "assignee": 1,
+      "containerID": "CONTAINER1126",
+      "containerWeightT": 20.00,
+      "loadSeq": 3,
+      "moveTo_id": 13,
+      "stow_id": 13,
+      "operationID_id": 2,
+      "status_id": 1
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":9,
+    "fields":
+    {
+      "subtaskID": 14,
+      "assignee": 1,
+      "containerID": "CONTAINER1127",
+      "containerWeightT": 26.30,
+      "loadSeq": 4,
+      "moveTo_id": 2,
+      "stow_id": 2,
+      "operationID_id": 2,
+      "status_id": 1
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":10,
+    "fields":
+    {
+      "subtaskID": 15,
+      "assignee": 1,
+      "containerID": "CONTAINER1128",
+      "containerWeightT": 26.30,
+      "loadSeq": 5,
+      "moveTo_id": 3,
+      "stow_id": 3,
+      "operationID_id": 2,
+      "status_id": 3
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":11,
+    "fields":
+    {
+      "subtaskID": 16,
+      "assignee": 1,
+      "containerID": "CONTAINER1129",
+      "containerWeightT": 26.30,
+      "loadSeq": 6,
+      "moveTo_id": 4,
+      "stow_id": 4,
+      "operationID_id": 2,
+      "status_id": 1
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":12,
+    "fields":
+    {
+      "subtaskID": 17,
+      "assignee": 1,
+      "containerID": "CONTAINER1130",
+      "containerWeightT": 20.00,
+      "loadSeq": 7,
+      "moveTo_id": 5,
+      "stow_id": 5,
+      "operationID_id": 2,
+      "status_id": 3
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":13,
+    "fields":
+    {
+      "subtaskID": 18,
+      "assignee": 1,
+      "containerID": "CONTAINER1131",
+      "containerWeightT": 39.00,
+      "loadSeq": 8,
+      "moveTo_id": 15,
+      "stow_id": 15,
+      "operationID_id": 2,
+      "status_id": 3
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":14,
+    "fields":
+    {
+      "subtaskID": 19,
+      "assignee": 1,
+      "containerID": "CONTAINER1132",
+      "containerWeightT": 26.30,
+      "loadSeq": 9,
+      "moveTo_id": 14,
+      "stow_id": 14,
+      "operationID_id": 2,
+      "status_id": 3
+    }
+},
+{"model":"redrock.Subtask",
+    "pk":15,
+    "fields":
+    {
+      "subtaskID": 20,
+      "assignee": 1,
+      "containerID": "CONTAINER1134",
+      "containerWeightT": 26.30,
+      "loadSeq": 10,
+      "moveTo_id": 1,
+      "stow_id": 1,
+      "operationID_id": 2,
+      "status_id": 3
+    }
+}
+  ]

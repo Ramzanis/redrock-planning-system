@@ -6,7 +6,7 @@ class UsersTable(tables.Table):
     class Meta:
         model = Subtask
         template_name = "django_tables2/bootstrap.html"
-        fields = ('subtaskID', 'operationID', 'containerID',
+        fields = ('subtaskID','assignee',  'containerID',
                   'containerWeightT', 'loadSeq', 'moveTo', 'stow', 'status')
 
 
