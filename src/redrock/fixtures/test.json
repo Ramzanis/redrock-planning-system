@@ -5,6 +5,7 @@
     {
       "subtaskID": 4,
       "containerID": "CONTAINER1127",
+      "assignee": 1,
       "containerWeightT": 33.00,
       "loadSeq": 4,
       "moveTo_id": 4,
@@ -19,6 +20,7 @@
     {
       "subtaskID": 5,
       "containerID": "CONTAINER9999",
+      "assignee": 1,
       "containerWeightT": 240.00,
       "loadSeq": 4,
       "moveTo_id": 5,
@@ -33,6 +35,7 @@
     "fields":
     {
       "subtaskID": 7,
+      "assignee": 1,
       "containerID": "CONTAINER1130",
       "containerWeightT": 5.00,
       "loadSeq": 7,
@@ -47,6 +50,7 @@
     "fields":
     {
       "subtaskID": 8,
+      "assignee": 1,
       "containerID": "CONTAINER1131",
       "containerWeightT": 33.20,
       "loadSeq": 8,
@@ -61,6 +65,7 @@
     "fields":
     {
       "subtaskID": 9,
+      "assignee": 1,
       "containerID": "CONTAINER1132",
       "containerWeightT": 26.30,
       "loadSeq": 9,
@@ -75,6 +80,7 @@
     "fields":
     {
       "subtaskID": 11,
+      "assignee": 1,
       "containerID": "CONTAINER1124",
       "containerWeightT": 25.00,
       "loadSeq": 1,
@@ -89,6 +95,7 @@
     "fields":
     {
       "subtaskID": 12,
+      "assignee": 1,
       "containerID": "CONTAINER1125",
       "containerWeightT": 26.30,
       "loadSeq": 2,
@@ -103,6 +110,7 @@
     "fields":
     {
       "subtaskID": 13,
+      "assignee": 1,
       "containerID": "CONTAINER1126",
       "containerWeightT": 20.00,
       "loadSeq": 3,
@@ -117,6 +125,7 @@
     "fields":
     {
       "subtaskID": 14,
+      "assignee": 1,
       "containerID": "CONTAINER1127",
       "containerWeightT": 26.30,
       "loadSeq": 4,
@@ -131,6 +140,7 @@
     "fields":
     {
       "subtaskID": 15,
+      "assignee": 1,
       "containerID": "CONTAINER1128",
       "containerWeightT": 26.30,
       "loadSeq": 5,
@@ -145,6 +155,7 @@
     "fields":
     {
       "subtaskID": 16,
+      "assignee": 1,
       "containerID": "CONTAINER1129",
       "containerWeightT": 26.30,
       "loadSeq": 6,
@@ -159,6 +170,7 @@
     "fields":
     {
       "subtaskID": 17,
+      "assignee": 1,
       "containerID": "CONTAINER1130",
       "containerWeightT": 20.00,
       "loadSeq": 7,
@@ -173,6 +185,7 @@
     "fields":
     {
       "subtaskID": 18,
+      "assignee": 1,
       "containerID": "CONTAINER1131",
       "containerWeightT": 39.00,
       "loadSeq": 8,
@@ -187,6 +200,7 @@
     "fields":
     {
       "subtaskID": 19,
+      "assignee": 1,
       "containerID": "CONTAINER1132",
       "containerWeightT": 26.30,
       "loadSeq": 9,
@@ -201,6 +215,7 @@
     "fields":
     {
       "subtaskID": 20,
+      "assignee": 1,
       "containerID": "CONTAINER1134",
       "containerWeightT": 26.30,
       "loadSeq": 10,

@@ -28,7 +28,7 @@ class OperationViewSet(ModelViewSet):
 
 class SubtaskViewSet(ModelViewSet):
     queryset = Subtask.objects.prefetch_related(
-        'moveTo', 'operationID', 'stow', 'status').all()
+        'moveTo','assignee', 'stow', 'status').all()
     serializer_class = SubtaskSerializer
 
 
@@ -44,13 +44,13 @@ def displayorder(request):
 
 def displaydata(request):
     results1 = Subtask.objects.prefetch_related(
-        'moveTo', 'operationID', 'stow', 'status').filter(~Q(status_id=3))
+        'moveTo', 'assignee', 'stow', 'status').filter(~Q(status_id=3))
 
     return render(request, 'ee.html', {'Subtask': results1})
 
 def displayfinish(request):
     finish = Subtask.objects.prefetch_related(
-        'moveTo', 'operationID', 'stow', 'status').filter(status_id=3)
+        'moveTo', 'assignee', 'stow', 'status').filter(status_id=3)
 
     return render(request, 'finish.html', {'Subtask': finish})
 
@@ -72,7 +72,7 @@ def add_subtask(request):
 
 def update_subtask(request, subtaskID):
     subtask = Subtask.objects.prefetch_related(
-        'moveTo', 'operationID', 'stow', 'status').get(subtaskID=subtaskID)
+        'moveTo', 'assignee', 'stow', 'status').get(subtaskID=subtaskID)
     form = SubtaskForm(request.POST or None, instance=subtask)
     if form.is_valid():
         form.save()
@@ -94,7 +94,7 @@ def update_operation(request, operationID):
 
 def delete_subtask(request, subtaskID):
     subtask = Subtask.objects.prefetch_related(
-        'moveTo', 'operationID', 'stow', 'status').get(subtaskID=subtaskID)
+        'moveTo', 'assignee', 'stow', 'status').get(subtaskID=subtaskID)
     subtask.delete()
     return redirect('displaydata')
 
