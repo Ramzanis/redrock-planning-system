@@ -2222,4 +2222,755 @@ INFO 2022-04-29 18:46:23,042 autoreload 8 139817503459136 Watching for file chan
 INFO 2022-04-29 18:46:29,349 basehttp 8 139817440585472 "GET / HTTP/1.1" 200 7098
 INFO 2022-04-29 18:46:40,392 basehttp 8 139817350326016 "GET / HTTP/1.1" 200 7098
 INFO 2022-04-29 21:03:39,154 autoreload 8 139700173678400 Watching for file changes with StatReloader
+<<<<<<< Updated upstream
 INFO 2022-05-05 14:14:03,859 autoreload 12 139921714546496 Watching for file changes with StatReloader
+=======
+INFO 2022-05-03 21:32:41,142 autoreload 7 139626974091072 Watching for file changes with StatReloader
+INFO 2022-05-03 21:33:25,489 basehttp 7 139626828261120 "GET / HTTP/1.1" 200 7098
+INFO 2022-05-03 21:33:25,572 basehttp 7 139626828261120 "GET /static/js/java.js HTTP/1.1" 200 72
+INFO 2022-05-03 21:33:25,572 basehttp 7 139626803083008 "GET /static/css/responsive.css HTTP/1.1" 200 1234
+INFO 2022-05-03 21:33:25,572 basehttp 7 139626811475712 "GET /static/css/stylesheet.css HTTP/1.1" 200 1672
+INFO 2022-05-03 21:33:25,575 basehttp 7 139626819868416 "GET /static/DataTables/datatables.min.css HTTP/1.1" 200 17375
+INFO 2022-05-03 21:33:25,597 basehttp 7 139626836653824 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 132904
+INFO 2022-05-03 21:33:25,642 basehttp 7 139626836653824 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-05-03 21:33:25,743 basehttp 7 139626836653824 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 200 201
+INFO 2022-05-03 21:33:25,768 basehttp 7 139626836653824 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 200 160
+WARNING 2022-05-03 21:33:25,783 log 7 139626836653824 Not Found: /favicon.ico
+WARNING 2022-05-03 21:33:25,783 basehttp 7 139626836653824 "GET /favicon.ico HTTP/1.1" 404 4087
+INFO 2022-05-03 21:33:40,890 basehttp 7 139626836653824 "GET / HTTP/1.1" 200 7098
+INFO 2022-05-03 21:33:44,849 basehttp 7 139626836653824 "GET / HTTP/1.1" 200 7098
+INFO 2022-05-03 21:33:49,977 basehttp 7 139626836653824 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-03 21:33:52,324 basehttp 7 139626836653824 "GET /planning/ HTTP/1.1" 200 9354
+INFO 2022-05-03 21:33:54,559 basehttp 7 139626819868416 "GET /planning/ HTTP/1.1" 200 9354
+INFO 2022-05-03 21:48:52,249 autoreload 8 139914433201984 Watching for file changes with StatReloader
+INFO 2022-05-03 21:49:29,427 autoreload 8 140040214288192 Watching for file changes with StatReloader
+INFO 2022-05-03 21:49:51,201 autoreload 8 140004742391616 Watching for file changes with StatReloader
+INFO 2022-05-03 21:50:34,623 autoreload 7 140386748888896 Watching for file changes with StatReloader
+INFO 2022-05-03 21:50:59,882 basehttp 7 140386686015232 "GET /planning/ HTTP/1.1" 200 9354
+INFO 2022-05-03 21:51:11,805 basehttp 7 140386686015232 "GET /planning/ HTTP/1.1" 200 9354
+INFO 2022-05-03 21:51:15,522 basehttp 7 140386686015232 "GET /planning/ HTTP/1.1" 200 9354
+INFO 2022-05-03 21:57:09,952 autoreload 8 140593145521984 Watching for file changes with StatReloader
+INFO 2022-05-03 21:59:30,737 autoreload 7 139668481599296 Watching for file changes with StatReloader
+INFO 2022-05-03 22:17:02,752 autoreload 7 139814783956800 Watching for file changes with StatReloader
+INFO 2022-05-03 22:17:07,699 basehttp 7 139814721083136 "GET /planning/ HTTP/1.1" 200 9354
+INFO 2022-05-03 22:23:53,461 autoreload 7 139645863499584 Watching for file changes with StatReloader
+INFO 2022-05-03 22:24:46,572 autoreload 8 139829197252416 Watching for file changes with StatReloader
+INFO 2022-05-03 22:30:28,953 autoreload 8 139939093137216 Watching for file changes with StatReloader
+INFO 2022-05-04 12:58:49,881 autoreload 8 140346954475328 Watching for file changes with StatReloader
+INFO 2022-05-04 13:00:12,874 autoreload 8 140346954475328 /usr/src/app/backend/settings.py changed, reloading.
+INFO 2022-05-04 13:00:13,293 autoreload 10 140663608424256 Watching for file changes with StatReloader
+INFO 2022-05-04 13:08:00,374 autoreload 8 140279388149568 Watching for file changes with StatReloader
+INFO 2022-05-04 13:08:12,462 autoreload 8 140279388149568 /usr/src/app/backend/settings.py changed, reloading.
+INFO 2022-05-04 13:08:12,891 autoreload 10 140517768017728 Watching for file changes with StatReloader
+INFO 2022-05-04 13:08:21,439 autoreload 8 140621603075904 Watching for file changes with StatReloader
+INFO 2022-05-04 13:10:38,977 autoreload 8 140621603075904 /usr/src/app/backend/settings.py changed, reloading.
+INFO 2022-05-04 13:10:39,458 autoreload 10 140045863368512 Watching for file changes with StatReloader
+INFO 2022-05-04 13:32:58,626 autoreload 5048 2696 Watching for file changes with StatReloader
+INFO 2022-05-04 13:33:12,982 autoreload 5048 2696 C:\Users\Ramza\OneDrive\Dokumenter\Git\redrock\src\backend\settings.py changed, reloading.
+INFO 2022-05-04 13:33:13,707 autoreload 19896 9736 Watching for file changes with StatReloader
+INFO 2022-05-04 13:33:51,924 basehttp 19896 14908 "GET / HTTP/1.1" 200 16706
+INFO 2022-05-04 13:33:51,961 basehttp 19896 1604 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-05-04 13:33:51,961 basehttp 19896 14908 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-05-04 13:33:52,095 basehttp 19896 14908 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11479
+INFO 2022-05-04 13:33:52,099 basehttp 19896 1604 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 11275
+INFO 2022-05-04 13:33:52,111 basehttp 19896 1604 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2022-05-04 13:33:52,118 basehttp 19896 14908 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 3531
+WARNING 2022-05-04 13:33:52,224 log 19896 14908 Not Found: /favicon.ico
+WARNING 2022-05-04 13:33:52,225 basehttp 19896 14908 "GET /favicon.ico HTTP/1.1" 404 13677
+INFO 2022-05-04 13:33:56,983 basehttp 19896 14908 "GET /planning/ HTTP/1.1" 200 18967
+INFO 2022-05-04 23:17:41,017 autoreload 8 140281171101504 Watching for file changes with StatReloader
+INFO 2022-05-04 23:21:20,724 autoreload 8 140281171101504 /usr/src/app/backend/settings.py changed, reloading.
+INFO 2022-05-04 23:21:21,200 autoreload 10 139878792075072 Watching for file changes with StatReloader
+INFO 2022-05-04 23:26:50,114 autoreload 8 139807324149568 Watching for file changes with StatReloader
+INFO 2022-05-04 23:28:59,067 basehttp 8 139807252883200 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-04 23:28:59,098 basehttp 8 139807244490496 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-05-04 23:28:59,098 basehttp 8 139807261275904 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-05-04 23:28:59,098 basehttp 8 139807252883200 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-04 23:28:59,139 basehttp 8 139807252883200 "GET /static/img/logo.png HTTP/1.1" 304 0
+INFO 2022-05-04 23:28:59,274 basehttp 8 139807252883200 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
+INFO 2022-05-04 23:28:59,296 basehttp 8 139807252883200 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
+WARNING 2022-05-04 23:28:59,317 log 8 139807252883200 Not Found: /favicon.ico
+WARNING 2022-05-04 23:28:59,318 basehttp 8 139807252883200 "GET /favicon.ico HTTP/1.1" 404 4087
+INFO 2022-05-04 23:29:02,776 basehttp 8 139807252883200 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-04 23:29:04,801 basehttp 8 139807261275904 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-04 23:29:09,322 basehttp 8 139807261275904 "GET /planning/ HTTP/1.1" 200 3002
+INFO 2022-05-04 23:31:17,361 basehttp 8 139807261275904 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-04 23:31:20,529 basehttp 8 139807261275904 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-04 23:32:24,405 basehttp 8 139807261275904 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-04 23:32:27,494 basehttp 8 139807261275904 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-04 23:32:30,472 basehttp 8 139807261275904 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-04 23:32:33,078 basehttp 8 139807261275904 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-04 23:32:38,385 basehttp 8 139807261275904 "GET /planning/ HTTP/1.1" 200 3002
+INFO 2022-05-04 23:32:41,197 basehttp 8 139807261275904 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-04 23:42:05,259 autoreload 8 139646635808576 Watching for file changes with StatReloader
+INFO 2022-05-04 23:43:02,211 autoreload 7 140170846398272 Watching for file changes with StatReloader
+INFO 2022-05-04 23:43:50,064 basehttp 7 140170775131904 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-04 23:43:54,220 basehttp 7 140170775131904 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-04 23:43:56,740 basehttp 7 140170775131904 "GET /planning/ HTTP/1.1" 200 3002
+INFO 2022-05-04 23:44:02,641 basehttp 7 140170775131904 "GET /planning/finisd HTTP/1.1" 200 2711
+INFO 2022-05-04 23:44:24,321 basehttp 7 140170775131904 "GET /planning/add HTTP/1.1" 200 5663
+ERROR 2022-05-04 23:44:47,108 log 7 140170775131904 Internal Server Error: /planning/add
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.IntegrityError: (1364, "Field 'assignee_id' doesn't have a default value")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 66, in add_subtask
+    form.save()
+  File "/usr/local/lib/python3.10/site-packages/django/forms/models.py", line 466, in save
+    self.instance.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 743, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 780, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 885, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 923, in _do_insert
+    return manager._insert(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1301, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1441, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1364, "Field 'assignee_id' doesn't have a default value")
+ERROR 2022-05-04 23:44:47,115 basehttp 7 140170775131904 "POST /planning/add HTTP/1.1" 500 170173
+INFO 2022-05-04 23:45:21,074 basehttp 7 140170775131904 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-04 23:46:27,164 autoreload 7 140474003908416 Watching for file changes with StatReloader
+INFO 2022-05-04 23:46:58,484 autoreload 8 139831660947264 Watching for file changes with StatReloader
+INFO 2022-05-04 23:50:51,124 autoreload 8 139770449700672 Watching for file changes with StatReloader
+INFO 2022-05-04 23:51:03,328 basehttp 8 139770307012352 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-04 23:51:07,003 basehttp 8 139770307012352 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-04 23:51:08,750 basehttp 8 139770315405056 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-04 23:51:12,025 basehttp 8 139770315405056 "GET /planning/ HTTP/1.1" 200 3002
+INFO 2022-05-04 23:52:07,605 basehttp 8 139770315405056 "GET /planning/ HTTP/1.1" 200 3002
+INFO 2022-05-04 23:53:44,289 autoreload 8 140077275588416 Watching for file changes with StatReloader
+INFO 2022-05-04 23:54:29,861 basehttp 8 140077137131264 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-04 23:54:33,308 basehttp 8 140077137131264 "GET /order HTTP/1.1" 200 4052
+INFO 2022-05-05 00:14:37,841 autoreload 8 140129010964288 Watching for file changes with StatReloader
+INFO 2022-05-05 11:43:29,929 autoreload 8 139950003599168 Watching for file changes with StatReloader
+INFO 2022-05-05 11:44:07,155 autoreload 7 140081899521856 Watching for file changes with StatReloader
+INFO 2022-05-05 11:45:42,234 autoreload 7 140422192252736 Watching for file changes with StatReloader
+INFO 2022-05-05 11:47:06,051 autoreload 7 139968345839424 Watching for file changes with StatReloader
+INFO 2022-05-05 11:54:25,540 autoreload 8 139999332022080 Watching for file changes with StatReloader
+INFO 2022-05-05 11:56:53,611 autoreload 8 140509075175232 Watching for file changes with StatReloader
+INFO 2022-05-05 11:57:48,397 autoreload 8 140162932660032 Watching for file changes with StatReloader
+INFO 2022-05-05 11:58:23,355 autoreload 7 140253677053760 Watching for file changes with StatReloader
+INFO 2022-05-05 12:10:11,107 autoreload 8 140523437909824 Watching for file changes with StatReloader
+INFO 2022-05-05 12:11:32,219 autoreload 8 140379657942848 Watching for file changes with StatReloader
+INFO 2022-05-05 12:14:01,273 autoreload 7 140447531804480 Watching for file changes with StatReloader
+INFO 2022-05-05 12:15:08,007 autoreload 7 140262082271040 Watching for file changes with StatReloader
+INFO 2022-05-05 12:15:48,085 autoreload 8 140154420877120 Watching for file changes with StatReloader
+INFO 2022-05-05 12:35:13,826 autoreload 8 139736994125632 Watching for file changes with StatReloader
+INFO 2022-05-05 12:36:04,443 autoreload 7 140039000782656 Watching for file changes with StatReloader
+ERROR 2022-05-05 12:36:20,865 log 7 140038937908992 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 47, in displaydata1
+    return render(request, 'index.html', {'Subtask': results1})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+ERROR 2022-05-05 12:36:20,873 basehttp 7 140038937908992 "GET / HTTP/1.1" 500 188501
+WARNING 2022-05-05 12:36:21,059 log 7 140038937908992 Not Found: /favicon.ico
+WARNING 2022-05-05 12:36:21,059 basehttp 7 140038937908992 "GET /favicon.ico HTTP/1.1" 404 4087
+INFO 2022-05-05 14:10:39,266 autoreload 7 140039000782656 /usr/src/app/backend/settings.py changed, reloading.
+INFO 2022-05-05 14:10:39,874 autoreload 11 139834830964544 Watching for file changes with StatReloader
+INFO 2022-05-05 14:10:51,928 autoreload 11 139834830964544 /usr/src/app/backend/settings.py changed, reloading.
+INFO 2022-05-05 14:10:52,433 autoreload 13 139992963680064 Watching for file changes with StatReloader
+ERROR 2022-05-05 14:11:04,673 log 13 139992901854976 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 47, in displaydata1
+    return render(request, 'index.html', {'Subtask': results1})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+ERROR 2022-05-05 14:11:04,682 basehttp 13 139992901854976 "GET / HTTP/1.1" 500 188289
+ERROR 2022-05-05 14:11:06,839 log 13 139992901854976 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 47, in displaydata1
+    return render(request, 'index.html', {'Subtask': results1})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+ERROR 2022-05-05 14:11:06,842 basehttp 13 139992901854976 "GET / HTTP/1.1" 500 188296
+ERROR 2022-05-05 14:11:07,510 log 13 139992901854976 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 47, in displaydata1
+    return render(request, 'index.html', {'Subtask': results1})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+ERROR 2022-05-05 14:11:07,514 basehttp 13 139992901854976 "GET / HTTP/1.1" 500 188296
+INFO 2022-05-05 14:11:24,869 autoreload 8 140706314012480 Watching for file changes with StatReloader
+ERROR 2022-05-05 14:11:35,175 log 8 140706252187392 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 47, in displaydata1
+    return render(request, 'index.html', {'Subtask': results1})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+ERROR 2022-05-05 14:11:35,184 basehttp 8 140706252187392 "GET / HTTP/1.1" 500 188296
+ERROR 2022-05-05 14:11:36,075 log 8 140706252187392 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 47, in displaydata1
+    return render(request, 'index.html', {'Subtask': results1})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+ERROR 2022-05-05 14:11:36,079 basehttp 8 140706252187392 "GET / HTTP/1.1" 500 188296
+ERROR 2022-05-05 14:11:37,275 log 8 140706252187392 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 47, in displaydata1
+    return render(request, 'index.html', {'Subtask': results1})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+ERROR 2022-05-05 14:11:37,279 basehttp 8 140706252187392 "GET / HTTP/1.1" 500 188296
+ERROR 2022-05-05 14:11:38,836 log 8 140706252187392 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 47, in displaydata1
+    return render(request, 'index.html', {'Subtask': results1})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'redrock_subtask.operationID_id' in 'field list'")
+ERROR 2022-05-05 14:11:38,839 basehttp 8 140706252187392 "GET / HTTP/1.1" 500 188296
+>>>>>>> Stashed changes

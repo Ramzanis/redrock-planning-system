@@ -91,10 +91,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'redrock',
-        'HOST': 'mysql-69376-0.cloudclusters.net',
-        'USER': 'admin',
-        'PORT': '19762',
-        'PASSWORD': 'o4yo8VCj'
+        'HOST': 'db',
+        'USER': 'root',
+        'PORT': '3306',
+        'PASSWORD': 'root'
     }
 }
 

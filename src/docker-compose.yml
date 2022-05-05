@@ -1,13 +1,7 @@
-version: '3.8'
+version: '3.9'
 
 services:
-  db:
-    image: mysql:8
-    container_name: mysqldb
-    environment:
-      - MYSQL_DATABASE='redrock'
-      - MYSQL_USER='admin'
-      - MYSQL_PASSWORD='o4yo8VCj'
+
   django:
     build: .
     container_name: django
@@ -15,7 +9,21 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - .:/usr/src/app
+      - .:/usr/src/app/
       - /tmp/app/mysqld:/run/mysqld
     depends_on:
       - db
+
+  db:
+    image: mysql
+    container_name: mysqldb
+    ports:
+      - "3306:3306"
+    environment:
+     - MYSQL_ROOT_PASSWORD=root
+     - MYSQL_DATABASE=redrock
+    volumes:
+      - ./data/db:/var/lib/mysql
+
+
+  
