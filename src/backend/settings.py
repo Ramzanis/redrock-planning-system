@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-=tl-%k^8&y*sz3%hkn3)vkwv!q&+d$$_f5(l_wy#p2!+d-qa!@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # INSTALLED APPS
@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'redrock',
     'auditlog',
     'import_export',
-
 ]
 
 MIDDLEWARE = [
@@ -92,10 +91,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'redrock',
-        'HOST': 'mysql-69376-0.cloudclusters.net',
-        'USER': 'admin',
-        'PORT': '19762',
-        'PASSWORD': 'o4yo8VCj'
+        'HOST': 'db',
+        'USER': 'root',
+        'PORT': '3306',
+        'PASSWORD': 'root'
     }
 }
 
