@@ -3,86 +3,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="{% static 'js/java.js' %}"></script>
-    <script type="text/javascript" charset="utf8" src="{% static 'DataTables/datatables.min.js' %}"></script>
-  
-    <link rel="stylesheet" type="text/css" href="{% static 'DataTables/datatables.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
-    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="{% static 'js/java.js' %}"></script><!-- Linking the wesite to JavaScript -->
+  <script type="text/javascript" charset="utf8" src="{% static 'DataTables/datatables.min.js' %}"></script><!-- Linking the wesite to resources for tables -->
+  <script src="https://kit.fontawesome.com/7281c95392.js" crossorigin="anonymous"></script> <!-- Linking the wesite for icons -->
+  <link rel="stylesheet" type="text/css" href="{% static 'DataTables/datatables.min.css' %}"> <!-- Linking the page to the resources for the tabels -->
+  <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}"> <!-- Linking the page to the CSS file with static files -->
+  <link rel="stylesheet" href="{% static 'css/responsive.css' %}"> <!-- Linking the page to the Responsive CSS file with static files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!-- Linking the page to Bootstrap -->
 </head>
 
 <body>
-    <div class="container-fluid" style="margin: 0">
+  <div class="container-fluid" style="margin: 0">
+    <div class="row">
+      <div class="col-2" id="nav_bar">
+        <!-- Navigation bar -->
+        <img src="{% static 'img/logo.png' %}" class="img-fluid" alt="RedRock logo">
 
-        <div class="row">
-            <div class="col-2" id="nav_bar">
-                <img src="{% static 'img/logo.png' %}" class="img-fluid" alt="RedRock logo">
-
-                <div class="d-grid">
-                    <a class="btn-g" href="{% url 'displayindex' %}" role="button"><i class="fa fa-home"></i> Home</a>
-                    <a class="btn-g" href="{% url 'displayorder' %}" role="button"><i class="fa fa-calendar"></i>
-                        Operation</a>
-                    <a class="btn-g" href="{% url 'displaydata' %}" role="button"><i class="fa fa-chart-area"></i>
-                        Subtask</a>
-                    <!--<a class="btn-g" href="{% url 'displayorder' %}" role="button"><i class="fa fa-chart-area"></i> Statitics</a>-->
-                </div>
-
-                <p class="text-center foot"> ver 0.0.1 © RedRock.AI</p>
-            </div>
-            <div class="col-10" id="page">
-                <h1 class="title-home">Home</h1>
-
-                <div class="new_table">
-
-                    <table id="blbbl" class="display">
-                      <thead>
-                        <tr>
-                          <th class="">LoadSeq</th>
-                          <th class="">Status</th>
-                          <th class="">Stow</th>
-                          <th class="">MoveTo</th>
-                          <th class="">ID</th>
-                          <th class="">OperationID</th>
-                          <th class="">ContinerID</th>
-                          <th class="">Weight</th>
-                         
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {% for Subtask in Subtask %}
-                        <tr>
-                          <td class="">{{Subtask.loadSeq}}</td>
-                          <td class="">{{Subtask.status}}</td>
-                          <td class="">{{Subtask.stow}}</td>
-                          <td class="">{{Subtask.moveTo}}</td>
-                          <td class="">{{Subtask.subtaskID}}</td>
-                          <td class="">{{Subtask.operationID}}</td>
-                          <td class="">{{Subtask.containerID}}</td>
-                          <td class="">{{Subtask.containerWeightT}}</td>
-                          
-                      
-                        </tr>
-                        {% endfor %}
-                      </tbody>
-                    </table>
-                  </div>
-            </div>
+        <div class="d-grid">
+            <!-- Navigation links connected with URL -->
+            <a class="btn-g" href="{% url 'displayindex' %}" role="button"><i class="fa fa-home"></i> Home</a>
+            <a class="btn-g" href="{% url 'displayorder' %}" role="button"><i class="fa fa-calendar"></i>
+                Operation</a>
+            <a class="btn-g" href="{% url 'displaydata' %}" role="button"><i class="fa fa-chart-area"></i>
+                Subtask</a>
         </div>
+        <p class="text-center foot">ver 0.0.1 © RedRock.AI</p> <!-- Copiright text -->
     </div>
+      <div class="col-10" id="page">
+        <h1 class="title-home">Home</h1>
+        <p class="text-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel metus non metus
+          condimentum pellentesque id quis dolor.
+          Phasellus non lectus in magna mattis bibendum. Vestibulum ante ipsum primis in faucibus orci luctus
+          et ultrices posuere cubilia curae;
+          Maecenas a ornare dui. Mauris lacinia tristique aliquet. Praesent sed fringilla lorem.
+        </p> <!-- Info text for the page -->
+        <div class="new_table">
+          <table id="table" class="display">
+            <thead> <!-- Table head-->
+              <tr>
+                <th class="">Status</th> <!-- Columns -->
+                <th class="">Stow</th> <!-- Columns -->
+                <th class="">MoveTo</th> <!-- Columns -->
+                <th class="">Weight</th> <!-- Columns -->
+              </tr>
+            </thead>
+            <tbody> <!-- Table body -->
+              {% for Subtask in Subtask %} <!-- Geting data from views.py -->
+              <tr>
+                <td class="">{{Subtask.status}}</td> <!-- Rows with valeus from Database -->
+                <td class="">{{Subtask.stow}}</td> <!-- Rows with valeus from Database -->
+                <td class="">{{Subtask.moveTo}}</td> <!-- Rows with valeus from Database -->
+                <td class="">{{Subtask.containerWeightT}}</td> <!-- Rows with valeus from Database -->
+              </tr>
+              {% endfor %} <!-- Ending for loop -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <script src="https://kit.fontawesome.com/7281c95392.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
 </body>
-
 </html>

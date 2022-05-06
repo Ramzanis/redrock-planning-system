@@ -10,7 +10,7 @@ router.register('status', views.StatusViewSet, basename='status')
 router.register('operation', views.OperationViewSet)
 router.register('tes', views.SubtaskViewSet, basename='status')
 
-# URLConf
+# URL Configs
 urlpatterns = [
      path('', views.displayindex, name='displayindex'),
      path('order', views.displayorder, name='displayorder'),

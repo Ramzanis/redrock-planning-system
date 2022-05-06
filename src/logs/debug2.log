@@ -3408,184 +3408,797 @@ INFO 2022-05-05 10:48:38,965 autoreload 6451 4522063360 /Users/tiberiuminzat/Doc
 INFO 2022-05-05 10:48:39,603 autoreload 6469 4588393984 Watching for file changes with StatReloader
 INFO 2022-05-05 10:51:36,355 basehttp 6469 123145598246912 "GET /admin/redrock/subtask/ HTTP/1.1" 200 61375
 INFO 2022-05-05 10:51:38,331 basehttp 6469 123145598246912 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
-INFO 2022-05-05 14:24:01,894 autoreload 8 139911036757824 Watching for file changes with StatReloader
-INFO 2022-05-05 14:31:12,254 autoreload 8 140000545167168 Watching for file changes with StatReloader
-INFO 2022-05-05 14:35:19,805 autoreload 8 139960909752128 Watching for file changes with StatReloader
-INFO 2022-05-05 14:36:30,908 autoreload 8 140226092799808 Watching for file changes with StatReloader
-INFO 2022-05-05 14:38:04,028 autoreload 8 140226092799808 /usr/src/app/backend/settings.py changed, reloading.
-INFO 2022-05-05 14:38:04,410 autoreload 10 139808975968064 Watching for file changes with StatReloader
-INFO 2022-05-05 14:38:11,637 autoreload 10 139808975968064 /usr/src/app/backend/settings.py changed, reloading.
-INFO 2022-05-05 14:38:12,035 autoreload 12 139799419520832 Watching for file changes with StatReloader
-INFO 2022-05-05 14:38:51,572 autoreload 7 140233022687040 Watching for file changes with StatReloader
-INFO 2022-05-05 14:41:33,323 autoreload 7 139687130806080 Watching for file changes with StatReloader
-INFO 2022-05-06 12:49:03,300 autoreload 8 140459883099968 Watching for file changes with StatReloader
-INFO 2022-05-06 12:55:35,389 autoreload 8 139997192783680 Watching for file changes with StatReloader
-INFO 2022-05-06 12:57:42,353 autoreload 8 140483123607360 Watching for file changes with StatReloader
-INFO 2022-05-06 12:58:00,103 basehttp 8 140483037726464 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 12:58:00,141 basehttp 8 140482675996416 "GET /static/css/responsive.css HTTP/1.1" 304 0
-INFO 2022-05-06 12:58:00,141 basehttp 8 140483020941056 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
-INFO 2022-05-06 12:58:00,141 basehttp 8 140483037726464 "GET /static/js/java.js HTTP/1.1" 304 0
-INFO 2022-05-06 12:58:00,141 basehttp 8 140483046119168 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
-INFO 2022-05-06 12:58:00,141 basehttp 8 140483029333760 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
-INFO 2022-05-06 12:58:00,174 basehttp 8 140483037726464 "GET /static/img/logo.png HTTP/1.1" 304 0
-INFO 2022-05-06 12:58:00,357 basehttp 8 140483037726464 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
-INFO 2022-05-06 12:58:00,378 basehttp 8 140483037726464 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
-WARNING 2022-05-06 12:58:00,436 log 8 140483037726464 Not Found: /favicon.ico
-WARNING 2022-05-06 12:58:00,437 basehttp 8 140483037726464 "GET /favicon.ico HTTP/1.1" 404 4087
-INFO 2022-05-06 12:58:02,814 basehttp 8 140483037726464 "GET /order HTTP/1.1" 200 5406
-INFO 2022-05-06 12:58:04,093 basehttp 8 140483037726464 "GET /planning/ HTTP/1.1" 200 9234
-INFO 2022-05-06 12:58:07,902 basehttp 8 140483037726464 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 12:58:16,163 autoreload 8 140483123607360 /usr/src/app/backend/settings.py changed, reloading.
-INFO 2022-05-06 12:58:16,712 autoreload 15 140549675841344 Watching for file changes with StatReloader
-INFO 2022-05-06 12:59:26,840 basehttp 15 140549598353152 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 12:59:33,880 autoreload 15 140549675841344 /usr/src/app/backend/settings.py changed, reloading.
-INFO 2022-05-06 12:59:34,488 autoreload 19 140244983572288 Watching for file changes with StatReloader
-INFO 2022-05-06 13:01:18,112 basehttp 19 140244831164160 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 13:01:23,680 basehttp 19 140244813330176 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 13:01:23,738 basehttp 19 140244813330176 "GET /static/js/java.js HTTP/1.1" 200 72
-INFO 2022-05-06 13:01:23,739 basehttp 19 140244804937472 "GET /static/DataTables/datatables.min.css HTTP/1.1" 200 17375
-INFO 2022-05-06 13:01:23,741 basehttp 19 140244796544768 "GET /static/css/stylesheet.css HTTP/1.1" 200 1672
-INFO 2022-05-06 13:01:23,741 basehttp 19 140244788152064 "GET /static/css/responsive.css HTTP/1.1" 200 1234
-INFO 2022-05-06 13:01:23,764 basehttp 19 140244821722880 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 132904
-INFO 2022-05-06 13:01:23,815 basehttp 19 140244821722880 "GET /static/img/logo.png HTTP/1.1" 200 285562
-INFO 2022-05-06 13:01:23,890 basehttp 19 140244821722880 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 200 201
-INFO 2022-05-06 13:01:23,913 basehttp 19 140244821722880 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 200 160
-WARNING 2022-05-06 13:01:23,989 log 19 140244821722880 Not Found: /favicon.ico
-WARNING 2022-05-06 13:01:23,990 basehttp 19 140244821722880 "GET /favicon.ico HTTP/1.1" 404 4087
-INFO 2022-05-06 13:01:52,493 basehttp 19 140244831164160 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 13:02:48,701 basehttp 19 140244839556864 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 13:02:54,821 basehttp 19 140244305311488 "GET /planning/ HTTP/1.1" 200 9234
-ERROR 2022-05-06 13:02:54,880 log 19 140244831164160 Internal Server Error: /order
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 230, in ensure_connection
-    self.connect()
-  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 211, in connect
-    self.connection = self.get_new_connection(conn_params)
-  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 233, in get_new_connection
-    connection = Database.connect(**conn_params)
-  File "/usr/local/lib/python3.10/site-packages/MySQLdb/__init__.py", line 123, in Connect
-    return Connection(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 185, in __init__
-    super().__init__(*args, **kwargs2)
-MySQLdb._exceptions.OperationalError: (2005, "Unknown MySQL server host 'db' (-3)")
+INFO 2022-05-05 11:54:49,359 autoreload 6469 4588393984 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 11:54:50,229 autoreload 7317 4660979200 Watching for file changes with StatReloader
+INFO 2022-05-05 11:54:56,583 autoreload 7317 4660979200 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 11:54:57,302 autoreload 7336 4584089088 Watching for file changes with StatReloader
+INFO 2022-05-05 11:55:16,892 basehttp 7336 123145449033728 "GET /admin/redrock/subtask/import/ HTTP/1.1" 200 17249
+INFO 2022-05-05 11:56:05,103 basehttp 7336 123145449033728 "POST /admin/redrock/subtask/import/ HTTP/1.1" 200 22607
+INFO 2022-05-05 11:57:17,271 basehttp 7336 123145449033728 "POST /admin/redrock/subtask/import/ HTTP/1.1" 200 22604
+INFO 2022-05-05 11:57:59,631 basehttp 7336 123145449033728 "POST /admin/redrock/subtask/import/ HTTP/1.1" 200 18150
+INFO 2022-05-05 11:58:14,242 autoreload 7336 4584089088 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 11:58:14,836 autoreload 7383 4573615616 Watching for file changes with StatReloader
+INFO 2022-05-05 11:58:18,116 autoreload 7383 4573615616 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 11:58:18,761 autoreload 7393 4563330560 Watching for file changes with StatReloader
+INFO 2022-05-05 11:58:24,437 autoreload 7393 4563330560 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 11:58:25,092 autoreload 7402 4386678272 Watching for file changes with StatReloader
+INFO 2022-05-05 11:58:30,736 autoreload 7402 4386678272 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 11:58:31,286 autoreload 7414 4443829760 Watching for file changes with StatReloader
+INFO 2022-05-05 11:58:34,574 autoreload 7414 4443829760 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 11:58:35,060 autoreload 7421 4606473728 Watching for file changes with StatReloader
+INFO 2022-05-05 11:58:37,338 autoreload 7421 4606473728 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 11:58:37,957 autoreload 7431 4676597248 Watching for file changes with StatReloader
+INFO 2022-05-05 11:58:44,665 autoreload 7431 4676597248 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 11:58:45,307 autoreload 7440 4593149440 Watching for file changes with StatReloader
+INFO 2022-05-05 13:27:03,114 autoreload 7440 4593149440 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:27:04,327 autoreload 8370 4581090816 Watching for file changes with StatReloader
+INFO 2022-05-05 13:27:12,300 autoreload 8370 4581090816 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:27:13,096 autoreload 8392 4733433344 Watching for file changes with StatReloader
+INFO 2022-05-05 13:27:15,732 autoreload 8392 4733433344 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:27:16,514 autoreload 8401 4641461760 Watching for file changes with StatReloader
+INFO 2022-05-05 13:27:21,184 autoreload 8401 4641461760 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:27:21,962 autoreload 8411 4459312640 Watching for file changes with StatReloader
+INFO 2022-05-05 13:27:45,393 autoreload 8411 4459312640 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:27:46,151 autoreload 8430 4452087296 Watching for file changes with StatReloader
+INFO 2022-05-05 13:27:50,792 autoreload 8430 4452087296 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:27:51,537 autoreload 8441 4386514432 Watching for file changes with StatReloader
+INFO 2022-05-05 13:27:52,980 autoreload 8441 4386514432 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:27:53,789 autoreload 8450 4676285952 Watching for file changes with StatReloader
+INFO 2022-05-05 13:27:59,501 autoreload 8450 4676285952 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:28:00,325 autoreload 8461 4475602432 Watching for file changes with StatReloader
+INFO 2022-05-05 13:28:07,097 autoreload 8461 4475602432 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:28:07,830 autoreload 8473 4785042944 Watching for file changes with StatReloader
+INFO 2022-05-05 13:28:11,617 autoreload 8473 4785042944 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:28:12,220 autoreload 8481 4727395840 Watching for file changes with StatReloader
+INFO 2022-05-05 13:28:15,515 autoreload 8481 4727395840 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:28:16,022 autoreload 8490 4389590528 Watching for file changes with StatReloader
+INFO 2022-05-05 13:28:18,287 autoreload 8490 4389590528 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 13:28:18,878 autoreload 8493 4467811840 Watching for file changes with StatReloader
+INFO 2022-05-05 14:05:09,619 autoreload 8493 4467811840 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:05:10,476 autoreload 8826 4398765568 Watching for file changes with StatReloader
+INFO 2022-05-05 14:05:11,804 autoreload 8826 4398765568 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:05:12,619 autoreload 8829 4603454976 Watching for file changes with StatReloader
+INFO 2022-05-05 14:05:22,536 autoreload 8829 4603454976 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:05:23,337 autoreload 8845 4631504384 Watching for file changes with StatReloader
+INFO 2022-05-05 14:05:26,937 autoreload 8845 4631504384 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:05:27,659 autoreload 8854 4560229888 Watching for file changes with StatReloader
+INFO 2022-05-05 14:05:40,675 autoreload 8854 4560229888 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:05:41,441 autoreload 8873 4593591808 Watching for file changes with StatReloader
+INFO 2022-05-05 14:05:42,856 autoreload 8873 4593591808 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:05:43,449 autoreload 8882 4757444096 Watching for file changes with StatReloader
+INFO 2022-05-05 14:05:45,731 autoreload 8882 4757444096 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:05:46,300 autoreload 8883 4607804928 Watching for file changes with StatReloader
+INFO 2022-05-05 14:05:57,687 autoreload 8883 4607804928 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:05:58,441 autoreload 8901 4629775872 Watching for file changes with StatReloader
+INFO 2022-05-05 14:06:13,525 autoreload 8901 4629775872 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:06:14,286 autoreload 8920 4630353408 Watching for file changes with StatReloader
+INFO 2022-05-05 14:06:17,925 autoreload 8920 4630353408 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:06:18,671 autoreload 8929 4605068800 Watching for file changes with StatReloader
+INFO 2022-05-05 14:06:22,293 autoreload 8929 4605068800 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:06:23,083 autoreload 8940 4692305408 Watching for file changes with StatReloader
+INFO 2022-05-05 14:06:25,672 autoreload 8940 4692305408 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-05 14:06:26,467 autoreload 8949 4584502784 Watching for file changes with StatReloader
+INFO 2022-05-05 14:08:28,817 autoreload 8949 4584502784 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:08:29,603 autoreload 8983 4391872000 Watching for file changes with StatReloader
+INFO 2022-05-05 14:08:36,348 autoreload 8983 4391872000 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:08:37,104 autoreload 9001 4786701824 Watching for file changes with StatReloader
+INFO 2022-05-05 14:08:39,392 autoreload 9001 4786701824 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:08:40,246 autoreload 9002 4715812352 Watching for file changes with StatReloader
+INFO 2022-05-05 14:08:44,568 autoreload 9002 4715812352 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:08:45,353 autoreload 9012 4633982464 Watching for file changes with StatReloader
+INFO 2022-05-05 14:08:47,919 autoreload 9012 4633982464 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:08:48,701 autoreload 9022 4438402560 Watching for file changes with StatReloader
+INFO 2022-05-05 14:08:54,430 autoreload 9022 4438402560 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:08:55,155 autoreload 9032 4666521088 Watching for file changes with StatReloader
+INFO 2022-05-05 14:08:56,449 autoreload 9032 4666521088 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:08:57,178 autoreload 9041 4475180544 Watching for file changes with StatReloader
+INFO 2022-05-05 14:08:59,465 autoreload 9041 4475180544 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:00,187 autoreload 9042 4712785408 Watching for file changes with StatReloader
+INFO 2022-05-05 14:09:06,516 autoreload 9042 4712785408 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:07,291 autoreload 9060 4658738688 Watching for file changes with StatReloader
+INFO 2022-05-05 14:09:10,880 autoreload 9060 4658738688 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:11,740 autoreload 9063 4479817216 Watching for file changes with StatReloader
+INFO 2022-05-05 14:09:15,374 autoreload 9063 4479817216 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:16,118 autoreload 9072 4454413824 Watching for file changes with StatReloader
+INFO 2022-05-05 14:09:18,426 autoreload 9072 4454413824 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:19,196 autoreload 9081 4520076800 Watching for file changes with StatReloader
+INFO 2022-05-05 14:09:20,482 autoreload 9081 4520076800 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:21,244 autoreload 9083 4747023872 Watching for file changes with StatReloader
+INFO 2022-05-05 14:09:27,971 autoreload 9083 4747023872 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:28,763 autoreload 9102 4771247616 Watching for file changes with StatReloader
+INFO 2022-05-05 14:09:35,540 autoreload 9102 4771247616 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:36,325 autoreload 9115 4577310208 Watching for file changes with StatReloader
+INFO 2022-05-05 14:09:38,631 autoreload 9115 4577310208 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:39,406 autoreload 9122 4411168256 Watching for file changes with StatReloader
+INFO 2022-05-05 14:09:51,338 autoreload 9122 4411168256 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:51,932 autoreload 9140 4644189696 Watching for file changes with StatReloader
+INFO 2022-05-05 14:09:53,196 autoreload 9140 4644189696 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:09:53,915 autoreload 9150 4319221248 Watching for file changes with StatReloader
+INFO 2022-05-05 14:22:08,535 autoreload 9150 4319221248 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:22:09,447 autoreload 9309 4704564736 Watching for file changes with StatReloader
+INFO 2022-05-05 14:22:11,756 autoreload 9309 4704564736 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:22:12,582 autoreload 9318 4662191616 Watching for file changes with StatReloader
+INFO 2022-05-05 14:22:18,352 autoreload 9318 4662191616 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:22:19,107 autoreload 9328 4711212544 Watching for file changes with StatReloader
+INFO 2022-05-05 14:22:20,568 autoreload 9328 4711212544 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:22:21,339 autoreload 9337 4636337664 Watching for file changes with StatReloader
+INFO 2022-05-05 14:22:27,203 autoreload 9337 4636337664 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:22:27,970 autoreload 9346 4502525440 Watching for file changes with StatReloader
+INFO 2022-05-05 14:22:35,741 autoreload 9346 4502525440 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-05 14:22:36,498 autoreload 9364 4779775488 Watching for file changes with StatReloader
+INFO 2022-05-05 15:57:12,095 basehttp 9364 123145572302848 "GET / HTTP/1.1" 200 13094
+INFO 2022-05-05 15:57:12,121 basehttp 9364 123145589092352 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-05-05 15:57:12,123 basehttp 9364 123145572302848 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 128769
+INFO 2022-05-05 15:57:12,375 basehttp 9364 123145572302848 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-05-05 15:59:39,253 autoreload 9364 4779775488 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 15:59:40,439 autoreload 10160 4578674176 Watching for file changes with StatReloader
+INFO 2022-05-05 15:59:48,001 autoreload 10160 4578674176 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 15:59:48,733 autoreload 10179 4520396288 Watching for file changes with StatReloader
+INFO 2022-05-05 16:00:04,522 autoreload 10179 4520396288 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:00:05,288 autoreload 10193 4664940032 Watching for file changes with StatReloader
+INFO 2022-05-05 16:00:12,146 autoreload 10193 4664940032 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:00:12,829 autoreload 10213 4451550720 Watching for file changes with StatReloader
+INFO 2022-05-05 16:00:15,105 autoreload 10213 4451550720 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:00:15,785 autoreload 10214 4479260160 Watching for file changes with StatReloader
+INFO 2022-05-05 16:00:26,831 autoreload 10214 4479260160 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:00:27,552 autoreload 10232 4602340864 Watching for file changes with StatReloader
+INFO 2022-05-05 16:00:36,482 autoreload 10232 4602340864 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:00:37,195 autoreload 10250 4432492032 Watching for file changes with StatReloader
+INFO 2022-05-05 16:00:38,578 autoreload 10250 4432492032 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:00:39,372 autoreload 10253 4556506624 Watching for file changes with StatReloader
+INFO 2022-05-05 16:00:43,137 autoreload 10253 4556506624 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:00:43,796 autoreload 10261 4689241600 Watching for file changes with StatReloader
+INFO 2022-05-05 16:00:48,125 autoreload 10261 4689241600 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:00:48,844 autoreload 10271 4631959040 Watching for file changes with StatReloader
+INFO 2022-05-05 16:01:07,164 autoreload 10271 4631959040 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:01:07,900 autoreload 10293 4596942336 Watching for file changes with StatReloader
+INFO 2022-05-05 16:01:13,299 autoreload 10293 4596942336 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:01:14,050 autoreload 10305 4455454208 Watching for file changes with StatReloader
+INFO 2022-05-05 16:01:19,866 autoreload 10305 4455454208 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:01:20,757 autoreload 10316 4480173568 Watching for file changes with StatReloader
+INFO 2022-05-05 16:01:26,691 basehttp 10316 123145562857472 "GET / HTTP/1.1" 200 13173
+INFO 2022-05-05 16:01:53,015 autoreload 10316 4480173568 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:01:54,180 autoreload 10339 4628940288 Watching for file changes with StatReloader
+INFO 2022-05-05 16:02:01,117 basehttp 10339 123145385209856 "GET / HTTP/1.1" 200 15014
+INFO 2022-05-05 16:04:52,239 autoreload 10339 4628940288 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:04:53,297 autoreload 10385 4397397504 Watching for file changes with StatReloader
+INFO 2022-05-05 16:05:02,297 autoreload 10385 4397397504 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:05:03,043 autoreload 10398 4596909568 Watching for file changes with StatReloader
+INFO 2022-05-05 16:05:07,895 autoreload 10398 4596909568 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:05:08,606 autoreload 10415 4464674304 Watching for file changes with StatReloader
+INFO 2022-05-05 16:05:18,503 autoreload 10415 4464674304 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-05 16:05:19,425 autoreload 10428 4342322688 Watching for file changes with StatReloader
+INFO 2022-05-05 16:05:32,542 basehttp 10428 123145352101888 "GET / HTTP/1.1" 200 15544
+INFO 2022-05-05 16:06:59,753 basehttp 10428 123145352101888 "GET / HTTP/1.1" 200 16045
+INFO 2022-05-05 16:07:43,275 autoreload 10428 4342322688 /Users/tiberiuminzat/.local/share/virtualenvs/redrock-planning-system-I02kV_z2/lib/python3.10/site-packages/import_export/resources.py changed, reloading.
+INFO 2022-05-05 16:07:44,348 autoreload 10496 4467070464 Watching for file changes with StatReloader
+INFO 2022-05-06 21:21:40,221 autoreload 10496 4467070464 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 21:21:41,605 autoreload 12001 4333921792 Watching for file changes with StatReloader
+INFO 2022-05-06 21:21:45,224 autoreload 12001 4333921792 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 21:21:45,889 autoreload 12013 4695905792 Watching for file changes with StatReloader
+INFO 2022-05-06 21:22:34,364 autoreload 12013 4695905792 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 21:22:35,072 autoreload 12043 4618573312 Watching for file changes with StatReloader
+INFO 2022-05-06 21:24:11,409 autoreload 12043 4618573312 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 21:24:12,131 autoreload 12090 4641175040 Watching for file changes with StatReloader
+INFO 2022-05-06 21:53:40,403 basehttp 12090 123145452068864 "GET / HTTP/1.1" 200 17123
+INFO 2022-05-06 21:53:40,432 basehttp 12090 123145452068864 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-05-06 21:53:40,435 basehttp 12090 123145452068864 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-05-06 21:53:40,436 basehttp 12090 123145468858368 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-05-06 21:53:40,442 basehttp 12090 123145468858368 "GET /static/js/java.js HTTP/1.1" 200 68
+INFO 2022-05-06 21:53:40,449 basehttp 12090 123145452068864 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2022-05-06 21:53:40,449 basehttp 12090 123145468858368 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2022-05-06 21:53:40,680 basehttp 12090 123145468858368 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2022-05-06 21:53:40,686 basehttp 12090 123145468858368 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2022-05-06 21:53:45,983 basehttp 12090 123145468858368 "GET /order HTTP/1.1" 200 17207
+INFO 2022-05-06 21:53:51,711 basehttp 12090 123145468858368 "GET /planning/ HTTP/1.1" 200 19216
+INFO 2022-05-06 21:53:56,068 basehttp 12090 123145468858368 "GET /order HTTP/1.1" 200 17207
+INFO 2022-05-06 21:54:36,574 basehttp 12090 123145468858368 "GET /order HTTP/1.1" 200 17208
+INFO 2022-05-06 21:55:12,222 basehttp 12090 123145468858368 "GET /order HTTP/1.1" 200 17208
+INFO 2022-05-06 21:55:17,029 basehttp 12090 123145468858368 "GET /order HTTP/1.1" 200 17208
+INFO 2022-05-06 21:55:22,270 basehttp 12090 123145468858368 "GET /planning/ HTTP/1.1" 200 19216
+INFO 2022-05-06 21:55:27,956 basehttp 12090 123145468858368 "GET /order HTTP/1.1" 200 17208
+INFO 2022-05-06 21:55:58,952 basehttp 12090 123145468858368 "GET /order HTTP/1.1" 200 17210
+INFO 2022-05-06 21:55:58,965 basehttp 12090 123145468858368 "GET /static/js/java.js HTTP/1.1" 200 68
+INFO 2022-05-06 21:56:03,343 basehttp 12090 123145468858368 "GET /order HTTP/1.1" 200 17210
+INFO 2022-05-06 21:56:03,358 basehttp 12090 123145468858368 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 21:56:18,905 basehttp 12090 123145468858368 "GET /order HTTP/1.1" 200 17210
+INFO 2022-05-06 21:56:18,919 basehttp 12090 123145468858368 "GET /static/js/java.js HTTP/1.1" 200 68
+INFO 2022-05-06 21:56:37,731 basehttp 12090 123145485647872 "GET /order HTTP/1.1" 200 17210
+INFO 2022-05-06 21:56:37,844 basehttp 12090 123145485647872 "GET /static/js/java.js HTTP/1.1" 200 68
+INFO 2022-05-06 21:56:37,856 basehttp 12090 123145502437376 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 128769
+INFO 2022-05-06 21:56:37,860 basehttp 12090 123145552805888 "GET /static/css/responsive.css HTTP/1.1" 200 1168
+INFO 2022-05-06 21:56:37,861 basehttp 12090 123145519226880 "GET /static/DataTables/datatables.min.css HTTP/1.1" 200 16785
+INFO 2022-05-06 21:56:37,862 basehttp 12090 123145569595392 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11479
+INFO 2022-05-06 21:56:37,863 basehttp 12090 123145536016384 "GET /static/css/stylesheet.css HTTP/1.1" 200 1553
+INFO 2022-05-06 21:56:37,863 basehttp 12090 123145485647872 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 11275
+INFO 2022-05-06 21:56:37,865 basehttp 12090 123145485647872 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-05-06 21:56:38,335 basehttp 12090 123145485647872 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2022-05-06 21:56:38,339 basehttp 12090 123145485647872 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 3531
+WARNING 2022-05-06 21:56:38,478 log 12090 123145586384896 Not Found: /favicon.ico
+WARNING 2022-05-06 21:56:38,478 basehttp 12090 123145586384896 "GET /favicon.ico HTTP/1.1" 404 14040
+INFO 2022-05-06 21:57:29,780 autoreload 13832 4590048768 Watching for file changes with StatReloader
+INFO 2022-05-06 21:57:45,356 basehttp 13832 123145343193088 "GET / HTTP/1.1" 200 17123
+INFO 2022-05-06 21:57:45,400 basehttp 13832 123145343193088 "GET /static/js/java.js HTTP/1.1" 200 67
+INFO 2022-05-06 21:57:49,718 basehttp 13832 123145343193088 "GET /order HTTP/1.1" 200 17209
+INFO 2022-05-06 21:57:49,736 basehttp 13832 123145343193088 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 21:57:54,769 basehttp 13832 123145343193088 "GET /planning/ HTTP/1.1" 200 19216
+INFO 2022-05-06 21:57:54,788 basehttp 13832 123145343193088 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 21:58:15,741 basehttp 13832 123145343193088 "GET /planning/ HTTP/1.1" 200 19216
+INFO 2022-05-06 21:58:15,752 basehttp 13832 123145343193088 "GET /static/js/java.js HTTP/1.1" 200 69
+INFO 2022-05-06 21:58:21,825 basehttp 13832 123145343193088 "GET /planning/ HTTP/1.1" 200 19216
+INFO 2022-05-06 21:58:21,827 basehttp 13832 123145343193088 - Broken pipe from ('127.0.0.1', 52594)
 
-The above exception was the direct cause of the following exception:
+INFO 2022-05-06 21:58:22,617 basehttp 13832 123145359982592 "GET /order HTTP/1.1" 200 17213
+INFO 2022-05-06 21:58:22,633 basehttp 13832 123145359982592 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 21:58:58,926 basehttp 13832 123145359982592 "GET /order HTTP/1.1" 200 15383
+INFO 2022-05-06 21:58:58,937 basehttp 13832 123145359982592 "GET /static/js/java.js HTTP/1.1" 200 68
+INFO 2022-05-06 21:58:59,091 basehttp 13832 123145359982592 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
+INFO 2022-05-06 21:58:59,115 basehttp 13832 123145359982592 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
+INFO 2022-05-06 21:59:31,836 basehttp 13832 123145359982592 "GET /order HTTP/1.1" 200 15385
+INFO 2022-05-06 21:59:31,849 basehttp 13832 123145359982592 "GET /static/js/java.js HTTP/1.1" 200 70
+INFO 2022-05-06 21:59:55,351 basehttp 13832 123145359982592 "GET / HTTP/1.1" 200 17125
+INFO 2022-05-06 21:59:55,380 basehttp 13832 123145359982592 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:00:48,570 basehttp 13832 123145359982592 "GET / HTTP/1.1" 200 17125
+INFO 2022-05-06 22:00:48,594 basehttp 13832 123145359982592 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:01:10,590 basehttp 13832 123145359982592 "GET / HTTP/1.1" 200 17127
+INFO 2022-05-06 22:01:10,602 basehttp 13832 123145359982592 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:01:29,556 autoreload 13991 4461458944 Watching for file changes with StatReloader
+INFO 2022-05-06 22:01:37,472 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 17127
+INFO 2022-05-06 22:01:37,486 basehttp 13991 123145463091200 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:01:42,057 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 17127
+INFO 2022-05-06 22:01:56,718 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 17049
+INFO 2022-05-06 22:01:56,733 basehttp 13991 123145463091200 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:02:20,056 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 16928
+INFO 2022-05-06 22:02:20,070 basehttp 13991 123145463091200 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:03:21,652 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 16923
+INFO 2022-05-06 22:03:21,664 basehttp 13991 123145463091200 "GET /static/js/new.js HTTP/1.1" 200 66
+INFO 2022-05-06 22:04:20,391 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 16323
+INFO 2022-05-06 22:04:20,410 basehttp 13991 123145463091200 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:05:01,959 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 16550
+INFO 2022-05-06 22:05:01,972 basehttp 13991 123145463091200 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:05:08,215 basehttp 13991 123145463091200 "GET /order HTTP/1.1" 200 15385
+INFO 2022-05-06 22:05:12,411 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 16550
+INFO 2022-05-06 22:05:56,661 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 16792
+INFO 2022-05-06 22:06:27,933 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 16679
+INFO 2022-05-06 22:06:27,950 basehttp 13991 123145463091200 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:06:45,737 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 16790
+INFO 2022-05-06 22:07:59,133 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 16788
+INFO 2022-05-06 22:07:59,147 basehttp 13991 123145463091200 "GET /static/js/java.js HTTP/1.1" 200 68
+INFO 2022-05-06 22:21:15,402 basehttp 13991 123145463091200 "GET / HTTP/1.1" 200 16765
+INFO 2022-05-06 22:21:15,418 basehttp 13991 123145463091200 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:21:19,777 basehttp 13991 123145463091200 "GET /order HTTP/1.1" 200 16781
+INFO 2022-05-06 22:21:24,829 basehttp 13991 123145463091200 "GET /planning/ HTTP/1.1" 200 22738
+INFO 2022-05-06 22:21:30,924 basehttp 13991 123145463091200 "GET /planning/finisd HTTP/1.1" 200 18109
+INFO 2022-05-06 22:22:05,286 basehttp 13991 123145463091200 "GET /planning/finisd HTTP/1.1" 200 18109
+INFO 2022-05-06 22:22:26,512 basehttp 13991 123145463091200 - Broken pipe from ('127.0.0.1', 52745)
 
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/usr/src/app/redrock/views.py", line 42, in displayorder
-    return render(request, 'order.html', {'Operation': results})
-  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
-    return self.template.render(context)
-  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
-    return self._render(context)
-  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
-    return self.nodelist.render(context)
-  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
-    return SafeString(''.join([
-  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
-    node.render_annotated(context) for node in self
-  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
-    return self.render(context)
-  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
-    len_values = len(values)
-  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
-    self._fetch_all()
-  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
-    self._result_cache = list(self._iterable_class(self))
-  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
-    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
-  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1200, in execute_sql
-    cursor = self.connection.cursor()
-  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 270, in cursor
-    return self._cursor()
-  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 246, in _cursor
-    self.ensure_connection()
-  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 229, in ensure_connection
-    with self.wrap_database_errors:
-  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 230, in ensure_connection
-    self.connect()
-  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 211, in connect
-    self.connection = self.get_new_connection(conn_params)
-  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 233, in get_new_connection
-    connection = Database.connect(**conn_params)
-  File "/usr/local/lib/python3.10/site-packages/MySQLdb/__init__.py", line 123, in Connect
-    return Connection(*args, **kwargs)
-  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 185, in __init__
-    super().__init__(*args, **kwargs2)
-django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'db' (-3)")
-ERROR 2022-05-06 13:02:54,888 basehttp 19 140244831164160 "GET /order HTTP/1.1" 500 247223
-INFO 2022-05-06 13:02:56,434 basehttp 19 140244839556864 "GET /order HTTP/1.1" 200 5406
-INFO 2022-05-06 13:02:57,948 basehttp 19 140244839556864 "GET /planning/ HTTP/1.1" 200 9234
-INFO 2022-05-06 13:04:07,096 autoreload 8 140172296337216 Watching for file changes with StatReloader
-INFO 2022-05-06 13:10:28,114 autoreload 7 140491186050880 Watching for file changes with StatReloader
-INFO 2022-05-06 19:30:05,964 autoreload 7 140152342595392 Watching for file changes with StatReloader
-INFO 2022-05-06 19:33:33,882 autoreload 8 139827847804736 Watching for file changes with StatReloader
-INFO 2022-05-06 19:33:40,774 basehttp 8 139827770304256 "GET / HTTP/1.1" 200 3239
-WARNING 2022-05-06 19:33:41,411 log 8 139827770304256 Not Found: /favicon.ico
-WARNING 2022-05-06 19:33:41,411 basehttp 8 139827770304256 "GET /favicon.ico HTTP/1.1" 404 4087
-INFO 2022-05-06 19:33:42,624 basehttp 8 139827770304256 "GET /order HTTP/1.1" 200 5406
-INFO 2022-05-06 19:33:43,362 basehttp 8 139827770304256 "GET /planning/ HTTP/1.1" 200 9234
-INFO 2022-05-06 19:33:44,428 basehttp 8 139827770304256 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 19:49:11,530 autoreload 8 140423765272384 Watching for file changes with StatReloader
-INFO 2022-05-06 19:49:52,339 autoreload 8 140450071119680 Watching for file changes with StatReloader
-INFO 2022-05-06 19:51:01,644 autoreload 8 139621458208576 Watching for file changes with StatReloader
-INFO 2022-05-06 19:55:59,665 autoreload 8 140083796584256 Watching for file changes with StatReloader
-INFO 2022-05-06 19:59:08,166 basehttp 8 140083646691072 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 19:59:09,435 basehttp 8 140083646691072 "GET /order HTTP/1.1" 200 5406
-INFO 2022-05-06 19:59:10,208 basehttp 8 140083646691072 "GET /planning/ HTTP/1.1" 200 9234
-INFO 2022-05-06 19:59:19,237 basehttp 8 140083646691072 "GET /planning/ HTTP/1.1" 200 9234
-INFO 2022-05-06 19:59:19,802 basehttp 8 140083646691072 "GET /planning/ HTTP/1.1" 200 9234
-INFO 2022-05-06 19:59:34,148 autoreload 7 140463561152320 Watching for file changes with StatReloader
-INFO 2022-05-06 20:02:31,055 autoreload 8 139796393506624 Watching for file changes with StatReloader
-INFO 2022-05-06 20:02:33,731 basehttp 8 139796316006144 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 20:02:35,160 basehttp 8 139796316006144 "GET /order HTTP/1.1" 200 5406
-INFO 2022-05-06 20:02:35,962 basehttp 8 139796316006144 "GET /planning/ HTTP/1.1" 200 9234
-INFO 2022-05-06 21:05:40,345 autoreload 7 140292214048576 Watching for file changes with StatReloader
-INFO 2022-05-06 21:05:44,531 basehttp 7 140292136548096 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:08:44,728 autoreload 8 139866089858880 Watching for file changes with StatReloader
-INFO 2022-05-06 21:09:24,604 autoreload 7 140155385050944 Watching for file changes with StatReloader
-INFO 2022-05-06 21:09:30,862 basehttp 7 140155307550464 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:09:31,398 basehttp 7 140155307550464 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:14:03,099 autoreload 7 140311936239424 Watching for file changes with StatReloader
-INFO 2022-05-06 21:27:34,631 autoreload 7 140422359975744 Watching for file changes with StatReloader
-INFO 2022-05-06 21:30:31,517 autoreload 8 140677268088640 Watching for file changes with StatReloader
-INFO 2022-05-06 21:41:33,055 autoreload 8 140658798917440 Watching for file changes with StatReloader
-INFO 2022-05-06 21:42:18,748 autoreload 8 140306436826944 Watching for file changes with StatReloader
-INFO 2022-05-06 21:42:24,313 basehttp 8 140306350933760 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:42:24,835 basehttp 8 140306350933760 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:42:25,180 basehttp 8 140306350933760 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:42:25,386 basehttp 8 140306350933760 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:42:25,554 basehttp 8 140306350933760 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:42:25,680 basehttp 8 140306350933760 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:50:07,489 autoreload 8 140381967202112 Watching for file changes with StatReloader
-INFO 2022-05-06 21:50:12,820 basehttp 8 140381889701632 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:50:13,357 basehttp 8 140381889701632 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:50:14,200 basehttp 8 140381889701632 "GET /order HTTP/1.1" 200 5406
-INFO 2022-05-06 21:50:15,456 basehttp 8 140381889701632 "GET /planning/ HTTP/1.1" 200 9234
-INFO 2022-05-06 21:50:16,821 basehttp 8 140381889701632 "GET /order HTTP/1.1" 200 5406
-INFO 2022-05-06 21:50:17,447 basehttp 8 140381889701632 "GET / HTTP/1.1" 200 3239
-INFO 2022-05-06 21:50:17,941 basehttp 8 140381889701632 "GET /order HTTP/1.1" 200 5406
-INFO 2022-05-06 21:54:35,952 autoreload 8 140058068752192 Watching for file changes with StatReloader
-INFO 2022-05-06 21:59:56,473 autoreload 7 140588014348096 Watching for file changes with StatReloader
+INFO 2022-05-06 22:22:27,952 basehttp 13991 123145479880704 "GET / HTTP/1.1" 200 16765
+INFO 2022-05-06 22:22:33,576 basehttp 13991 123145479880704 "GET /planning/ HTTP/1.1" 200 22738
+INFO 2022-05-06 22:22:38,436 basehttp 13991 123145479880704 "GET /planning/finisd HTTP/1.1" 200 18109
+INFO 2022-05-06 22:22:38,460 basehttp 13991 123145479880704 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:23:27,321 basehttp 13991 123145479880704 "GET /planning/finisd HTTP/1.1" 200 18154
+INFO 2022-05-06 22:24:48,061 basehttp 13991 123145479880704 "GET /planning/finisd HTTP/1.1" 200 20238
+INFO 2022-05-06 22:24:48,075 basehttp 13991 123145479880704 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:24:59,349 basehttp 13991 123145479880704 "GET /planning/ HTTP/1.1" 200 22738
+INFO 2022-05-06 22:25:08,177 basehttp 13991 123145479880704 "GET /planning/finisd HTTP/1.1" 200 20238
+INFO 2022-05-06 22:25:30,033 basehttp 13991 123145479880704 "GET /planning/finisd HTTP/1.1" 200 20237
+INFO 2022-05-06 22:25:30,049 basehttp 13991 123145479880704 "GET /static/js/new.js HTTP/1.1" 200 68
+INFO 2022-05-06 22:25:55,769 basehttp 13991 123145479880704 "GET /planning/finisd HTTP/1.1" 200 19646
+INFO 2022-05-06 22:27:00,982 basehttp 13991 123145479880704 "GET /planning/finisd HTTP/1.1" 200 17464
+INFO 2022-05-06 22:27:00,998 basehttp 13991 123145479880704 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 22:27:30,715 basehttp 13991 123145479880704 "GET /planning/finisd HTTP/1.1" 200 17473
+INFO 2022-05-06 22:27:34,976 basehttp 13991 123145479880704 "GET /planning/ HTTP/1.1" 200 22738
+INFO 2022-05-06 22:29:07,417 autoreload 13991 4461458944 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:29:08,135 autoreload 15296 4406732288 Watching for file changes with StatReloader
+INFO 2022-05-06 22:29:13,474 autoreload 15296 4406732288 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:29:14,197 autoreload 15306 4335670784 Watching for file changes with StatReloader
+INFO 2022-05-06 22:29:15,604 autoreload 15306 4335670784 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:29:16,172 autoreload 15314 4498687488 Watching for file changes with StatReloader
+INFO 2022-05-06 22:29:17,505 autoreload 15314 4498687488 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:29:18,169 autoreload 15316 4682475008 Watching for file changes with StatReloader
+INFO 2022-05-06 22:29:35,451 autoreload 15316 4682475008 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:29:36,204 autoreload 15334 4474242560 Watching for file changes with StatReloader
+INFO 2022-05-06 22:29:37,619 autoreload 15334 4474242560 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:29:38,296 autoreload 15337 4404459008 Watching for file changes with StatReloader
+INFO 2022-05-06 22:29:45,158 autoreload 15337 4404459008 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:29:45,832 autoreload 15353 4588647936 Watching for file changes with StatReloader
+INFO 2022-05-06 22:29:48,403 autoreload 15353 4588647936 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:29:49,133 autoreload 15356 4564485632 Watching for file changes with StatReloader
+INFO 2022-05-06 22:29:53,933 autoreload 15356 4564485632 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:29:54,675 autoreload 15372 4467643904 Watching for file changes with StatReloader
+INFO 2022-05-06 22:29:57,231 autoreload 15372 4467643904 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:29:57,918 autoreload 15375 4574012928 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:00,513 autoreload 15375 4574012928 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:01,242 autoreload 15384 4537411072 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:11,254 autoreload 15384 4537411072 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:11,992 autoreload 15402 4749493760 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:14,598 autoreload 15402 4749493760 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:15,344 autoreload 15413 4406830592 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:16,748 autoreload 15413 4406830592 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:17,468 autoreload 15414 4346344960 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:23,322 autoreload 15414 4346344960 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:24,057 autoreload 15427 4513703424 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:25,470 autoreload 15427 4513703424 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:26,236 autoreload 15434 4482627072 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:30,032 autoreload 15434 4482627072 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:30,791 autoreload 15444 4532663808 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:35,445 autoreload 15444 4532663808 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:36,185 autoreload 15454 4719826432 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:38,783 autoreload 15454 4719826432 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:39,500 autoreload 15457 4356548096 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:40,943 autoreload 15457 4356548096 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:41,615 autoreload 15465 4409153024 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:43,008 autoreload 15465 4409153024 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:43,701 autoreload 15468 4497597952 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:45,086 autoreload 15468 4497597952 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:45,812 autoreload 15475 4666066432 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:47,206 autoreload 15475 4666066432 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:47,912 autoreload 15476 4709152256 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:54,751 autoreload 15476 4709152256 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:55,452 autoreload 15494 4471633408 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:56,846 autoreload 15494 4471633408 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:57,547 autoreload 15495 4612244992 Watching for file changes with StatReloader
+INFO 2022-05-06 22:30:58,930 autoreload 15495 4612244992 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:30:59,607 autoreload 15498 4489266688 Watching for file changes with StatReloader
+INFO 2022-05-06 22:31:02,052 autoreload 15498 4489266688 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:31:02,949 autoreload 15506 4756825600 Watching for file changes with StatReloader
+INFO 2022-05-06 22:31:28,625 autoreload 15506 4756825600 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:31:29,329 autoreload 15522 4525782528 Watching for file changes with StatReloader
+INFO 2022-05-06 22:31:34,129 autoreload 15522 4525782528 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:31:34,826 autoreload 15533 4416185856 Watching for file changes with StatReloader
+INFO 2022-05-06 22:33:01,958 autoreload 15533 4416185856 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:33:02,658 autoreload 15561 4330071552 Watching for file changes with StatReloader
+INFO 2022-05-06 22:33:10,571 autoreload 15561 4330071552 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:33:11,304 autoreload 15578 4540458496 Watching for file changes with StatReloader
+INFO 2022-05-06 22:33:32,749 autoreload 15578 4540458496 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:33:33,482 autoreload 15598 4476487168 Watching for file changes with StatReloader
+INFO 2022-05-06 22:33:34,891 autoreload 15598 4476487168 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:33:35,604 autoreload 15607 4646729216 Watching for file changes with StatReloader
+INFO 2022-05-06 22:33:39,178 autoreload 15607 4646729216 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:33:39,886 autoreload 15608 4759418368 Watching for file changes with StatReloader
+INFO 2022-05-06 22:33:41,265 autoreload 15608 4759418368 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:33:41,943 autoreload 15618 4412966400 Watching for file changes with StatReloader
+INFO 2022-05-06 22:33:49,855 autoreload 15618 4412966400 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:33:50,617 autoreload 15631 4680558080 Watching for file changes with StatReloader
+INFO 2022-05-06 22:34:01,504 autoreload 15631 4680558080 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:34:02,221 autoreload 15653 4462421504 Watching for file changes with StatReloader
+INFO 2022-05-06 22:34:57,981 autoreload 15653 4462421504 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:34:58,674 autoreload 15689 4552816128 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:02,404 autoreload 15689 4552816128 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:03,089 autoreload 15779 4608493056 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:09,768 autoreload 15779 4608493056 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:10,505 autoreload 15796 4422903296 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:16,326 autoreload 15796 4422903296 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:17,082 autoreload 15810 4657763840 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:18,504 autoreload 15810 4657763840 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:19,230 autoreload 15811 4360066560 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:26,121 autoreload 15811 4360066560 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:26,850 autoreload 15829 4556547584 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:28,255 autoreload 15829 4556547584 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:28,978 autoreload 15830 4485920256 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:32,586 autoreload 15830 4485920256 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:33,321 autoreload 15841 4609111552 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:36,960 autoreload 15841 4609111552 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:37,828 autoreload 15850 4452197888 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:40,461 autoreload 15850 4452197888 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:41,202 autoreload 15859 4522182144 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:43,752 autoreload 15859 4522182144 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:44,497 autoreload 15861 4708255232 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:53,470 autoreload 15861 4708255232 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:54,253 autoreload 15879 4576531968 Watching for file changes with StatReloader
+INFO 2022-05-06 22:35:56,867 autoreload 15879 4576531968 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:35:57,666 autoreload 15888 4535563776 Watching for file changes with StatReloader
+INFO 2022-05-06 22:36:01,265 autoreload 15888 4535563776 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:36:02,017 autoreload 15897 4622345728 Watching for file changes with StatReloader
+INFO 2022-05-06 22:36:15,183 autoreload 15897 4622345728 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:36:16,278 autoreload 15914 4611962368 Watching for file changes with StatReloader
+INFO 2022-05-06 22:36:20,039 autoreload 15914 4611962368 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:36:20,845 autoreload 15923 4436370944 Watching for file changes with StatReloader
+INFO 2022-05-06 22:36:22,233 autoreload 15923 4436370944 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:36:22,974 autoreload 15926 4480468480 Watching for file changes with StatReloader
+INFO 2022-05-06 22:36:24,374 autoreload 15926 4480468480 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:36:25,073 autoreload 15934 4653438464 Watching for file changes with StatReloader
+INFO 2022-05-06 22:36:26,461 autoreload 15934 4653438464 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:36:27,177 autoreload 15935 4355692032 Watching for file changes with StatReloader
+INFO 2022-05-06 22:36:33,142 autoreload 15935 4355692032 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:36:33,849 autoreload 15962 4536014336 Watching for file changes with StatReloader
+INFO 2022-05-06 22:36:44,927 autoreload 15962 4536014336 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:36:45,665 autoreload 15976 4472129024 Watching for file changes with StatReloader
+INFO 2022-05-06 22:36:50,471 autoreload 15976 4472129024 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:36:51,223 autoreload 15985 4368852480 Watching for file changes with StatReloader
+INFO 2022-05-06 22:36:59,117 autoreload 15985 4368852480 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:36:59,863 autoreload 16003 4538721792 Watching for file changes with StatReloader
+INFO 2022-05-06 22:37:01,282 autoreload 16003 4538721792 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:37:02,003 autoreload 16004 4594742784 Watching for file changes with StatReloader
+INFO 2022-05-06 22:37:03,393 autoreload 16004 4594742784 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:37:04,123 autoreload 16021 4595873280 Watching for file changes with StatReloader
+INFO 2022-05-06 22:37:05,541 autoreload 16021 4595873280 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:37:06,295 autoreload 16025 4395054592 Watching for file changes with StatReloader
+INFO 2022-05-06 22:37:14,322 autoreload 16025 4395054592 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:37:15,064 autoreload 16066 4473464320 Watching for file changes with StatReloader
+INFO 2022-05-06 22:37:21,832 autoreload 16066 4473464320 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/apps.py changed, reloading.
+INFO 2022-05-06 22:37:22,552 autoreload 16079 4417107456 Watching for file changes with StatReloader
+INFO 2022-05-06 22:37:25,162 autoreload 16079 4417107456 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/apps.py changed, reloading.
+INFO 2022-05-06 22:37:25,869 autoreload 16089 4511618560 Watching for file changes with StatReloader
+INFO 2022-05-06 22:37:28,462 autoreload 16089 4511618560 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/apps.py changed, reloading.
+INFO 2022-05-06 22:37:29,134 autoreload 16098 4539663872 Watching for file changes with StatReloader
+INFO 2022-05-06 22:37:31,702 autoreload 16098 4539663872 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/apps.py changed, reloading.
+INFO 2022-05-06 22:37:32,419 autoreload 16099 4584232448 Watching for file changes with StatReloader
+INFO 2022-05-06 22:37:34,853 autoreload 16099 4584232448 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/apps.py changed, reloading.
+INFO 2022-05-06 22:37:35,707 autoreload 16110 4668950016 Watching for file changes with StatReloader
+INFO 2022-05-06 22:40:51,164 autoreload 16110 4668950016 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:40:51,860 autoreload 16169 4658812416 Watching for file changes with StatReloader
+INFO 2022-05-06 22:40:54,322 autoreload 16169 4658812416 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:40:55,045 autoreload 16179 4402234880 Watching for file changes with StatReloader
+INFO 2022-05-06 22:40:56,469 autoreload 16179 4402234880 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:40:57,206 autoreload 16181 4530968064 Watching for file changes with StatReloader
+INFO 2022-05-06 22:40:59,757 autoreload 16181 4530968064 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:00,502 autoreload 16190 4407588352 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:01,887 autoreload 16190 4407588352 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:02,572 autoreload 16191 4636472832 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:07,320 autoreload 16191 4636472832 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:08,008 autoreload 16201 4437050880 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:09,412 autoreload 16201 4437050880 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:10,140 autoreload 16210 4352026112 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:14,948 autoreload 16210 4352026112 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:15,667 autoreload 16220 4749571584 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:17,059 autoreload 16220 4749571584 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:17,730 autoreload 16221 4465440256 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:23,439 autoreload 16221 4465440256 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:24,160 autoreload 16232 4649666048 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:26,764 autoreload 16232 4649666048 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:27,433 autoreload 16240 4368860672 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:28,830 autoreload 16240 4368860672 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:29,524 autoreload 16243 4637226496 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:33,270 autoreload 16243 4637226496 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:33,947 autoreload 16252 4611245568 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:35,335 autoreload 16252 4611245568 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:36,067 autoreload 16260 4786439680 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:38,636 autoreload 16260 4786439680 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:39,359 autoreload 16264 4488525312 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:41,953 autoreload 16264 4488525312 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:42,642 autoreload 16271 4773160448 Watching for file changes with StatReloader
+INFO 2022-05-06 22:41:44,030 autoreload 16271 4773160448 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:41:44,707 autoreload 16276 4789380608 Watching for file changes with StatReloader
+INFO 2022-05-06 22:42:59,239 autoreload 16276 4789380608 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:42:59,944 autoreload 16304 4389385728 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:01,325 autoreload 16304 4389385728 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:01,988 autoreload 16307 4466787840 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:03,404 autoreload 16307 4466787840 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:04,192 autoreload 16314 4668380672 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:07,914 autoreload 16314 4668380672 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:08,628 autoreload 16318 4410787328 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:13,388 autoreload 16318 4410787328 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:14,125 autoreload 16333 4624299520 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:16,705 autoreload 16333 4624299520 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:17,396 autoreload 16337 4428707328 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:18,816 autoreload 16337 4428707328 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:19,518 autoreload 16344 4614854144 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:27,399 autoreload 16344 4614854144 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:28,216 autoreload 16356 4572325376 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:33,901 autoreload 16356 4572325376 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:34,617 autoreload 16365 4722267648 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:36,063 autoreload 16365 4722267648 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:36,806 autoreload 16375 4598863360 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:40,616 autoreload 16375 4598863360 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:41,472 autoreload 16382 4484904448 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:46,094 autoreload 16382 4484904448 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:46,801 autoreload 16395 4541969920 Watching for file changes with StatReloader
+INFO 2022-05-06 22:43:56,820 autoreload 16395 4541969920 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:43:57,566 autoreload 16411 4559074816 Watching for file changes with StatReloader
+INFO 2022-05-06 22:44:02,201 autoreload 16411 4559074816 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:44:02,991 autoreload 16420 4431996416 Watching for file changes with StatReloader
+INFO 2022-05-06 22:44:09,715 autoreload 16420 4431996416 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:44:10,500 autoreload 16432 4774594048 Watching for file changes with StatReloader
+INFO 2022-05-06 22:44:17,368 autoreload 16432 4774594048 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:44:18,133 autoreload 16448 4503819776 Watching for file changes with StatReloader
+INFO 2022-05-06 22:44:21,735 autoreload 16448 4503819776 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/forms.py changed, reloading.
+INFO 2022-05-06 22:44:22,471 autoreload 16457 4472579584 Watching for file changes with StatReloader
+INFO 2022-05-06 22:44:31,342 autoreload 16457 4472579584 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:44:32,041 autoreload 16478 4504131072 Watching for file changes with StatReloader
+INFO 2022-05-06 22:44:36,873 autoreload 16478 4504131072 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:44:37,556 autoreload 16489 4723332608 Watching for file changes with StatReloader
+INFO 2022-05-06 22:44:41,251 autoreload 16489 4723332608 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:44:41,939 autoreload 16498 4539147776 Watching for file changes with StatReloader
+INFO 2022-05-06 22:44:57,133 autoreload 16498 4539147776 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:44:57,850 autoreload 16512 4575168000 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:14,115 autoreload 16512 4575168000 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:14,800 autoreload 16531 4462249472 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:17,351 autoreload 16531 4462249472 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:18,065 autoreload 16541 4430140928 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:20,631 autoreload 16541 4430140928 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:21,367 autoreload 16542 4528838144 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:22,746 autoreload 16542 4528838144 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:23,417 autoreload 16551 4459693568 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:27,147 autoreload 16551 4459693568 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:27,854 autoreload 16561 4514596352 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:37,865 autoreload 16561 4514596352 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:38,584 autoreload 16581 4612924928 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:39,995 autoreload 16581 4612924928 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:40,738 autoreload 16582 4542932480 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:42,138 autoreload 16582 4542932480 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:42,652 autoreload 16591 4614284800 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:43,862 autoreload 16591 4614284800 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:44,609 autoreload 16593 4396779008 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:46,005 autoreload 16593 4396779008 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:46,735 autoreload 16596 4575024640 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:48,181 autoreload 16596 4575024640 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:48,916 autoreload 16604 4618057216 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:55,631 autoreload 16604 4618057216 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:56,389 autoreload 16613 4723324416 Watching for file changes with StatReloader
+INFO 2022-05-06 22:45:58,834 autoreload 16613 4723324416 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:45:59,549 autoreload 16623 4747310592 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:03,201 autoreload 16623 4747310592 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:03,924 autoreload 16632 4783883776 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:06,551 autoreload 16632 4783883776 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:07,322 autoreload 16641 4546225664 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:11,081 autoreload 16641 4546225664 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:11,613 autoreload 16645 4587689472 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:12,828 autoreload 16645 4587689472 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:13,538 autoreload 16652 4641510912 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:16,150 autoreload 16652 4641510912 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:16,858 autoreload 16655 4492219904 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:20,635 autoreload 16655 4492219904 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:21,341 autoreload 16663 4735182336 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:22,726 autoreload 16663 4735182336 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:23,444 autoreload 16672 4503938560 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:34,467 autoreload 16672 4503938560 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:35,209 autoreload 16693 4664034816 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:45,245 autoreload 16693 4664034816 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:45,949 autoreload 16711 4530275840 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:48,507 autoreload 16711 4530275840 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:49,229 autoreload 16721 4764485120 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:50,630 autoreload 16721 4764485120 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:51,344 autoreload 16722 4715058688 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:53,991 autoreload 16722 4715058688 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:54,723 autoreload 16731 4549363200 Watching for file changes with StatReloader
+INFO 2022-05-06 22:46:58,460 autoreload 16731 4549363200 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:46:59,197 autoreload 16741 4672411136 Watching for file changes with StatReloader
+INFO 2022-05-06 22:47:01,808 autoreload 16741 4672411136 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:47:02,608 autoreload 16742 4703106560 Watching for file changes with StatReloader
+INFO 2022-05-06 22:47:04,005 autoreload 16742 4703106560 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/models.py changed, reloading.
+INFO 2022-05-06 22:47:04,782 autoreload 16751 4564903424 Watching for file changes with StatReloader
+INFO 2022-05-06 22:47:23,127 autoreload 16751 4564903424 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:47:23,686 autoreload 16775 4644922880 Watching for file changes with StatReloader
+INFO 2022-05-06 22:47:24,960 autoreload 16775 4644922880 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:47:25,649 autoreload 16778 4619798016 Watching for file changes with StatReloader
+INFO 2022-05-06 22:47:27,938 autoreload 16778 4619798016 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:47:28,625 autoreload 16785 4528772608 Watching for file changes with StatReloader
+INFO 2022-05-06 22:47:56,471 autoreload 16810 4584285696 Watching for file changes with StatReloader
+INFO 2022-05-06 22:49:32,948 autoreload 16810 4584285696 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:49:33,689 autoreload 16847 4560217600 Watching for file changes with StatReloader
+INFO 2022-05-06 22:49:37,998 autoreload 16847 4560217600 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:49:38,677 autoreload 16856 4668458496 Watching for file changes with StatReloader
+INFO 2022-05-06 22:49:52,109 autoreload 16856 4668458496 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:49:52,626 autoreload 16867 4474955264 Watching for file changes with StatReloader
+INFO 2022-05-06 22:49:56,913 autoreload 16867 4474955264 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:49:57,582 autoreload 16876 4497802752 Watching for file changes with StatReloader
+INFO 2022-05-06 22:50:00,885 autoreload 16876 4497802752 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:50:01,613 autoreload 16887 4783560192 Watching for file changes with StatReloader
+INFO 2022-05-06 22:50:46,448 autoreload 16887 4783560192 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:50:46,976 autoreload 16917 4703245824 Watching for file changes with StatReloader
+INFO 2022-05-06 22:50:51,266 autoreload 16917 4703245824 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:50:51,938 autoreload 16927 4480632320 Watching for file changes with StatReloader
+INFO 2022-05-06 22:50:57,265 autoreload 16927 4480632320 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:50:57,797 autoreload 16936 4666054144 Watching for file changes with StatReloader
+INFO 2022-05-06 22:50:59,055 autoreload 16936 4666054144 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:50:59,709 autoreload 16939 4752774656 Watching for file changes with StatReloader
+INFO 2022-05-06 22:51:06,051 autoreload 16939 4752774656 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/admin.py changed, reloading.
+INFO 2022-05-06 22:51:06,759 autoreload 16949 4723811840 Watching for file changes with StatReloader
+INFO 2022-05-06 22:51:14,625 autoreload 16968 4559197696 Watching for file changes with StatReloader
+INFO 2022-05-06 22:51:25,593 autoreload 16968 4559197696 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:51:26,278 autoreload 16993 4518827520 Watching for file changes with StatReloader
+INFO 2022-05-06 22:51:28,855 autoreload 16993 4518827520 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:51:29,629 autoreload 17002 4473296384 Watching for file changes with StatReloader
+INFO 2022-05-06 22:51:34,436 autoreload 17002 4473296384 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:51:35,189 autoreload 17012 4769416704 Watching for file changes with StatReloader
+INFO 2022-05-06 22:51:38,955 autoreload 17012 4769416704 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:51:39,683 autoreload 17021 4534261248 Watching for file changes with StatReloader
+INFO 2022-05-06 22:51:41,087 autoreload 17021 4534261248 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:51:41,816 autoreload 17023 4517508608 Watching for file changes with StatReloader
+INFO 2022-05-06 22:51:47,641 autoreload 17023 4517508608 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:51:48,352 autoreload 17035 4572284416 Watching for file changes with StatReloader
+INFO 2022-05-06 22:51:51,977 autoreload 17035 4572284416 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:51:52,720 autoreload 17043 4570908160 Watching for file changes with StatReloader
+INFO 2022-05-06 22:51:59,464 autoreload 17043 4570908160 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:52:00,227 autoreload 17060 4774602240 Watching for file changes with StatReloader
+INFO 2022-05-06 22:52:05,075 autoreload 17060 4774602240 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:52:05,832 autoreload 17070 4710487552 Watching for file changes with StatReloader
+INFO 2022-05-06 22:52:09,589 autoreload 17070 4710487552 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:52:10,345 autoreload 17079 4677510656 Watching for file changes with StatReloader
+INFO 2022-05-06 22:52:16,076 autoreload 17079 4677510656 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:52:16,829 autoreload 17089 4643661312 Watching for file changes with StatReloader
+INFO 2022-05-06 22:52:21,608 autoreload 17089 4643661312 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:52:22,284 autoreload 17099 4317783552 Watching for file changes with StatReloader
+INFO 2022-05-06 22:52:26,014 autoreload 17099 4317783552 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:52:26,685 autoreload 17108 4580759040 Watching for file changes with StatReloader
+INFO 2022-05-06 22:52:31,450 autoreload 17108 4580759040 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:52:32,165 autoreload 17120 4788954624 Watching for file changes with StatReloader
+INFO 2022-05-06 22:52:36,939 autoreload 17120 4788954624 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:52:37,676 autoreload 17129 4659262976 Watching for file changes with StatReloader
+INFO 2022-05-06 22:52:39,081 autoreload 17129 4659262976 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:52:39,781 autoreload 17132 4523509248 Watching for file changes with StatReloader
+INFO 2022-05-06 22:52:42,372 autoreload 17132 4523509248 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:52:43,063 autoreload 17142 4493276672 Watching for file changes with StatReloader
+INFO 2022-05-06 22:53:53,310 autoreload 17142 4493276672 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:53:54,012 autoreload 17167 4646655488 Watching for file changes with StatReloader
+INFO 2022-05-06 22:53:57,482 autoreload 17167 4646655488 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:53:58,184 autoreload 17176 4474623488 Watching for file changes with StatReloader
+INFO 2022-05-06 22:53:59,569 autoreload 17176 4474623488 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:54:00,315 autoreload 17177 4615194112 Watching for file changes with StatReloader
+INFO 2022-05-06 22:54:01,728 autoreload 17177 4615194112 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:54:02,432 autoreload 17188 4737291776 Watching for file changes with StatReloader
+INFO 2022-05-06 22:54:18,535 autoreload 17188 4737291776 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:54:19,282 autoreload 17206 4628432384 Watching for file changes with StatReloader
+INFO 2022-05-06 22:54:20,707 autoreload 17206 4628432384 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:54:21,451 autoreload 17215 4558927360 Watching for file changes with StatReloader
+INFO 2022-05-06 22:54:22,885 autoreload 17215 4558927360 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:54:23,630 autoreload 17217 4453565952 Watching for file changes with StatReloader
+INFO 2022-05-06 22:54:26,530 autoreload 17217 4453565952 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:54:27,286 autoreload 17226 4624360960 Watching for file changes with StatReloader
+INFO 2022-05-06 22:55:48,143 autoreload 17226 4624360960 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:55:49,260 autoreload 17262 4517488128 Watching for file changes with StatReloader
+INFO 2022-05-06 22:55:50,702 autoreload 17262 4517488128 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/resources.py changed, reloading.
+INFO 2022-05-06 22:55:51,460 autoreload 17268 4593018368 Watching for file changes with StatReloader
+INFO 2022-05-06 22:55:57,154 autoreload 17268 4593018368 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:55:57,969 autoreload 17278 4584777216 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:01,608 autoreload 17278 4584777216 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:02,281 autoreload 17287 4451890688 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:03,712 autoreload 17287 4451890688 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:04,428 autoreload 17295 4484179456 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:08,055 autoreload 17295 4484179456 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:08,798 autoreload 17304 4529718784 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:11,382 autoreload 17304 4529718784 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:12,063 autoreload 17307 4490626560 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:13,460 autoreload 17307 4490626560 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:14,129 autoreload 17315 4561307136 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:19,925 autoreload 17315 4561307136 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:20,665 autoreload 17324 4510303744 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:34,889 autoreload 17324 4510303744 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:35,591 autoreload 17345 4569568768 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:39,334 autoreload 17345 4569568768 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:39,958 autoreload 17355 4516886016 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:43,719 autoreload 17355 4516886016 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:44,459 autoreload 17368 4572386816 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:51,337 autoreload 17368 4572386816 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:52,034 autoreload 17381 4605646336 Watching for file changes with StatReloader
+INFO 2022-05-06 22:56:56,786 autoreload 17381 4605646336 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/serializers.py changed, reloading.
+INFO 2022-05-06 22:56:57,634 autoreload 17393 4433966592 Watching for file changes with StatReloader
+INFO 2022-05-06 22:58:51,876 autoreload 17393 4433966592 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 22:58:52,612 autoreload 17498 4573533696 Watching for file changes with StatReloader
+INFO 2022-05-06 22:58:54,014 autoreload 17498 4573533696 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 22:58:54,737 autoreload 17508 4593960448 Watching for file changes with StatReloader
+INFO 2022-05-06 23:00:23,872 autoreload 17508 4593960448 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-05-06 23:00:24,589 autoreload 17554 4492445184 Watching for file changes with StatReloader
+INFO 2022-05-06 23:00:26,002 autoreload 17554 4492445184 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/urls.py changed, reloading.
+INFO 2022-05-06 23:00:26,712 autoreload 17558 4582868480 Watching for file changes with StatReloader
+INFO 2022-05-06 23:00:41,930 autoreload 17558 4582868480 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:00:42,620 autoreload 17577 4722136576 Watching for file changes with StatReloader
+INFO 2022-05-06 23:00:47,220 autoreload 17577 4722136576 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:00:47,905 autoreload 17587 4578752000 Watching for file changes with StatReloader
+INFO 2022-05-06 23:00:59,926 autoreload 17587 4578752000 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:00,615 autoreload 17605 4817622528 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:04,210 autoreload 17605 4817622528 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:05,005 autoreload 17614 4668532224 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:08,786 autoreload 17614 4668532224 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:09,518 autoreload 17624 4624623104 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:14,330 autoreload 17624 4624623104 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:15,062 autoreload 17634 4421441024 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:17,685 autoreload 17634 4421441024 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:18,442 autoreload 17644 4556215808 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:23,077 autoreload 17644 4556215808 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:23,917 autoreload 17653 4459939328 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:28,691 autoreload 17653 4459939328 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:29,407 autoreload 17663 4476429824 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:36,094 autoreload 17663 4476429824 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:36,818 autoreload 17673 4523558400 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:38,221 autoreload 17673 4523558400 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:39,000 autoreload 17682 4458821120 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:43,771 autoreload 17682 4458821120 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:44,457 autoreload 17691 4637050368 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:53,369 autoreload 17691 4637050368 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:01:54,100 autoreload 17709 4516120064 Watching for file changes with StatReloader
+INFO 2022-05-06 23:01:59,922 autoreload 17709 4516120064 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:02:00,690 autoreload 17719 4379657728 Watching for file changes with StatReloader
+INFO 2022-05-06 23:02:05,318 autoreload 17719 4379657728 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:02:06,059 autoreload 17728 4633925120 Watching for file changes with StatReloader
+INFO 2022-05-06 23:02:10,732 autoreload 17728 4633925120 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:02:11,412 autoreload 17738 4366054912 Watching for file changes with StatReloader
+INFO 2022-05-06 23:02:37,052 autoreload 17738 4366054912 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:02:37,764 autoreload 17760 4537923072 Watching for file changes with StatReloader
+INFO 2022-05-06 23:02:43,585 autoreload 17760 4537923072 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:02:44,378 autoreload 17769 4736656896 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:00,642 autoreload 17769 4736656896 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:01,372 autoreload 17793 4684469760 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:05,132 autoreload 17793 4684469760 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:05,910 autoreload 17797 4428023296 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:08,533 autoreload 17797 4428023296 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:09,245 autoreload 17809 4528825856 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:12,964 autoreload 17809 4528825856 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:13,684 autoreload 17818 4732974592 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:17,272 autoreload 17818 4732974592 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:17,978 autoreload 17828 4482225664 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:19,361 autoreload 17828 4482225664 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:20,067 autoreload 17829 4638037504 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:21,462 autoreload 17829 4638037504 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:22,208 autoreload 17836 4637734400 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:26,985 autoreload 17836 4637734400 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:27,712 autoreload 17846 4524439040 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:32,505 autoreload 17846 4524439040 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:33,303 autoreload 17857 4571670016 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:38,079 autoreload 17857 4571670016 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:38,900 autoreload 17867 4730066432 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:45,726 autoreload 17867 4730066432 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:46,439 autoreload 17877 4580091392 Watching for file changes with StatReloader
+INFO 2022-05-06 23:03:55,406 autoreload 17877 4580091392 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:03:56,156 autoreload 17895 4695520768 Watching for file changes with StatReloader
+INFO 2022-05-06 23:04:02,998 autoreload 17895 4695520768 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:04:03,773 autoreload 17913 4559427072 Watching for file changes with StatReloader
+INFO 2022-05-06 23:04:07,540 autoreload 17913 4559427072 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:04:08,272 autoreload 17917 4439361024 Watching for file changes with StatReloader
+INFO 2022-05-06 23:04:12,021 autoreload 17917 4439361024 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:04:12,788 autoreload 17924 4565202432 Watching for file changes with StatReloader
+INFO 2022-05-06 23:04:16,392 autoreload 17924 4565202432 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:04:17,103 autoreload 17934 4581676544 Watching for file changes with StatReloader
+INFO 2022-05-06 23:04:29,179 autoreload 17934 4581676544 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:04:29,889 autoreload 17953 4364322304 Watching for file changes with StatReloader
+INFO 2022-05-06 23:04:34,655 autoreload 17953 4364322304 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:04:35,334 autoreload 17962 4570281472 Watching for file changes with StatReloader
+INFO 2022-05-06 23:04:57,810 autoreload 17962 4570281472 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:04:58,533 autoreload 17982 4613641728 Watching for file changes with StatReloader
+INFO 2022-05-06 23:05:05,269 autoreload 17982 4613641728 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:05:05,991 autoreload 18000 4425348608 Watching for file changes with StatReloader
+INFO 2022-05-06 23:05:13,852 autoreload 18000 4425348608 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:05:14,558 autoreload 18011 4539168256 Watching for file changes with StatReloader
+INFO 2022-05-06 23:05:17,145 autoreload 18011 4539168256 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:05:17,871 autoreload 18021 4315338240 Watching for file changes with StatReloader
+INFO 2022-05-06 23:05:23,714 autoreload 18021 4315338240 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:05:24,500 autoreload 18030 4502406656 Watching for file changes with StatReloader
+INFO 2022-05-06 23:05:29,312 autoreload 18030 4502406656 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:05:30,026 autoreload 18040 4467815936 Watching for file changes with StatReloader
+INFO 2022-05-06 23:05:31,418 autoreload 18040 4467815936 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/redrock/views.py changed, reloading.
+INFO 2022-05-06 23:05:32,191 autoreload 18049 4646835712 Watching for file changes with StatReloader
+INFO 2022-05-06 23:05:58,932 autoreload 18049 4646835712 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:05:59,623 autoreload 18077 4469630464 Watching for file changes with StatReloader
+INFO 2022-05-06 23:06:09,484 autoreload 18077 4469630464 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:06:10,201 autoreload 18095 4713588224 Watching for file changes with StatReloader
+INFO 2022-05-06 23:06:13,913 autoreload 18095 4713588224 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:06:14,613 autoreload 18104 4420883968 Watching for file changes with StatReloader
+INFO 2022-05-06 23:06:15,996 autoreload 18104 4420883968 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:06:16,713 autoreload 18106 4607211008 Watching for file changes with StatReloader
+INFO 2022-05-06 23:06:19,250 autoreload 18106 4607211008 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:06:19,971 autoreload 18116 4775601664 Watching for file changes with StatReloader
+INFO 2022-05-06 23:06:23,699 autoreload 18116 4775601664 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:06:24,539 autoreload 18125 4606289408 Watching for file changes with StatReloader
+INFO 2022-05-06 23:06:31,284 basehttp 18125 123145478033408 "GET /__debug__/render_panel/?store_id=09094aa4a93e49cd817a27ebffa58789&panel_id=SQLPanel HTTP/1.1" 200 120
+INFO 2022-05-06 23:06:40,784 autoreload 18125 4606289408 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:06:41,501 autoreload 18138 4448097792 Watching for file changes with StatReloader
+INFO 2022-05-06 23:06:49,284 autoreload 18138 4448097792 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:06:50,004 autoreload 18158 4511184384 Watching for file changes with StatReloader
+INFO 2022-05-06 23:06:56,861 autoreload 18158 4511184384 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:06:57,576 autoreload 18173 4569675264 Watching for file changes with StatReloader
+INFO 2022-05-06 23:07:05,472 autoreload 18173 4569675264 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:07:06,213 autoreload 18185 4545058304 Watching for file changes with StatReloader
+INFO 2022-05-06 23:07:13,721 basehttp 18185 123145523175424 "GET /planning/finisd HTTP/1.1" 200 17473
+INFO 2022-05-06 23:07:13,738 basehttp 18185 123145523175424 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 23:07:17,648 basehttp 18185 123145523175424 "GET /__debug__/render_panel/?store_id=4a4d89a8878847e59cd9757df5a83c2e&panel_id=SQLPanel HTTP/1.1" 200 106949
+INFO 2022-05-06 23:07:29,862 basehttp 18185 123145523175424 "GET /planning/ HTTP/1.1" 200 22738
+INFO 2022-05-06 23:07:40,157 basehttp 18185 123145523175424 "GET /order HTTP/1.1" 200 16781
+INFO 2022-05-06 23:07:57,119 autoreload 18185 4545058304 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:07:57,848 autoreload 18214 4739544576 Watching for file changes with StatReloader
+INFO 2022-05-06 23:08:00,285 autoreload 18214 4739544576 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:08:01,007 autoreload 18218 4493448704 Watching for file changes with StatReloader
+INFO 2022-05-06 23:08:03,567 autoreload 18218 4493448704 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:08:04,270 autoreload 18225 4772587008 Watching for file changes with StatReloader
+INFO 2022-05-06 23:08:07,984 autoreload 18225 4772587008 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:08:08,698 autoreload 18234 4503475712 Watching for file changes with StatReloader
+INFO 2022-05-06 23:08:10,122 autoreload 18234 4503475712 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:08:10,826 autoreload 18238 4787832320 Watching for file changes with StatReloader
+INFO 2022-05-06 23:08:13,373 autoreload 18238 4787832320 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/urls.py changed, reloading.
+INFO 2022-05-06 23:08:14,188 autoreload 18245 4559463936 Watching for file changes with StatReloader
+INFO 2022-05-06 23:08:23,182 autoreload 18245 4559463936 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/settings.py changed, reloading.
+INFO 2022-05-06 23:08:23,922 autoreload 18266 4544128512 Watching for file changes with StatReloader
+INFO 2022-05-06 23:08:25,325 autoreload 18266 4544128512 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/settings.py changed, reloading.
+INFO 2022-05-06 23:08:26,012 autoreload 18269 4730209792 Watching for file changes with StatReloader
+INFO 2022-05-06 23:08:28,612 autoreload 18269 4730209792 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/settings.py changed, reloading.
+INFO 2022-05-06 23:08:29,534 autoreload 18276 4467758592 Watching for file changes with StatReloader

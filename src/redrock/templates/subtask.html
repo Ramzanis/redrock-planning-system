@@ -5,7 +5,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Finished Subtasks</title>
+    <title>Subtask</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="{% static 'js/java.js' %}"></script><!-- Linking the wesite to JavaScript -->
     <script type="text/javascript" charset="utf8" src="{% static 'DataTables/datatables.min.js' %}"></script><!-- Linking the wesite to resources for tables -->
@@ -35,8 +35,9 @@
     </div>
       <div class="col-10" id="page-s">
       <div class="headder">
-        <h1 class="title-home-e">Finished Subtasks  <a href="{% url 'displaydata' %}" type="button"
-          class="btn btn-secondary" style="float: right; padding-right: 5px;">Back</a></h1>
+        <h1 class="title-home-e">Subtasks  <a href="{% url 'addsubtask' %}" type="button"
+          class="btn btn-secondary" style="float: right; padding-right: 5px;">Add new Subtask</a><!-- Button for adding new Subtask --> <a href="{% url 'displayfinish' %}" type="button"
+          class="btn btn-secondary" style="float: right;  padding-right: 5px;">Show finish subtask</a></h1><!-- Button for seeing finishd Subtask -->
       </div>
         <div class="new_table">
           <table id="table" class="display">
@@ -50,6 +51,8 @@
                 <th class="">ID</th> <!-- Columns -->
                 <th class="">ContinerID</th> <!-- Columns -->
                 <th class="">Weight</th> <!-- Columns -->
+                <th class="">Edit</th> <!-- Columns -->
+                <th class="">Delete</th> <!-- Columns -->
               </tr>
             </thead>
             <tbody> <!-- Table body -->
@@ -63,6 +66,10 @@
                 <td class="">{{Subtask.subtaskID}}</td> <!-- Rows with valeus from Database -->
                 <td class="">{{Subtask.containerID}}</td> <!-- Rows with valeus from Database -->
                 <td class="">{{Subtask.containerWeightT}}</td> <!-- Rows with valeus from Database -->
+                <td><a href="{% url 'updatesubtask' Subtask.subtaskID %}" type="button"
+                  class="btn btn-secondary">Edit</a></td> <!-- Button for editing  -->
+                <td><a href="{% url 'deletesubtask' Subtask.subtaskID %}" type="button"
+                   class="btn btn-danger">Delete</a></td>  <!-- Button for deleting  --> 
               </tr>
               {% endfor %} <!-- Ending for loop -->
             </tbody>

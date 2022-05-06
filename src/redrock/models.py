@@ -3,10 +3,9 @@ from datetime import date
 from email.headerregistry import Address
 from re import M
 from tkinter import CASCADE
-
 from django.db import models
 
-class Employee(models.Model):
+class Employee(models.Model): # Employee table
     employeeID = models.IntegerField(primary_key=True)
     firstName = models.CharField(max_length=40)
     lastName = models.CharField(max_length=40)
@@ -14,33 +13,31 @@ class Employee(models.Model):
     zipCode = models.IntegerField()
     city = models.CharField(max_length=40)
 
-    def __str__(self) -> str:
+    def __str__(self) -> str: # definition to name the Foreign Key
         return self.firstName
 
-class Status(models.Model):
+class Status(models.Model): # Status table
     statusID = models.IntegerField(primary_key=True)
     status = models.CharField(max_length=20)
 
-    def __str__(self) -> str:
+    def __str__(self) -> str: # definition to name the Foreign Key
         return self.status
 
-class MoveTo(models.Model):
+class MoveTo(models.Model): # MoveTo table
     moveToID = models.IntegerField(primary_key=True)
     location = models.CharField(max_length=20)
 
-    def __str__(self) -> str:
+    def __str__(self) -> str: # definition to name the Foreign Key
         return self.location
 
-
-class Stow(models.Model):
+class Stow(models.Model): # Stow table
     stowID = models.IntegerField(primary_key=True)
     locationStow = models.CharField(max_length=20)
 
-    def __str__(self) -> str:
+    def __str__(self) -> str: # definition to name the Foreign Key
         return self.locationStow
 
-
-class Operation(models.Model):
+class Operation(models.Model): # Operation table
     operationID = models.IntegerField(primary_key=True, auto_created=True)
     assignee = models.ForeignKey('Employee', on_delete=models.CASCADE)
     dateRegistered = models.DateTimeField(auto_now_add=True)
@@ -48,8 +45,8 @@ class Operation(models.Model):
     timeFinish = models.DateTimeField(auto_now=True)
     status = models.ForeignKey(
         'Status', on_delete=models.CASCADE)
-    
-class Subtask(models.Model):
+
+class Subtask(models.Model): # Subtask table
     subtaskID = models.IntegerField(primary_key=True, auto_created=True)
     assignee = models.ForeignKey('Employee', on_delete=models.CASCADE)
     containerID = models.CharField(max_length=255)
