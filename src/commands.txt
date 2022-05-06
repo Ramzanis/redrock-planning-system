@@ -1,0 +1,13 @@
+Application is automatically started when the Docker daemon restarts or the container itself is manually restarted
+To manually start the application: docker-compose up
+
+To access docker container django: docker exec -it django bash
+To access docker container mysqldb: docker exec -it mysqldb bash
+
+To access mysqldb container mysql server in bash: mysql -u root -p
+password: root
+
+To see databases: show databases; 
+To see tables in database: use database; show tables; 
+
+Stop containers and removes containers, networks, volumes, and images: docker-compose down
