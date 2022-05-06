@@ -4,6 +4,9 @@ services:
 
   django:
     build: .
+    networks:
+      - frontend
+      - backend
     container_name: django
     command: python manage.py runserver 0.0.0.0:8000
     ports:
@@ -17,13 +20,27 @@ services:
   db:
     image: mysql
     container_name: mysqldb
+    networks:
+      - backend
     ports:
       - "3306:3306"
     environment:
      - MYSQL_ROOT_PASSWORD=root
      - MYSQL_DATABASE=redrock
     volumes:
-      - ./data/db:/var/lib/mysql
+      - dbdata:/var/lib/mysql
+volumes:
+  dbdata:
+
+  networks: 
+    frontend: 
+      driver: custom-driver-1
+    
+    backend: 
+      driver: custom-driver-2
+      driver_opts:
+      foo: "1"
+      bar: "2"
 
 
   

@@ -3418,3 +3418,125 @@ INFO 2022-05-05 14:38:11,637 autoreload 10 139808975968064 /usr/src/app/backend/
 INFO 2022-05-05 14:38:12,035 autoreload 12 139799419520832 Watching for file changes with StatReloader
 INFO 2022-05-05 14:38:51,572 autoreload 7 140233022687040 Watching for file changes with StatReloader
 INFO 2022-05-05 14:41:33,323 autoreload 7 139687130806080 Watching for file changes with StatReloader
+INFO 2022-05-06 12:49:03,300 autoreload 8 140459883099968 Watching for file changes with StatReloader
+INFO 2022-05-06 12:55:35,389 autoreload 8 139997192783680 Watching for file changes with StatReloader
+INFO 2022-05-06 12:57:42,353 autoreload 8 140483123607360 Watching for file changes with StatReloader
+INFO 2022-05-06 12:58:00,103 basehttp 8 140483037726464 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-06 12:58:00,141 basehttp 8 140482675996416 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-05-06 12:58:00,141 basehttp 8 140483020941056 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-05-06 12:58:00,141 basehttp 8 140483037726464 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 12:58:00,141 basehttp 8 140483046119168 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-05-06 12:58:00,141 basehttp 8 140483029333760 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-05-06 12:58:00,174 basehttp 8 140483037726464 "GET /static/img/logo.png HTTP/1.1" 304 0
+INFO 2022-05-06 12:58:00,357 basehttp 8 140483037726464 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
+INFO 2022-05-06 12:58:00,378 basehttp 8 140483037726464 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
+WARNING 2022-05-06 12:58:00,436 log 8 140483037726464 Not Found: /favicon.ico
+WARNING 2022-05-06 12:58:00,437 basehttp 8 140483037726464 "GET /favicon.ico HTTP/1.1" 404 4087
+INFO 2022-05-06 12:58:02,814 basehttp 8 140483037726464 "GET /order HTTP/1.1" 200 5406
+INFO 2022-05-06 12:58:04,093 basehttp 8 140483037726464 "GET /planning/ HTTP/1.1" 200 9234
+INFO 2022-05-06 12:58:07,902 basehttp 8 140483037726464 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-06 12:58:16,163 autoreload 8 140483123607360 /usr/src/app/backend/settings.py changed, reloading.
+INFO 2022-05-06 12:58:16,712 autoreload 15 140549675841344 Watching for file changes with StatReloader
+INFO 2022-05-06 12:59:26,840 basehttp 15 140549598353152 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-06 12:59:33,880 autoreload 15 140549675841344 /usr/src/app/backend/settings.py changed, reloading.
+INFO 2022-05-06 12:59:34,488 autoreload 19 140244983572288 Watching for file changes with StatReloader
+INFO 2022-05-06 13:01:18,112 basehttp 19 140244831164160 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-06 13:01:23,680 basehttp 19 140244813330176 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-06 13:01:23,738 basehttp 19 140244813330176 "GET /static/js/java.js HTTP/1.1" 200 72
+INFO 2022-05-06 13:01:23,739 basehttp 19 140244804937472 "GET /static/DataTables/datatables.min.css HTTP/1.1" 200 17375
+INFO 2022-05-06 13:01:23,741 basehttp 19 140244796544768 "GET /static/css/stylesheet.css HTTP/1.1" 200 1672
+INFO 2022-05-06 13:01:23,741 basehttp 19 140244788152064 "GET /static/css/responsive.css HTTP/1.1" 200 1234
+INFO 2022-05-06 13:01:23,764 basehttp 19 140244821722880 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 132904
+INFO 2022-05-06 13:01:23,815 basehttp 19 140244821722880 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-05-06 13:01:23,890 basehttp 19 140244821722880 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 200 201
+INFO 2022-05-06 13:01:23,913 basehttp 19 140244821722880 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 200 160
+WARNING 2022-05-06 13:01:23,989 log 19 140244821722880 Not Found: /favicon.ico
+WARNING 2022-05-06 13:01:23,990 basehttp 19 140244821722880 "GET /favicon.ico HTTP/1.1" 404 4087
+INFO 2022-05-06 13:01:52,493 basehttp 19 140244831164160 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-06 13:02:48,701 basehttp 19 140244839556864 "GET / HTTP/1.1" 200 3239
+INFO 2022-05-06 13:02:54,821 basehttp 19 140244305311488 "GET /planning/ HTTP/1.1" 200 9234
+ERROR 2022-05-06 13:02:54,880 log 19 140244831164160 Internal Server Error: /order
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 230, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 211, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 233, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/__init__.py", line 123, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (2005, "Unknown MySQL server host 'db' (-3)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 42, in displayorder
+    return render(request, 'order.html', {'Operation': results})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1200, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 270, in cursor
+    return self._cursor()
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 246, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 229, in ensure_connection
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 230, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 211, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 233, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/__init__.py", line 123, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'db' (-3)")
+ERROR 2022-05-06 13:02:54,888 basehttp 19 140244831164160 "GET /order HTTP/1.1" 500 247223
+INFO 2022-05-06 13:02:56,434 basehttp 19 140244839556864 "GET /order HTTP/1.1" 200 5406
+INFO 2022-05-06 13:02:57,948 basehttp 19 140244839556864 "GET /planning/ HTTP/1.1" 200 9234
+INFO 2022-05-06 13:04:07,096 autoreload 8 140172296337216 Watching for file changes with StatReloader
+INFO 2022-05-06 13:10:28,114 autoreload 7 140491186050880 Watching for file changes with StatReloader
