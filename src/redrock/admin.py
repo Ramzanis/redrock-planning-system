@@ -1,58 +1,57 @@
 from django.contrib import admin, messages
 from django.db.models.aggregates import Count
-from . import models
+
 from .resources import *
 from import_export.admin import ImportExportModelAdmin
+from . import models 
 
-@admin.register(models.Employee)
-class EmployeeAdmin(ImportExportModelAdmin):
-    list_display = ['employeeID', 'firstName','lastName','address','zipCode','city']
-    list_editable = ['firstName','lastName','address','zipCode','city']
-    resource_class = EmployeeResource
-    list_per_page = 10
+@admin.register(models.Employee) # Registering Employee to the Admin Page
+class EmployeeAdmin(ImportExportModelAdmin): 
+    list_display = ['employeeID', 'firstName','lastName','address','zipCode','city'] # Items that are showed
+    list_editable = ['firstName','lastName','address','zipCode','city'] # Items that can be edited
+    resource_class = EmployeeResource # Link to resource class
+    list_per_page = 10 # Rows per page
 
-@admin.register(models.Status)
+@admin.register(models.Status) # Registering Status to the Admin Page
 class StatusAdmin(ImportExportModelAdmin):
-    list_display = ['statusID', 'status']
-    list_editable = ['status']
-    resource_class = StatusResource
-    list_per_page = 10
+    list_display = ['statusID', 'status'] # Items that are showed
+    list_editable = ['status']# Link to resource class
+    resource_class = StatusResource # Link to resource class
+    list_per_page = 10 # Rows per page
 
-@admin.register(models.MoveTo)
+@admin.register(models.MoveTo) # Registering MoveTo to the Admin Page
 class MoveToAdmin(ImportExportModelAdmin):
-    list_display = ['moveToID', 'location']
-    list_editable = ['location']
-    resource_class = MoveToResource
-    list_per_page = 10
+    list_display = ['moveToID', 'location'] # Items that are showed
+    list_editable = ['location']# Link to resource class
+    resource_class = MoveToResource # Link to resource class
+    list_per_page = 10 # Rows per page
 
-@admin.register(models.Stow)
+@admin.register(models.Stow) # Registering Stow to the Admin Page
 class StowAdmin(ImportExportModelAdmin):
-    list_display = ['stowID', 'locationStow']
-    list_editable = ['locationStow']
-    resource_class = StowResource
-    list_per_page = 10
+    list_display = ['stowID', 'locationStow'] # Items that are showed
+    list_editable = ['locationStow'] # Link to resource class
+    resource_class = StowResource # Link to resource class
+    list_per_page = 10 # Rows per page
 
 
-@admin.register(models.Operation)
+@admin.register(models.Operation) # Registering Operation to the Admin Page
 class OperationAdmin(ImportExportModelAdmin):
-    list_display = ['operationID', 'assignee',
-                    'dateRegistered', 'timeStart', 'timeFinish', 'status']
-    list_editable = ['assignee', 'status']
-    list_filter = ['status', 'dateRegistered']
-    resource_class = OperationResource
-    list_per_page = 10
+    list_display = ['operationID', 'assignee','dateRegistered', 'timeStart', 'timeFinish', 'status'] # Items that are showed
+    list_editable = ['assignee', 'status'] # Link to resource class
+    list_filter = ['status', 'dateRegistered'] # items that can be filtered
+    resource_class = OperationResource # Link to resource class
+    list_per_page = 10 # Rows per page
 
-    def status(self, operation):
+    def status(self, operation): 
         return operation.status.status
 
-@admin.register(models.Subtask)
+@admin.register(models.Subtask) # Registering Subtask to the Admin Page
 class SubtaskAdmin(ImportExportModelAdmin):
-    list_display = ['subtaskID', 'assignee',
-                    'containerID', 'containerWeightT', 'loadSeq', 'moveTo', 'stow', 'status']
-    list_editable = [ 'moveTo', 'stow', 'status']
-    list_filter = [ 'status']
-    resource_class = SubtaskResource
-    list_per_page = 10
+    list_display = ['subtaskID', 'assignee','containerID', 'containerWeightT', 'loadSeq', 'moveTo', 'stow', 'status'] # Items that are showed
+    list_editable = [ 'moveTo', 'stow', 'status'] # Link to resource class
+    list_filter = [ 'status'] # items that can be filtered
+    resource_class = SubtaskResource # Link to resource class
+    list_per_page = 10 # Rows per page
 
     def status(self, operation):
         return operation.status.status
