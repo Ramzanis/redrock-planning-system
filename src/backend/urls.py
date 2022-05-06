@@ -19,7 +19,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 
-admin.site.site_header = 'Storefront Admin'
+admin.site.site_header = 'Redrock Administration'
 admin.site.index_title = 'Admin'
 
 urlpatterns = [
@@ -28,6 +28,6 @@ urlpatterns = [
     path('', include('redrock.urls')),
 ]
 
-if settings.DEBUG:
+if settings.DEBUG: # debug tool so we can check queries can be deleted or commented when product finished
     import debug_toolbar
     urlpatterns += path('__debug__/', include(debug_toolbar.urls)),

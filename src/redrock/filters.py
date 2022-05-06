@@ -2,7 +2,7 @@ from pyexpat import model
 import django_filters
 from .models import *
 
-class SubtaskFilter(django_filters.FilterSet):
+class SubtaskFilter(django_filters.FilterSet): # fiters for subtask
     class Meta:
         model = Subtask
         fields = '__all__'

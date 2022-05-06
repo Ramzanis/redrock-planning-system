@@ -5,7 +5,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Create Operation</title>
+        <title>Create Subtask</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="{% static 'js/java.js' %}"></script><!-- Linking the wesite to JavaScript -->
         <script type="text/javascript" charset="utf8" src="{% static 'DataTables/datatables.min.js' %}"></script><!-- Linking the wesite to resources for tables -->
@@ -40,10 +40,10 @@
                 <p class="text-center foot">ver 0.0.1 © RedRock.AI</p> <!-- Copiright text -->
             </div>
             <div class="col-10" id="page">
-                <h1>Create Order</h1>
+                <h1>Create new Subtask</h1>
                 <!-- Form for creating a new operation -->
                 {% if submitted %} <!-- If statement to show the user a message if the form is submitted   -->
-                The Operation was created successfully
+                The Subtask was created successfully
                 {% else %}
 
                 <form action="" method=POST> <!-- Creating a form -->
