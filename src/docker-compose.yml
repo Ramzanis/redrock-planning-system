@@ -13,8 +13,7 @@ services:
       - .:/usr/src/app/
       - /tmp/app/mysqld:/run/mysqld
     networks:
-     # - front-tier
-       - back-tier
+       - application_network
  
     depends_on:
       - db
@@ -23,22 +22,19 @@ services:
     image: mysql
     container_name: mysqldb
     restart: always
-    ports:
-      - "3306:3306"
     environment:
-     - MYSQL_ROOT_PASSWORD=root
      - MYSQL_DATABASE=redrock
+     - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - "3306:3306" 
     volumes:
       - ./db:/var/lib/mysql
     networks:
-      - back-tier
-networks:
-
- # front-tier:
- # name: frontend
-    
-  back-tier:
-    name: backend
+      - application_network
+      
+networks: 
+  application_network:
+    name: application
     driver: bridge
     enable_ipv6: true
     ipam:

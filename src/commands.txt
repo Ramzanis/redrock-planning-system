@@ -11,3 +11,8 @@ To see databases: show databases;
 To see tables in database: use database; show tables; 
 
 Stop containers and removes containers, networks, volumes, and images: docker-compose down
+
+Remove all unused networks: docker network prune
+
+If you want to start own mysql container excluded from compose: run_db.cmd for Windows and run_db.sh for Linux
+
