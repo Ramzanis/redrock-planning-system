@@ -1,9 +1,14 @@
 from cgitb import lookup
 from django.db import router
 from django.urls import path
+from django.contrib import admin
+
 from rest_framework_nested import routers
 from . import views
 
+
+admin.site.site_header = 'Redrock Administration'
+admin.site.index_title = 'Admin'
 
 router = routers.DefaultRouter()
 router.register('status', views.StatusViewSet, basename='status')
@@ -12,7 +17,8 @@ router.register('tes', views.SubtaskViewSet, basename='status')
 
 # URL Configs
 urlpatterns = [
-     path('', views.displayindex, name='displayindex'),
+    path('', views.displayindex, name='displayindex'),
+   
      path('order', views.displayorder, name='displayorder'),
      path('order/add', views.add_operation, name='addoperation'),
      path('order/update/<operationID>',

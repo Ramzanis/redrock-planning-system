@@ -4202,3 +4202,541 @@ INFO 2022-05-06 23:08:25,325 autoreload 18266 4544128512 /Users/tiberiuminzat/Do
 INFO 2022-05-06 23:08:26,012 autoreload 18269 4730209792 Watching for file changes with StatReloader
 INFO 2022-05-06 23:08:28,612 autoreload 18269 4730209792 /Users/tiberiuminzat/Documents/GitHub/redrock-planning-system/src/backend/settings.py changed, reloading.
 INFO 2022-05-06 23:08:29,534 autoreload 18276 4467758592 Watching for file changes with StatReloader
+INFO 2022-05-06 23:28:14,035 autoreload 7 140152990918464 Watching for file changes with StatReloader
+INFO 2022-05-06 23:28:38,381 basehttp 7 140152835929856 "GET / HTTP/1.1" 200 6793
+INFO 2022-05-06 23:28:39,042 basehttp 7 140152835929856 "GET /static/js/java.js HTTP/1.1" 200 68
+INFO 2022-05-06 23:28:39,074 basehttp 7 140152827537152 "GET /static/DataTables/datatables.min.css HTTP/1.1" 200 16785
+INFO 2022-05-06 23:28:39,075 basehttp 7 140152914638592 "GET /static/DataTables/datatables.min.js HTTP/1.1" 200 128769
+INFO 2022-05-06 23:28:39,077 basehttp 7 140152835929856 "GET /static/css/responsive.css HTTP/1.1" 200 1168
+INFO 2022-05-06 23:28:39,081 basehttp 7 140152819144448 "GET /static/css/stylesheet.css HTTP/1.1" 200 1553
+INFO 2022-05-06 23:28:39,481 basehttp 7 140152819144448 "GET /static/img/logo.png HTTP/1.1" 200 285562
+INFO 2022-05-06 23:28:39,769 basehttp 7 140152819144448 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 200 201
+INFO 2022-05-06 23:28:39,808 basehttp 7 140152819144448 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 200 160
+WARNING 2022-05-06 23:28:39,826 log 7 140152819144448 Not Found: /favicon.ico
+WARNING 2022-05-06 23:28:39,830 basehttp 7 140152819144448 "GET /favicon.ico HTTP/1.1" 404 4085
+INFO 2022-05-06 23:28:43,071 basehttp 7 140152819144448 "GET /order HTTP/1.1" 200 6809
+INFO 2022-05-06 23:28:44,273 basehttp 7 140152819144448 "GET /planning/ HTTP/1.1" 200 12759
+INFO 2022-05-06 23:28:46,254 basehttp 7 140152819144448 "GET /order HTTP/1.1" 200 6809
+INFO 2022-05-06 23:28:53,170 basehttp 7 140152819144448 "GET / HTTP/1.1" 200 6793
+ERROR 2022-05-06 23:29:27,578 log 7 140152819144448 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 230, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 211, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 233, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/__init__.py", line 123, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (2005, "Unknown MySQL server host 'db' (-2)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 34, in displayindex
+    return render(request, 'index.html', {'Subtask': finish})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 174, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1200, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 270, in cursor
+    return self._cursor()
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 246, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 229, in ensure_connection
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 230, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/base/base.py", line 211, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/asyncio.py", line 25, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 233, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/__init__.py", line 123, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'db' (-2)")
+ERROR 2022-05-06 23:29:27,585 basehttp 7 140152819144448 "GET / HTTP/1.1" 500 243651
+INFO 2022-05-06 23:29:41,508 basehttp 7 140152819144448 "GET / HTTP/1.1" 200 6793
+INFO 2022-05-06 23:29:41,544 basehttp 7 140152835929856 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-05-06 23:29:41,547 basehttp 7 140152827537152 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-05-06 23:29:41,549 basehttp 7 140152914638592 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-05-06 23:29:41,549 basehttp 7 140152819144448 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-06 23:29:41,553 basehttp 7 140152810751744 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-05-06 23:29:41,596 basehttp 7 140152819144448 "GET /static/img/logo.png HTTP/1.1" 304 0
+INFO 2022-05-06 23:29:41,767 basehttp 7 140152819144448 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
+INFO 2022-05-06 23:29:41,789 basehttp 7 140152819144448 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
+INFO 2022-05-06 23:29:46,888 basehttp 7 140152819144448 "GET /order HTTP/1.1" 200 6809
+INFO 2022-05-06 23:29:47,771 basehttp 7 140152819144448 "GET /planning/ HTTP/1.1" 200 12759
+INFO 2022-05-06 23:29:48,973 basehttp 7 140152819144448 "GET /planning/ HTTP/1.1" 200 12759
+INFO 2022-05-06 23:42:27,733 autoreload 8 140488728897344 Watching for file changes with StatReloader
+INFO 2022-05-07 12:55:35,853 autoreload 8 140488728897344 /usr/src/app/redrock/views.py changed, reloading.
+INFO 2022-05-07 12:55:37,136 autoreload 10 140007056578368 Watching for file changes with StatReloader
+ERROR 2022-05-07 12:55:49,957 log 10 140006971905792 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 32, in displayindex
+    finish = Subtask.objects.prefetch_related(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 974, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 992, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 999, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1375, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1396, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1329, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1180, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 53, in get_prep_lookup
+    self.rhs = [get_normalized_value(val, self.lhs)[0] for val in self.rhs]
+TypeError: 'int' object is not iterable
+ERROR 2022-05-07 12:55:49,964 basehttp 10 140006971905792 "GET / HTTP/1.1" 500 102637
+INFO 2022-05-07 12:56:35,551 autoreload 10 140007056578368 /usr/src/app/redrock/views.py changed, reloading.
+INFO 2022-05-07 12:56:36,218 autoreload 14 139873597257536 Watching for file changes with StatReloader
+INFO 2022-05-07 12:56:41,859 basehttp 14 139873520977664 "GET / HTTP/1.1" 200 5966
+INFO 2022-05-07 12:56:41,899 basehttp 14 139873520977664 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-07 12:56:41,903 basehttp 14 139873512584960 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-05-07 12:56:41,904 basehttp 14 139873494750976 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-05-07 12:56:41,904 basehttp 14 139873486358272 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-05-07 12:56:41,904 basehttp 14 139873503143680 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-05-07 12:56:41,917 basehttp 14 139873503143680 "GET /static/img/logo.png HTTP/1.1" 304 0
+INFO 2022-05-07 12:56:42,262 basehttp 14 139873503143680 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
+INFO 2022-05-07 12:56:42,302 basehttp 14 139873503143680 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
+INFO 2022-05-07 16:28:59,868 basehttp 14 139873512584960 "GET / HTTP/1.1" 200 5966
+INFO 2022-05-07 16:28:59,919 basehttp 14 139873512584960 "GET /static/js/java.js HTTP/1.1" 304 0
+INFO 2022-05-07 16:28:59,920 basehttp 14 139873520977664 "GET /static/DataTables/datatables.min.js HTTP/1.1" 304 0
+INFO 2022-05-07 16:28:59,927 basehttp 14 139873486358272 "GET /static/DataTables/datatables.min.css HTTP/1.1" 304 0
+INFO 2022-05-07 16:28:59,930 basehttp 14 139873503143680 "GET /static/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-05-07 16:28:59,931 basehttp 14 139873494750976 "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+INFO 2022-05-07 16:28:59,964 basehttp 14 139873494750976 "GET /static/img/logo.png HTTP/1.1" 304 0
+INFO 2022-05-07 16:29:00,502 basehttp 14 139873494750976 "GET /static/DataTables/DataTables-1.11.5/images/sort_both.png HTTP/1.1" 304 0
+INFO 2022-05-07 16:29:00,545 basehttp 14 139873494750976 "GET /static/DataTables/DataTables-1.11.5/images/sort_asc.png HTTP/1.1" 304 0
+INFO 2022-05-07 16:29:05,904 basehttp 14 139873494750976 "GET /admin HTTP/1.1" 301 0
+INFO 2022-05-07 16:29:05,932 basehttp 14 139873494750976 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-05-07 16:29:06,078 basehttp 14 139873494750976 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2219
+INFO 2022-05-07 16:29:06,132 basehttp 14 139873486358272 "GET /static/admin/css/login.css HTTP/1.1" 200 954
+INFO 2022-05-07 16:29:06,136 basehttp 14 139873494750976 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2022-05-07 16:29:06,138 basehttp 14 139873512584960 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3401
+INFO 2022-05-07 16:29:06,140 basehttp 14 139873520977664 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
+INFO 2022-05-07 16:29:06,141 basehttp 14 139873503143680 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+INFO 2022-05-07 16:29:06,147 basehttp 14 139873520977664 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2022-05-07 16:29:06,244 basehttp 14 139873520977664 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2022-05-07 16:29:06,250 basehttp 14 139873503143680 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2022-05-07 16:29:15,942 basehttp 14 139873503143680 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-05-07 16:29:15,999 basehttp 14 139873503143680 "GET /admin/ HTTP/1.1" 200 9811
+INFO 2022-05-07 16:29:16,017 basehttp 14 139873503143680 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2022-05-07 16:29:16,056 basehttp 14 139873503143680 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2022-05-07 16:29:16,058 basehttp 14 139873520977664 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2022-05-07 16:29:16,086 basehttp 14 139873520977664 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2022-05-07 16:29:20,717 basehttp 14 139873503143680 "GET /admin/auditlog/logentry/ HTTP/1.1" 200 23564
+INFO 2022-05-07 16:29:20,761 basehttp 14 139873486358272 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2022-05-07 16:29:20,762 basehttp 14 139873494750976 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2022-05-07 16:29:20,770 basehttp 14 139873475868416 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2022-05-07 16:29:20,775 basehttp 14 139873503143680 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6932
+INFO 2022-05-07 16:29:20,789 basehttp 14 139873503143680 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2022-05-07 16:29:20,796 basehttp 14 139873494750976 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2022-05-07 16:29:20,800 basehttp 14 139873520977664 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-07 16:29:20,801 basehttp 14 139873486358272 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2022-05-07 16:29:20,813 basehttp 14 139873512584960 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO 2022-05-07 16:29:20,824 basehttp 14 139873475868416 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2022-05-07 16:29:20,826 basehttp 14 139873512584960 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2022-05-07 16:29:20,869 basehttp 14 139873512584960 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2022-05-07 16:29:54,027 basehttp 14 139873512584960 "GET /admin/redrock/subtask/ HTTP/1.1" 200 51336
+INFO 2022-05-07 16:29:54,060 basehttp 14 139873512584960 "GET /static/admin/css/forms.css HTTP/1.1" 200 8878
+INFO 2022-05-07 16:29:54,070 basehttp 14 139873475868416 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-07 16:29:54,083 basehttp 14 139873475868416 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2022-05-07 16:30:06,572 basehttp 14 139873475868416 "GET /admin/auditlog/logentry/ HTTP/1.1" 200 23564
+INFO 2022-05-07 16:30:06,607 basehttp 14 139873475868416 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-07 16:30:18,259 basehttp 14 139873475868416 "GET / HTTP/1.1" 200 5966
+WARNING 2022-05-07 16:31:37,149 log 14 139873475868416 Not Found: /admn
+WARNING 2022-05-07 16:31:37,150 basehttp 14 139873475868416 "GET /admn HTTP/1.1" 404 4064
+INFO 2022-05-07 16:31:41,328 basehttp 14 139873475868416 "GET /admin/ HTTP/1.1" 200 9811
+INFO 2022-05-07 16:32:10,152 basehttp 14 139873475868416 "GET /admin/auditlog/logentry/ HTTP/1.1" 200 23564
+INFO 2022-05-07 16:32:10,187 basehttp 14 139873475868416 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-07 16:33:57,862 basehttp 14 139873475868416 "GET /admin/auditlog/logentry/ HTTP/1.1" 200 23564
+INFO 2022-05-07 16:33:57,888 basehttp 14 139873475868416 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-07 16:36:08,830 autoreload 14 139873597257536 /usr/src/app/redrock/admin.py changed, reloading.
+INFO 2022-05-07 16:36:09,599 autoreload 27 140382028494656 Watching for file changes with StatReloader
+INFO 2022-05-07 16:36:13,065 autoreload 27 140382028494656 /usr/src/app/redrock/admin.py changed, reloading.
+INFO 2022-05-07 16:36:13,556 autoreload 29 140423459379008 Watching for file changes with StatReloader
+INFO 2022-05-07 16:36:20,833 autoreload 29 140423459379008 /usr/src/app/redrock/admin.py changed, reloading.
+INFO 2022-05-07 16:36:21,246 autoreload 31 140712728225600 Watching for file changes with StatReloader
+INFO 2022-05-07 16:38:42,708 autoreload 7 139978478266176 Watching for file changes with StatReloader
+INFO 2022-05-07 16:39:33,878 autoreload 8 139792900044608 Watching for file changes with StatReloader
+INFO 2022-05-07 16:40:57,152 autoreload 8 139766345914176 Watching for file changes with StatReloader
+INFO 2022-05-07 16:44:39,441 autoreload 8 139766345914176 /usr/src/app/backend/urls.py changed, reloading.
+INFO 2022-05-07 16:44:40,074 autoreload 10 140256213403456 Watching for file changes with StatReloader
+INFO 2022-05-07 16:44:43,328 autoreload 10 140256213403456 /usr/src/app/backend/urls.py changed, reloading.
+INFO 2022-05-07 16:44:44,014 autoreload 12 140527292053312 Watching for file changes with StatReloader
+INFO 2022-05-07 16:45:00,907 autoreload 12 140527292053312 /usr/src/app/backend/urls.py changed, reloading.
+INFO 2022-05-07 16:45:01,572 autoreload 14 140668077897536 Watching for file changes with StatReloader
+INFO 2022-05-07 16:45:53,298 basehttp 14 140667993224960 "GET /admin/ HTTP/1.1" 200 9811
+ERROR 2022-05-07 16:45:55,372 log 14 140667993224960 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 34, in displayindex
+    return render(request, 'index.html', {'Subtask': finish})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2022-05-07 16:45:55,376 basehttp 14 140667993224960 "GET / HTTP/1.1" 500 115104
+INFO 2022-05-07 16:46:09,389 basehttp 14 140667993224960 "GET /admin/ HTTP/1.1" 200 9811
+INFO 2022-05-07 16:47:27,591 autoreload 14 140668077897536 /usr/src/app/redrock/urls.py changed, reloading.
+INFO 2022-05-07 16:47:28,318 autoreload 18 140534780942144 Watching for file changes with StatReloader
+INFO 2022-05-07 16:47:34,889 autoreload 18 140534780942144 /usr/src/app/redrock/urls.py changed, reloading.
+INFO 2022-05-07 16:47:35,574 autoreload 20 140066822092608 Watching for file changes with StatReloader
+INFO 2022-05-07 16:47:44,206 autoreload 20 140066822092608 /usr/src/app/redrock/urls.py changed, reloading.
+INFO 2022-05-07 16:47:44,856 autoreload 22 140509832456000 Watching for file changes with StatReloader
+ERROR 2022-05-07 16:47:54,409 log 22 140509747783424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 34, in displayindex
+    return render(request, 'index.html', {'Subtask': finish})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2022-05-07 16:47:54,413 basehttp 22 140509747783424 "GET / HTTP/1.1" 500 115241
+ERROR 2022-05-07 16:47:55,456 log 22 140509747783424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 34, in displayindex
+    return render(request, 'index.html', {'Subtask': finish})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2022-05-07 16:47:55,460 basehttp 22 140509747783424 "GET / HTTP/1.1" 500 115241
+ERROR 2022-05-07 16:47:56,186 log 22 140509747783424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 34, in displayindex
+    return render(request, 'index.html', {'Subtask': finish})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2022-05-07 16:47:56,188 basehttp 22 140509747783424 "GET / HTTP/1.1" 500 115241
+INFO 2022-05-07 16:48:07,079 autoreload 22 140509832456000 /usr/src/app/redrock/urls.py changed, reloading.
+INFO 2022-05-07 16:48:07,713 autoreload 26 139975719700288 Watching for file changes with StatReloader
+INFO 2022-05-07 16:48:09,146 autoreload 26 139975719700288 /usr/src/app/redrock/urls.py changed, reloading.
+INFO 2022-05-07 16:48:09,809 autoreload 28 139695701468992 Watching for file changes with StatReloader
+INFO 2022-05-07 16:48:13,269 autoreload 28 139695701468992 /usr/src/app/redrock/urls.py changed, reloading.
+INFO 2022-05-07 16:48:13,954 autoreload 30 140016896378688 Watching for file changes with StatReloader
+ERROR 2022-05-07 16:48:36,609 log 30 140016819050240 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 34, in displayindex
+    return render(request, 'index.html', {'Subtask': finish})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2022-05-07 16:48:36,613 basehttp 30 140016819050240 "GET / HTTP/1.1" 500 115241
+ERROR 2022-05-07 16:48:37,405 log 30 140016819050240 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 34, in displayindex
+    return render(request, 'index.html', {'Subtask': finish})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2022-05-07 16:48:37,407 basehttp 30 140016819050240 "GET / HTTP/1.1" 500 115241
+WARNING 2022-05-07 16:48:42,905 log 30 140016819050240 Not Found: /ADMIN
+WARNING 2022-05-07 16:48:42,907 basehttp 30 140016819050240 "GET /ADMIN HTTP/1.1" 404 4220
+INFO 2022-05-07 16:48:49,109 basehttp 30 140016819050240 "GET /admin/ HTTP/1.1" 200 9811
+ERROR 2022-05-07 16:48:51,336 log 30 140016819050240 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 34, in displayindex
+    return render(request, 'index.html', {'Subtask': finish})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+ERROR 2022-05-07 16:48:51,338 basehttp 30 140016819050240 "GET / HTTP/1.1" 500 115104
+INFO 2022-05-07 16:49:10,252 autoreload 30 140016896378688 /usr/src/app/redrock/urls.py changed, reloading.
+INFO 2022-05-07 16:49:11,041 autoreload 34 140352263960384 Watching for file changes with StatReloader
+ERROR 2022-05-07 16:49:27,384 log 34 140352186631936 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 34, in displayindex
+    return render(request, 'index.html', {'Subtask': finish})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bla' not found. 'bla' is not a valid view function or pattern name.
+ERROR 2022-05-07 16:49:27,388 basehttp 34 140352186631936 "GET / HTTP/1.1" 500 115191
+ERROR 2022-05-07 16:49:29,177 log 34 140352186631936 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/src/app/redrock/views.py", line 34, in displayindex
+    return render(request, 'index.html', {'Subtask': finish})
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/test/utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bla' not found. 'bla' is not a valid view function or pattern name.
+ERROR 2022-05-07 16:49:29,178 basehttp 34 140352186631936 "GET / HTTP/1.1" 500 115191
+INFO 2022-05-07 16:50:04,232 autoreload 34 140352263960384 /usr/src/app/redrock/urls.py changed, reloading.
+INFO 2022-05-07 16:50:05,133 autoreload 38 140407420290880 Watching for file changes with StatReloader
+INFO 2022-05-07 16:50:21,788 autoreload 38 140407420290880 /usr/src/app/redrock/urls.py changed, reloading.
+INFO 2022-05-07 16:50:22,409 autoreload 40 139837161695040 Watching for file changes with StatReloader
+INFO 2022-05-07 16:54:57,678 basehttp 40 139837009549056 "GET /admin/ HTTP/1.1" 200 9811
+INFO 2022-05-07 16:56:16,217 basehttp 40 139837009549056 "GET /admin/logout/ HTTP/1.1" 200 1534
+INFO 2022-05-07 16:56:20,523 basehttp 40 139837009549056 "GET / HTTP/1.1" 200 6098
+INFO 2022-05-07 16:56:22,199 basehttp 40 139837009549056 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-05-07 16:56:22,221 basehttp 40 139837009549056 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2219
+INFO 2022-05-07 16:58:24,842 basehttp 40 139837009549056 "GET / HTTP/1.1" 200 6091
+INFO 2022-05-07 16:59:56,344 basehttp 40 139837009549056 "GET / HTTP/1.1" 200 6092
+INFO 2022-05-07 17:07:38,416 basehttp 40 139836999059200 "GET / HTTP/1.1" 200 6092
