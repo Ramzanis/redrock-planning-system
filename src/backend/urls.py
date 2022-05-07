@@ -24,7 +24,7 @@ admin.site.index_title = 'Admin'
 
 urlpatterns = [
 
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls, name='admin'),
     path('', include('redrock.urls')),
 ]
 

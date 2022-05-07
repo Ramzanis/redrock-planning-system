@@ -30,7 +30,7 @@ class SubtaskViewSet(ModelViewSet): # ViewSets
 
 def displayindex(request): # View for Home page
     finish = Subtask.objects.prefetch_related(
-    'moveTo', 'assignee', 'stow', 'status').filter(status_id__in=(1,2))
+    'moveTo', 'assignee', 'stow', 'status').filter(status_id=1)
     return render(request, 'index.html', {'Subtask': finish})
 
 
