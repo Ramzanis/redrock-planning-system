@@ -1,0 +1,1 @@
+docker run --rm --env "TZ=Europe/Oslo" --name mysql -p 3306:3306/tcp -v "%cd%\db":/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql
